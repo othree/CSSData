@@ -16,7 +16,7 @@
             "order": "uniqueOrder"
         },
         "-moz-binding": {
-            "syntax": "<uri> | none",
+            "syntax": "&lt;uri&gt; | none",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -30,7 +30,7 @@
             "order": "uniqueOrder"
         },
         "-moz-border-bottom-colors": {
-            "syntax": "[<color>]* <color> | none",
+            "syntax": "[&lt;color&gt;]* &lt;color&gt; | none",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -44,7 +44,7 @@
             "order": "uniqueOrder"
         },
         "-moz-border-left-colors": {
-            "syntax": "[<color>]* <color> | none",
+            "syntax": "[&lt;color&gt;]* &lt;color&gt; | none",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -58,7 +58,7 @@
             "order": "uniqueOrder"
         },
         "-moz-border-right-colors": {
-            "syntax": "[<color>]* <color> | none",
+            "syntax": "[&lt;color&gt;]* &lt;color&gt; | none",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -72,7 +72,7 @@
             "order": "uniqueOrder"
         },
         "-moz-border-top-colors": {
-            "syntax": "[<color>]* <color> | none",
+            "syntax": "[&lt;color&gt;]* &lt;color&gt; | none",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -86,7 +86,7 @@
             "order": "uniqueOrder"
         },
         "-moz-box-flex": {
-            "syntax": "<number>",
+            "syntax": "&lt;number&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -130,7 +130,7 @@
             "order": "uniqueOrder"
         },
         "-moz-force-broken-image-icon": {
-            "syntax": "<integer>",
+            "syntax": "&lt;integer&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -144,7 +144,7 @@
             "order": "uniqueOrder"
         },
         "-moz-image-region": {
-            "syntax": "<shape>",
+            "syntax": "&lt;shape&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -172,7 +172,7 @@
             "order": "uniqueOrder"
         },
         "-moz-outline-radius": {
-            "syntax": "<outline-radius>{1,4} [ / <outline-radius>{1,4}]?",
+            "syntax": "&lt;outline-radius&gt;{1,4} [ / &lt;outline-radius&gt;{1,4}]?",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -206,7 +206,7 @@
             "order": "uniqueOrder"
         },
         "-moz-outline-radius-bottomleft": {
-            "syntax": "<outline-radius>",
+            "syntax": "&lt;outline-radius&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "yes",
@@ -220,7 +220,7 @@
             "order": "uniqueOrder"
         },
         "-moz-outline-radius-bottomright": {
-            "syntax": "<outline-radius>",
+            "syntax": "&lt;outline-radius&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "yes",
@@ -234,7 +234,7 @@
             "order": "uniqueOrder"
         },
         "-moz-outline-radius-topleft": {
-            "syntax": "<outline-radius>",
+            "syntax": "&lt;outline-radius&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "yes",
@@ -248,7 +248,7 @@
             "order": "uniqueOrder"
         },
         "-moz-outline-radius-topright": {
-            "syntax": "<outline-radius>",
+            "syntax": "&lt;outline-radius&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "yes",
@@ -346,7 +346,7 @@
             "order": "uniqueOrder"
         },
         "-webkit-border-before": {
-            "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+            "syntax": "&lt;'border-width'&gt; || &lt;'border-style'&gt; || &lt;'color'&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -370,7 +370,7 @@
             "order": "uniqueOrder"
         },
         "-webkit-border-before-color": {
-            "syntax": "<'color'>",
+            "syntax": "&lt;'color'&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -384,7 +384,7 @@
             "order": "uniqueOrder"
         },
         "-webkit-border-before-style": {
-            "syntax": "<'border-style'>",
+            "syntax": "&lt;'border-style'&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -398,7 +398,7 @@
             "order": "uniqueOrder"
         },
         "-webkit-border-before-width": {
-            "syntax": "<'border-width'>",
+            "syntax": "&lt;'border-width'&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -412,7 +412,7 @@
             "order": "uniqueOrder"
         },
         "-webkit-box-reflect": {
-            "syntax": "[ above | below | right | left ]? <length>? <image>?",
+            "syntax": "[ above | below | right | left ]? &lt;length&gt;? &lt;image&gt;?",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -426,7 +426,7 @@
             "order": "uniqueOrder"
         },
         "-webkit-mask": {
-            "syntax": "<mask-image> [<mask-repeat> || <mask-attachment> || <mask-position> || <mask-origin> || <mask-clip>]*",
+            "syntax": "&lt;mask-image&gt; [&lt;mask-repeat&gt; || &lt;mask-attachment&gt; || &lt;mask-position&gt; || &lt;mask-origin&gt; || &lt;mask-clip&gt;]*",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -454,7 +454,7 @@
             "order": "uniqueOrder"
         },
         "-webkit-mask-attachment": {
-            "syntax": "<attachment>[, <attachment>]*",
+            "syntax": "&lt;attachment&gt;[, &lt;attachment&gt;]*",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -468,7 +468,7 @@
             "order": "orderOfAppearance"
         },
         "-webkit-mask-clip": {
-            "syntax": "<clip-style>[, <clip-style>]*",
+            "syntax": "&lt;clip-style&gt;[, &lt;clip-style&gt;]*",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -482,7 +482,7 @@
             "order": "orderOfAppearance"
         },
         "-webkit-mask-image": {
-            "syntax": "<mask-image>[, <mask-image>]*",
+            "syntax": "&lt;mask-image&gt;[, &lt;mask-image&gt;]*",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -510,7 +510,7 @@
             "order": "orderOfAppearance"
         },
         "-webkit-mask-position": {
-            "syntax": "<mask-position>[, <mask-position>]*",
+            "syntax": "&lt;mask-position&gt;[, &lt;mask-position&gt;]*",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -524,7 +524,7 @@
             "order": "orderOfAppearance"
         },
         "-webkit-mask-repeat": {
-            "syntax": "<repeat-style>[, <repeat-style>]*",
+            "syntax": "&lt;repeat-style&gt;[, &lt;repeat-style&gt;]*",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -538,7 +538,7 @@
             "order": "orderOfAppearance"
         },
         "-webkit-text-stroke": {
-            "syntax": "<length> <color>",
+            "syntax": "&lt;length&gt; &lt;color&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": [
@@ -557,7 +557,7 @@
             "order": "uniqueOrder"
         },
         "-webkit-text-stroke-color": {
-            "syntax": "<color>",
+            "syntax": "&lt;color&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": {
@@ -573,7 +573,7 @@
             "order": "uniqueOrder"
         },
         "-webkit-text-stroke-width": {
-            "syntax": "<length>",
+            "syntax": "&lt;length&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -649,7 +649,7 @@
             "order": "uniqueOrder"
         },
         "animation": {
-            "syntax": "<single-animation-name> || <time> || <timing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state>",
+            "syntax": "&lt;single-animation-name&gt; || &lt;time&gt; || &lt;timing-function&gt; || &lt;time&gt; || &lt;single-animation-iteration-count&gt; || &lt;single-animation-direction&gt; || &lt;single-animation-fill-mode&gt; || &lt;single-animation-play-state&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -681,7 +681,7 @@
             "order": "orderOfAppearance"
         },
         "animation-delay": {
-            "syntax": "<time>#",
+            "syntax": "&lt;time&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -695,7 +695,7 @@
             "order": "uniqueOrder"
         },
         "animation-direction": {
-            "syntax": "<single-animation-direction>#",
+            "syntax": "&lt;single-animation-direction&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -709,7 +709,7 @@
             "order": "uniqueOrder"
         },
         "animation-duration": {
-            "syntax": "<time>#",
+            "syntax": "&lt;time&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -723,7 +723,7 @@
             "order": "uniqueOrder"
         },
         "animation-fill-mode": {
-            "syntax": "<single-animation-fill-mode>#",
+            "syntax": "&lt;single-animation-fill-mode&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -737,7 +737,7 @@
             "order": "uniqueOrder"
         },
         "animation-iteration-count": {
-            "syntax": "<single-animation-iteration-count>#",
+            "syntax": "&lt;single-animation-iteration-count&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -751,7 +751,7 @@
             "order": "uniqueOrder"
         },
         "animation-name": {
-            "syntax": "<single-animation-name>#",
+            "syntax": "&lt;single-animation-name&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -765,7 +765,7 @@
             "order": "uniqueOrder"
         },
         "animation-play-state": {
-            "syntax": "<single-animation-play-state>#",
+            "syntax": "&lt;single-animation-play-state&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -779,7 +779,7 @@
             "order": "uniqueOrder"
         },
         "animation-timing-function": {
-            "syntax": "<timing-function>#",
+            "syntax": "&lt;timing-function&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -793,7 +793,7 @@
             "order": "uniqueOrder"
         },
         "azimuth": {
-            "syntax": "<angle> | [[ left-side | far-left | left | center-left | center | center-right | right | far-right | right-side ] || behind ] | leftwards | rightwards",
+            "syntax": "&lt;angle&gt; | [[ left-side | far-left | left | center-left | center | center-right | right | far-right | right-side ] || behind ] | leftwards | rightwards",
             "media": "aural",
             "inherited": true,
             "animatable": "no",
@@ -807,7 +807,7 @@
             "order": "orderOfAppearance"
         },
         "backdrop-filter": {
-            "syntax": "none | <filter-function-list>",
+            "syntax": "none | &lt;filter-function-list&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "yes",
@@ -835,7 +835,7 @@
             "order": "uniqueOrder"
         },
         "background": {
-            "syntax": "[ <bg-layer> , ]* <final-bg-layer>",
+            "syntax": "[ &lt;bg-layer&gt; , ]* &lt;final-bg-layer&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -883,7 +883,7 @@
             ]
         },
         "background-attachment": {
-            "syntax": "<attachment>#",
+            "syntax": "&lt;attachment&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -902,7 +902,7 @@
             ]
         },
         "background-blend-mode": {
-            "syntax": "<blend-mode>#",
+            "syntax": "&lt;blend-mode&gt;#",
             "media": "none",
             "inherited": false,
             "animatable": "no",
@@ -921,7 +921,7 @@
             ]
         },
         "background-clip": {
-            "syntax": "<box>#",
+            "syntax": "&lt;box&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -940,7 +940,7 @@
             ]
         },
         "background-color": {
-            "syntax": "<color>",
+            "syntax": "&lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -961,7 +961,7 @@
             ]
         },
         "background-image": {
-            "syntax": "<bg-image>#",
+            "syntax": "&lt;bg-image&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -980,7 +980,7 @@
             ]
         },
         "background-origin": {
-            "syntax": "<box>#",
+            "syntax": "&lt;box&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -999,7 +999,7 @@
             ]
         },
         "background-position": {
-            "syntax": "<position>#",
+            "syntax": "&lt;position&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1020,7 +1020,7 @@
             ]
         },
         "background-repeat": {
-            "syntax": "<repeat-style>#",
+            "syntax": "&lt;repeat-style&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1039,7 +1039,7 @@
             ]
         },
         "background-size": {
-            "syntax": "<bg-size>#",
+            "syntax": "&lt;bg-size&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1061,7 +1061,7 @@
             ]
         },
         "block-size": {
-            "syntax": "<'width'>",
+            "syntax": "&lt;'width'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1075,7 +1075,7 @@
             "order": "uniqueOrder"
         },
         "border": {
-            "syntax": "<br-width> || <br-style> || <color>",
+            "syntax": "&lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -1104,7 +1104,7 @@
             ]
         },
         "border-block-end": {
-            "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+            "syntax": "&lt;'border-width'&gt; || &lt;'border-style'&gt; || &lt;'color'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1126,7 +1126,7 @@
             "order": "uniqueOrder"
         },
         "border-block-end-color": {
-            "syntax": "<'color'>",
+            "syntax": "&lt;'color'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1140,7 +1140,7 @@
             "order": "uniqueOrder"
         },
         "border-block-end-style": {
-            "syntax": "<'border-style'>",
+            "syntax": "&lt;'border-style'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1154,7 +1154,7 @@
             "order": "uniqueOrder"
         },
         "border-block-end-width": {
-            "syntax": "<'border-width'>",
+            "syntax": "&lt;'border-width'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1168,7 +1168,7 @@
             "order": "uniqueOrder"
         },
         "border-block-start": {
-            "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+            "syntax": "&lt;'border-width'&gt; || &lt;'border-style'&gt; || &lt;'color'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1190,7 +1190,7 @@
             "order": "uniqueOrder"
         },
         "border-block-start-color": {
-            "syntax": "<'color'>",
+            "syntax": "&lt;'color'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1204,7 +1204,7 @@
             "order": "uniqueOrder"
         },
         "border-block-start-style": {
-            "syntax": "<'border-style'>",
+            "syntax": "&lt;'border-style'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1218,7 +1218,7 @@
             "order": "uniqueOrder"
         },
         "border-block-start-width": {
-            "syntax": "<'border-width'>",
+            "syntax": "&lt;'border-width'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1232,7 +1232,7 @@
             "order": "uniqueOrder"
         },
         "border-bottom": {
-            "syntax": "<br-width> || <br-style> || <color>",
+            "syntax": "&lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -1261,7 +1261,7 @@
             ]
         },
         "border-bottom-color": {
-            "syntax": "<color>",
+            "syntax": "&lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1280,7 +1280,7 @@
             ]
         },
         "border-bottom-left-radius": {
-            "syntax": "[ <length> | <percentage> ]{1,2}",
+            "syntax": "[ &lt;length&gt; | &lt;percentage&gt; ]{1,2}",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1299,7 +1299,7 @@
             ]
         },
         "border-bottom-right-radius": {
-            "syntax": "[ <length> | <percentage> ]{1,2}",
+            "syntax": "[ &lt;length&gt; | &lt;percentage&gt; ]{1,2}",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1318,7 +1318,7 @@
             ]
         },
         "border-bottom-style": {
-            "syntax": "<br-style>",
+            "syntax": "&lt;br-style&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1335,7 +1335,7 @@
             ]
         },
         "border-bottom-width": {
-            "syntax": "<br-width>",
+            "syntax": "&lt;br-width&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1368,7 +1368,7 @@
             "order": "uniqueOrder"
         },
         "border-color": {
-            "syntax": "<color>{1,4}",
+            "syntax": "&lt;color&gt;{1,4}",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -1400,7 +1400,7 @@
             ]
         },
         "border-image": {
-            "syntax": "<'border-image-source'> || <'border-image-slice'> [ / <'border-image-width'> | / <'border-image-width'>? / <'border-image-outset'> ]? || <'border-image-repeat'>",
+            "syntax": "&lt;'border-image-source'&gt; || &lt;'border-image-slice'&gt; [ / &lt;'border-image-width'&gt; | / &lt;'border-image-width'&gt;? / &lt;'border-image-outset'&gt; ]? || &lt;'border-image-repeat'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1438,7 +1438,7 @@
             ]
         },
         "border-image-outset": {
-            "syntax": "[ <length> | <number> ]{1,4}",
+            "syntax": "[ &lt;length&gt; | &lt;number&gt; ]{1,4}",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1472,7 +1472,7 @@
             ]
         },
         "border-image-slice": {
-            "syntax": "[<number> | <percentage>]{1,4} &amp;&amp; fill?",
+            "syntax": "[&lt;number&gt; | &lt;percentage&gt;]{1,4} &amp;&amp; fill?",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1489,7 +1489,7 @@
             ]
         },
         "border-image-source": {
-            "syntax": "none | <image>",
+            "syntax": "none | &lt;image&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1506,7 +1506,7 @@
             ]
         },
         "border-image-width": {
-            "syntax": "[ <length> | <percentage> | <number> | auto ]{1,4}",
+            "syntax": "[ &lt;length&gt; | &lt;percentage&gt; | &lt;number&gt; | auto ]{1,4}",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1523,7 +1523,7 @@
             ]
         },
         "border-inline-end": {
-            "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+            "syntax": "&lt;'border-width'&gt; || &lt;'border-style'&gt; || &lt;'color'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1545,7 +1545,7 @@
             "order": "uniqueOrder"
         },
         "border-inline-end-color": {
-            "syntax": "<'color'>",
+            "syntax": "&lt;'color'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1559,7 +1559,7 @@
             "order": "uniqueOrder"
         },
         "border-inline-end-style": {
-            "syntax": "<'border-style'>",
+            "syntax": "&lt;'border-style'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1573,7 +1573,7 @@
             "order": "uniqueOrder"
         },
         "border-inline-end-width": {
-            "syntax": "<'border-width'>",
+            "syntax": "&lt;'border-width'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1587,7 +1587,7 @@
             "order": "uniqueOrder"
         },
         "border-inline-start": {
-            "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+            "syntax": "&lt;'border-width'&gt; || &lt;'border-style'&gt; || &lt;'color'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1609,7 +1609,7 @@
             "order": "uniqueOrder"
         },
         "border-inline-start-color": {
-            "syntax": "<'color'>",
+            "syntax": "&lt;'color'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1623,7 +1623,7 @@
             "order": "uniqueOrder"
         },
         "border-inline-start-style": {
-            "syntax": "<'border-style'>",
+            "syntax": "&lt;'border-style'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1637,7 +1637,7 @@
             "order": "uniqueOrder"
         },
         "border-inline-start-width": {
-            "syntax": "<'border-width'>",
+            "syntax": "&lt;'border-width'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1651,7 +1651,7 @@
             "order": "uniqueOrder"
         },
         "border-left": {
-            "syntax": "<br-width> || <br-style> || <color>",
+            "syntax": "&lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -1680,7 +1680,7 @@
             ]
         },
         "border-left-color": {
-            "syntax": "<color>",
+            "syntax": "&lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1699,7 +1699,7 @@
             ]
         },
         "border-left-style": {
-            "syntax": "<br-style>",
+            "syntax": "&lt;br-style&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1716,7 +1716,7 @@
             ]
         },
         "border-left-width": {
-            "syntax": "<br-width>",
+            "syntax": "&lt;br-width&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1735,7 +1735,7 @@
             ]
         },
         "border-radius": {
-            "syntax": "[ <length> | <percentage> ]{1,4} [ / [ <length> | <percentage> ]{1,4} ]?",
+            "syntax": "[ &lt;length&gt; | &lt;percentage&gt; ]{1,4} [ / [ &lt;length&gt; | &lt;percentage&gt; ]{1,4} ]?",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -1767,7 +1767,7 @@
             ]
         },
         "border-right": {
-            "syntax": "<br-width> || <br-style> || <color>",
+            "syntax": "&lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -1796,7 +1796,7 @@
             ]
         },
         "border-right-color": {
-            "syntax": "<color>",
+            "syntax": "&lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1815,7 +1815,7 @@
             ]
         },
         "border-right-style": {
-            "syntax": "<br-style>",
+            "syntax": "&lt;br-style&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1832,7 +1832,7 @@
             ]
         },
         "border-right-width": {
-            "syntax": "<br-width>",
+            "syntax": "&lt;br-width&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1851,7 +1851,7 @@
             ]
         },
         "border-spacing": {
-            "syntax": "<length> <length>?",
+            "syntax": "&lt;length&gt; &lt;length&gt;?",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -1865,7 +1865,7 @@
             "order": "uniqueOrder"
         },
         "border-style": {
-            "syntax": "<br-style>{1,4}",
+            "syntax": "&lt;br-style&gt;{1,4}",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1892,7 +1892,7 @@
             ]
         },
         "border-top": {
-            "syntax": "<br-width> || <br-style> || <color>",
+            "syntax": "&lt;br-width&gt; || &lt;br-style&gt; || &lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -1921,7 +1921,7 @@
             ]
         },
         "border-top-color": {
-            "syntax": "<color>",
+            "syntax": "&lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1940,7 +1940,7 @@
             ]
         },
         "border-top-left-radius": {
-            "syntax": "[ <length> | <percentage> ]{1,2}",
+            "syntax": "[ &lt;length&gt; | &lt;percentage&gt; ]{1,2}",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1959,7 +1959,7 @@
             ]
         },
         "border-top-right-radius": {
-            "syntax": "[ <length> | <percentage> ]{1,2}",
+            "syntax": "[ &lt;length&gt; | &lt;percentage&gt; ]{1,2}",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -1978,7 +1978,7 @@
             ]
         },
         "border-top-style": {
-            "syntax": "<br-style>",
+            "syntax": "&lt;br-style&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -1995,7 +1995,7 @@
             ]
         },
         "border-top-width": {
-            "syntax": "<br-width>",
+            "syntax": "&lt;br-width&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2014,7 +2014,7 @@
             ]
         },
         "border-width": {
-            "syntax": "<br-width>{1,4}",
+            "syntax": "&lt;br-width&gt;{1,4}",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -2046,7 +2046,7 @@
             ]
         },
         "bottom": {
-            "syntax": "<length> | <percentage> | auto",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2121,7 +2121,7 @@
             "order": "uniqueOrder"
         },
         "box-shadow": {
-            "syntax": "none | <shadow>#",
+            "syntax": "none | &lt;shadow&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2238,7 +2238,7 @@
             "order": "uniqueOrder"
         },
         "clip": {
-            "syntax": "<shape> | auto",
+            "syntax": "&lt;shape&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2254,7 +2254,7 @@
             "order": "uniqueOrder"
         },
         "clip-path": {
-            "syntax": "<clip-source> | [ <basic-shape> || <geometry-box> ] | none",
+            "syntax": "&lt;clip-source&gt; | [ &lt;basic-shape&gt; || &lt;geometry-box&gt; ] | none",
             "media": "visual",
             "inherited": false,
             "animatable": "basicShapeOtherwiseNo",
@@ -2268,7 +2268,7 @@
             "order": "uniqueOrder"
         },
         "color": {
-            "syntax": "<color>",
+            "syntax": "&lt;color&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": {
@@ -2289,7 +2289,7 @@
             ]
         },
         "column-count": {
-            "syntax": "<number> | auto",
+            "syntax": "&lt;number&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2319,7 +2319,7 @@
             "order": "uniqueOrder"
         },
         "column-gap": {
-            "syntax": "<length> | normal",
+            "syntax": "&lt;length&gt; | normal",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2335,7 +2335,7 @@
             "order": "uniqueOrder"
         },
         "column-rule": {
-            "syntax": "<'column-rule-width'> || <'column-rule-style'> || <'column-rule-color'>",
+            "syntax": "&lt;'column-rule-width'&gt; || &lt;'column-rule-style'&gt; || &lt;'column-rule-color'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -2361,7 +2361,7 @@
             "order": "orderOfAppearance"
         },
         "column-rule-color": {
-            "syntax": "<color>",
+            "syntax": "&lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2377,7 +2377,7 @@
             "order": "uniqueOrder"
         },
         "column-rule-style": {
-            "syntax": "<br-style>",
+            "syntax": "&lt;br-style&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -2391,7 +2391,7 @@
             "order": "uniqueOrder"
         },
         "column-rule-width": {
-            "syntax": "<br-width>",
+            "syntax": "&lt;br-width&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2421,7 +2421,7 @@
             "order": "uniqueOrder"
         },
         "column-width": {
-            "syntax": "<length> | auto",
+            "syntax": "&lt;length&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2437,7 +2437,7 @@
             "order": "uniqueOrder"
         },
         "columns": {
-            "syntax": "<'column-width'> || <'column-count'>",
+            "syntax": "&lt;'column-width'&gt; || &lt;'column-count'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -2460,7 +2460,7 @@
             "order": "orderOfAppearance"
         },
         "content": {
-            "syntax": "normal | none | [ <string> | <uri> | <counter> | attr() | open-quote | close-quote | no-open-quote | no-close-quote ]+",
+            "syntax": "normal | none | [ &lt;string&gt; | &lt;uri&gt; | &lt;counter&gt; | attr() | open-quote | close-quote | no-open-quote | no-close-quote ]+",
             "media": "all",
             "inherited": false,
             "animatable": "no",
@@ -2474,7 +2474,7 @@
             "order": "uniqueOrder"
         },
         "counter-increment": {
-            "syntax": "[<user-ident> <integer>?]+ | none",
+            "syntax": "[&lt;user-ident&gt; &lt;integer&gt;?]+ | none",
             "media": "all",
             "inherited": false,
             "animatable": "no",
@@ -2488,7 +2488,7 @@
             "order": "uniqueOrder"
         },
         "counter-reset": {
-            "syntax": "[<user-ident> <integer>?]+ | none",
+            "syntax": "[&lt;user-ident&gt; &lt;integer&gt;?]+ | none",
             "media": "all",
             "inherited": false,
             "animatable": "no",
@@ -2502,7 +2502,7 @@
             "order": "uniqueOrder"
         },
         "cursor": {
-            "syntax": "[ [ <uri> [<x> <y>]?,]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ]",
+            "syntax": "[ [ &lt;uri&gt; [&lt;x&gt; &lt;y&gt;]?,]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ]",
             "media": "visual, interactive",
             "inherited": true,
             "animatable": "no",
@@ -2600,7 +2600,7 @@
             "order": "uniqueOrder"
         },
         "filter": {
-            "syntax": "none | <filter-function-list>",
+            "syntax": "none | &lt;filter-function-list&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "yes",
@@ -2614,7 +2614,7 @@
             "order": "uniqueOrder"
         },
         "flex": {
-            "syntax": "none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]",
+            "syntax": "none | [ &lt;'flex-grow'&gt; &lt;'flex-shrink'&gt;? || &lt;'flex-basis'&gt; ]",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -2640,7 +2640,7 @@
             "order": "orderOfAppearance"
         },
         "flex-basis": {
-            "syntax": "content | <'width'>",
+            "syntax": "content | &lt;'width'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2670,7 +2670,7 @@
             "order": "uniqueOrder"
         },
         "flex-flow": {
-            "syntax": "<'flex-direction'> || <'flex-wrap'>",
+            "syntax": "&lt;'flex-direction'&gt; || &lt;'flex-wrap'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -2690,7 +2690,7 @@
             "order": "orderOfAppearance"
         },
         "flex-grow": {
-            "syntax": "<number>",
+            "syntax": "&lt;number&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2706,7 +2706,7 @@
             "order": "uniqueOrder"
         },
         "flex-shrink": {
-            "syntax": "<number>",
+            "syntax": "&lt;number&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -2750,7 +2750,7 @@
             "order": "uniqueOrder"
         },
         "font": {
-            "syntax": "[ [ <‘font-style’> || <font-variant-css21> || <‘font-weight’> || <‘font-stretch’> ]? <‘font-size’> [ / <‘line-height’> ]? <‘font-family’> ] | caption | icon | menu | message-box | small-caption | status-bar",
+            "syntax": "[ [ &lt;‘font-style’&gt; || &lt;font-variant-css21&gt; || &lt;‘font-weight’&gt; || &lt;‘font-stretch’&gt; ]? &lt;‘font-size’&gt; [ / &lt;‘line-height’&gt; ]? &lt;‘font-family’&gt; ] | caption | icon | menu | message-box | small-caption | status-bar",
             "media": "visual",
             "inherited": true,
             "animatable": [
@@ -2796,7 +2796,7 @@
             ]
         },
         "font-family": {
-            "syntax": "[ <family-name> | <generic-family> ]#",
+            "syntax": "[ &lt;family-name&gt; | &lt;generic-family&gt; ]#",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -2815,7 +2815,7 @@
             ]
         },
         "font-feature-settings": {
-            "syntax": "normal | <feature-tag-value>#",
+            "syntax": "normal | &lt;feature-tag-value&gt;#",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -2853,7 +2853,7 @@
             ]
         },
         "font-language-override": {
-            "syntax": "normal | <string>",
+            "syntax": "normal | &lt;string&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -2872,7 +2872,7 @@
             ]
         },
         "font-size": {
-            "syntax": "<absolute-size> | <relative-size> | <length> | <percentage>",
+            "syntax": "&lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length&gt; | &lt;percentage&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": {
@@ -2893,7 +2893,7 @@
             ]
         },
         "font-size-adjust": {
-            "syntax": "none | <number>",
+            "syntax": "none | &lt;number&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": {
@@ -2973,7 +2973,7 @@
             ]
         },
         "font-variant": {
-            "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name> #) || character-variant(<feature-value-name> #) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ] ",
+            "syntax": "normal | none | [ &lt;common-lig-values&gt; || &lt;discretionary-lig-values&gt; || &lt;historical-lig-values&gt; || &lt;contextual-alt-values&gt; || stylistic(&lt;feature-value-name&gt;) || historical-forms || styleset(&lt;feature-value-name&gt; #) || character-variant(&lt;feature-value-name&gt; #) || swash(&lt;feature-value-name&gt;) || ornaments(&lt;feature-value-name&gt;) || annotation(&lt;feature-value-name&gt;) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || &lt;numeric-figure-values&gt; || &lt;numeric-spacing-values&gt; || &lt;numeric-fraction-values&gt; || ordinal || slashed-zero || &lt;east-asian-variant-values&gt; || &lt;east-asian-width-values&gt; || ruby ] ",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -2992,7 +2992,7 @@
             ]
         },
         "font-variant-alternates": {
-            "syntax": "normal | [ stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name> #) || character-variant(<feature-value-name> #) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) ] ",
+            "syntax": "normal | [ stylistic(&lt;feature-value-name&gt;) || historical-forms || styleset(&lt;feature-value-name&gt; #) || character-variant(&lt;feature-value-name&gt; #) || swash(&lt;feature-value-name&gt;) || ornaments(&lt;feature-value-name&gt;) || annotation(&lt;feature-value-name&gt;) ] ",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -3030,7 +3030,7 @@
             ]
         },
         "font-variant-east-asian": {
-            "syntax": "normal | [ <east-asian-variant-values> || <east-asian-width-values> || ruby ] ",
+            "syntax": "normal | [ &lt;east-asian-variant-values&gt; || &lt;east-asian-width-values&gt; || ruby ] ",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -3049,7 +3049,7 @@
             ]
         },
         "font-variant-ligatures": {
-            "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ]",
+            "syntax": "normal | none | [ &lt;common-lig-values&gt; || &lt;discretionary-lig-values&gt; || &lt;historical-lig-values&gt; || &lt;contextual-alt-values&gt; ]",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -3068,7 +3068,7 @@
             ]
         },
         "font-variant-numeric": {
-            "syntax": "normal | [ <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero ]",
+            "syntax": "normal | [ &lt;numeric-figure-values&gt; || &lt;numeric-spacing-values&gt; || &lt;numeric-fraction-values&gt; || ordinal || slashed-zero ]",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -3127,7 +3127,7 @@
             ]
         },
         "grid": {
-            "syntax": "<'grid-template'> | [ <'grid-auto-flow'> [ <'grid-auto-rows'> [ / <'grid-auto-columns'> ]? ]? ]",
+            "syntax": "&lt;'grid-template'&gt; | [ &lt;'grid-auto-flow'&gt; [ &lt;'grid-auto-rows'&gt; [ / &lt;'grid-auto-columns'&gt; ]? ]? ]",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3164,7 +3164,7 @@
             "order": "uniqueOrder"
         },
         "grid-area": {
-            "syntax": "<grid-line> [ / <grid-line> ]{0,3}",
+            "syntax": "&lt;grid-line&gt; [ / &lt;grid-line&gt; ]{0,3}",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3188,7 +3188,7 @@
             "order": "uniqueOrder"
         },
         "grid-auto-columns": {
-            "syntax": "<track-size>",
+            "syntax": "&lt;track-size&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3216,7 +3216,7 @@
             "order": "uniqueOrder"
         },
         "grid-auto-rows": {
-            "syntax": "<track-size>",
+            "syntax": "&lt;track-size&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3230,7 +3230,7 @@
             "order": "uniqueOrder"
         },
         "grid-column": {
-            "syntax": "<grid-line> [ / <grid-line> ]?",
+            "syntax": "&lt;grid-line&gt; [ / &lt;grid-line&gt; ]?",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3250,7 +3250,7 @@
             "order": "uniqueOrder"
         },
         "grid-column-end": {
-            "syntax": "<grid-line>",
+            "syntax": "&lt;grid-line&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3264,7 +3264,7 @@
             "order": "uniqueOrder"
         },
         "grid-column-gap": {
-            "syntax": "<length>",
+            "syntax": "&lt;length&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -3280,7 +3280,7 @@
             "order": "uniqueOrder"
         },
         "grid-column-start": {
-            "syntax": "<grid-line>",
+            "syntax": "&lt;grid-line&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3294,7 +3294,7 @@
             "order": "uniqueOrder"
         },
         "grid-gap": {
-            "syntax": "<'grid-row-gap'> <'grid-column-gap'>?",
+            "syntax": "&lt;'grid-row-gap'&gt; &lt;'grid-column-gap'&gt;?",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -3317,7 +3317,7 @@
             "order": "uniqueOrder"
         },
         "grid-row": {
-            "syntax": "<grid-line> [ / <grid-line> ]?",
+            "syntax": "&lt;grid-line&gt; [ / &lt;grid-line&gt; ]?",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3337,7 +3337,7 @@
             "order": "uniqueOrder"
         },
         "grid-row-end": {
-            "syntax": "<grid-line>",
+            "syntax": "&lt;grid-line&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3351,7 +3351,7 @@
             "order": "uniqueOrder"
         },
         "grid-row-gap": {
-            "syntax": "<length>",
+            "syntax": "&lt;length&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -3367,7 +3367,7 @@
             "order": "uniqueOrder"
         },
         "grid-row-start": {
-            "syntax": "<grid-line>",
+            "syntax": "&lt;grid-line&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3381,7 +3381,7 @@
             "order": "uniqueOrder"
         },
         "grid-template": {
-            "syntax": "none | subgrid | [ <'grid-template-rows'> / <'grid-template-columns'> ] | [ <line-names>? <string> <track-size>? <line-names>? ]+ [ / <track-list> ]?",
+            "syntax": "none | subgrid | [ &lt;'grid-template-rows'&gt; / &lt;'grid-template-columns'&gt; ] | [ &lt;line-names&gt;? &lt;string&gt; &lt;track-size&gt;? &lt;line-names&gt;? ]+ [ / &lt;track-list&gt; ]?",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3406,7 +3406,7 @@
             "order": "uniqueOrder"
         },
         "grid-template-areas": {
-            "syntax": "none | <string>+",
+            "syntax": "none | &lt;string&gt;+",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3420,7 +3420,7 @@
             "order": "uniqueOrder"
         },
         "grid-template-columns": {
-            "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
+            "syntax": "none | &lt;track-list&gt; | &lt;auto-track-list&gt; | subgrid &lt;line-name-list&gt;?",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3434,7 +3434,7 @@
             "order": "uniqueOrder"
         },
         "grid-template-rows": {
-            "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
+            "syntax": "none | &lt;track-list&gt; | &lt;auto-track-list&gt; | subgrid &lt;line-name-list&gt;?",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3448,7 +3448,7 @@
             "order": "uniqueOrder"
         },
         "height": {
-            "syntax": "[<length> | <percentage>] &amp;&amp; [border-box | content-box]? | available | min-content | max-content | fit-content | auto",
+            "syntax": "[&lt;length&gt; | &lt;percentage&gt;] &amp;&amp; [border-box | content-box]? | available | min-content | max-content | fit-content | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -3478,7 +3478,7 @@
             "order": "uniqueOrder"
         },
         "image-orientation": {
-            "syntax": "from-image | <angle> | [<angle>? flip]",
+            "syntax": "from-image | &lt;angle&gt; | [&lt;angle&gt;? flip]",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -3520,7 +3520,7 @@
             "order": "uniqueOrder"
         },
         "initial-letter": {
-            "syntax": "normal | [<number> <integer>?]",
+            "syntax": "normal | [&lt;number&gt; &lt;integer&gt;?]",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3548,7 +3548,7 @@
             "order": "uniqueOrder"
         },
         "inline-size": {
-            "syntax": "<'width'>",
+            "syntax": "&lt;'width'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3590,7 +3590,7 @@
             "order": "uniqueOrder"
         },
         "left": {
-            "syntax": "<length> | <percentage> | auto",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -3606,7 +3606,7 @@
             "order": "uniqueOrder"
         },
         "letter-spacing": {
-            "syntax": "normal | <length>",
+            "syntax": "normal | &lt;length&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": {
@@ -3640,7 +3640,7 @@
             "order": "uniqueOrder"
         },
         "line-height": {
-            "syntax": "normal | <number> | <length> | <percentage>",
+            "syntax": "normal | &lt;number&gt; | &lt;length&gt; | &lt;percentage&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": {
@@ -3661,7 +3661,7 @@
             ]
         },
         "list-style": {
-            "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
+            "syntax": "&lt;'list-style-type'&gt; || &lt;'list-style-position'&gt; || &lt;'list-style-image'&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -3683,7 +3683,7 @@
             "order": "orderOfAppearance"
         },
         "list-style-image": {
-            "syntax": "<uri> | none",
+            "syntax": "&lt;uri&gt; | none",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -3711,7 +3711,7 @@
             "order": "uniqueOrder"
         },
         "list-style-type": {
-            "syntax": "<counter-style> | <string> | none",
+            "syntax": "&lt;counter-style&gt; | &lt;string&gt; | none",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -3725,7 +3725,7 @@
             "order": "uniqueOrder"
         },
         "margin": {
-            "syntax": "[ <length> | <percentage> | auto ]{1,4}",
+            "syntax": "[ &lt;length&gt; | &lt;percentage&gt; | auto ]{1,4}",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -3754,7 +3754,7 @@
             ]
         },
         "margin-block-end": {
-            "syntax": "<'margin-left'>",
+            "syntax": "&lt;'margin-left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3768,7 +3768,7 @@
             "order": "uniqueOrder"
         },
         "margin-block-start": {
-            "syntax": "<'margin-left'>",
+            "syntax": "&lt;'margin-left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3782,7 +3782,7 @@
             "order": "uniqueOrder"
         },
         "margin-bottom": {
-            "syntax": "<length> | <percentage> | auto",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -3801,7 +3801,7 @@
             ]
         },
         "margin-inline-end": {
-            "syntax": "<'margin-left'>",
+            "syntax": "&lt;'margin-left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3815,7 +3815,7 @@
             "order": "uniqueOrder"
         },
         "margin-inline-start": {
-            "syntax": "<'margin-left'>",
+            "syntax": "&lt;'margin-left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3829,7 +3829,7 @@
             "order": "uniqueOrder"
         },
         "margin-left": {
-            "syntax": "<length> | <percentage> | auto",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -3848,7 +3848,7 @@
             ]
         },
         "margin-right": {
-            "syntax": "<length> | <percentage> | auto",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -3867,7 +3867,7 @@
             ]
         },
         "margin-top": {
-            "syntax": "<length> | <percentage> | auto",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -3886,7 +3886,7 @@
             ]
         },
         "marker-offset": {
-            "syntax": "<length> | auto",
+            "syntax": "&lt;length&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3900,7 +3900,7 @@
             "order": "uniqueOrder"
         },
         "mask": {
-            "syntax": "<mask-layer>#",
+            "syntax": "&lt;mask-layer&gt;#",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -3942,7 +3942,7 @@
             "order": "uniqueOrder"
         },
         "max-block-size": {
-            "syntax": "<'max-width'>",
+            "syntax": "&lt;'max-width'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3956,7 +3956,7 @@
             "order": "uniqueOrder"
         },
         "max-height": {
-            "syntax": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -3972,7 +3972,7 @@
             "order": "uniqueOrder"
         },
         "max-inline-size": {
-            "syntax": "<'max-width'>",
+            "syntax": "&lt;'max-width'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -3986,7 +3986,7 @@
             "order": "uniqueOrder"
         },
         "max-width": {
-            "syntax": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4002,7 +4002,7 @@
             "order": "uniqueOrder"
         },
         "min-block-size": {
-            "syntax": "<'min-width'>",
+            "syntax": "&lt;'min-width'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4016,7 +4016,7 @@
             "order": "uniqueOrder"
         },
         "min-height": {
-            "syntax": "<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | auto | max-content | min-content | fit-content | fill-available",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4032,7 +4032,7 @@
             "order": "uniqueOrder"
         },
         "min-inline-size": {
-            "syntax": "<'min-width'>",
+            "syntax": "&lt;'min-width'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4046,7 +4046,7 @@
             "order": "uniqueOrder"
         },
         "min-width": {
-            "syntax": "<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | auto | max-content | min-content | fit-content | fill-available",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4062,7 +4062,7 @@
             "order": "uniqueOrder"
         },
         "mix-blend-mode": {
-            "syntax": "<blend-mode>",
+            "syntax": "&lt;blend-mode&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4077,7 +4077,7 @@
             "stacking": true
         },
         "motion": {
-            "syntax": "<'motion-path'> &amp;&amp; <'motion-offset'> &amp;&amp; <'motion-rotation'>",
+            "syntax": "&lt;'motion-path'&gt; &amp;&amp; &lt;'motion-offset'&gt; &amp;&amp; &lt;'motion-rotation'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4102,7 +4102,7 @@
             "stacking": true
         },
         "motion-offset": {
-            "syntax": "<length> | <percentage>",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4118,7 +4118,7 @@
             "order": "uniqueOrder"
         },
         "motion-path": {
-            "syntax": "<url> | [ <basic-shape> | <path()> ] || <geometry-box> | none",
+            "syntax": "&lt;url&gt; | [ &lt;basic-shape&gt; | &lt;path()&gt; ] || &lt;geometry-box&gt; | none",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4133,7 +4133,7 @@
             "stacking": true
         },
         "motion-rotation": {
-            "syntax": "[ auto | reverse ] &amp;&amp; <angle>",
+            "syntax": "[ auto | reverse ] &amp;&amp; &lt;angle&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4163,7 +4163,7 @@
             "order": "uniqueOrder"
         },
         "object-position": {
-            "syntax": "<position>",
+            "syntax": "&lt;position&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": {
@@ -4179,7 +4179,7 @@
             "order": "uniqueOrder"
         },
         "offset-block-end": {
-            "syntax": "<'left'>",
+            "syntax": "&lt;'left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4193,7 +4193,7 @@
             "order": "uniqueOrder"
         },
         "offset-block-start": {
-            "syntax": "<'left'>",
+            "syntax": "&lt;'left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4207,7 +4207,7 @@
             "order": "uniqueOrder"
         },
         "offset-inline-end": {
-            "syntax": "<'left'>",
+            "syntax": "&lt;'left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4221,7 +4221,7 @@
             "order": "uniqueOrder"
         },
         "offset-inline-start": {
-            "syntax": "<'left'>",
+            "syntax": "&lt;'left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4235,7 +4235,7 @@
             "order": "uniqueOrder"
         },
         "opacity": {
-            "syntax": "<number>",
+            "syntax": "&lt;number&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4254,7 +4254,7 @@
             ]
         },
         "order": {
-            "syntax": "<integer>",
+            "syntax": "&lt;integer&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4270,7 +4270,7 @@
             "order": "uniqueOrder"
         },
         "orphans": {
-            "syntax": "<integer>",
+            "syntax": "&lt;integer&gt;",
             "media": "visual, paged",
             "inherited": true,
             "animatable": "no",
@@ -4284,7 +4284,7 @@
             "order": "uniqueOrder"
         },
         "outline": {
-            "syntax": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ]",
+            "syntax": "[ &lt;'outline-color'&gt; || &lt;'outline-style'&gt; || &lt;'outline-width'&gt; ]",
             "media": "visual, interactive",
             "inherited": false,
             "animatable": [
@@ -4310,7 +4310,7 @@
             "order": "orderOfAppearance"
         },
         "outline-color": {
-            "syntax": "<color> | invert",
+            "syntax": "&lt;color&gt; | invert",
             "media": "visual, interactive",
             "inherited": false,
             "animatable": {
@@ -4326,7 +4326,7 @@
             "order": "uniqueOrder"
         },
         "outline-offset": {
-            "syntax": "<length>",
+            "syntax": "&lt;length&gt;",
             "media": "visual, interactive",
             "inherited": false,
             "animatable": {
@@ -4342,7 +4342,7 @@
             "order": "uniqueOrder"
         },
         "outline-style": {
-            "syntax": "auto | <br-style>",
+            "syntax": "auto | &lt;br-style&gt;",
             "media": "visual, interactive",
             "inherited": false,
             "animatable": "no",
@@ -4356,7 +4356,7 @@
             "order": "uniqueOrder"
         },
         "outline-width": {
-            "syntax": "<br-width>",
+            "syntax": "&lt;br-width&gt;",
             "media": "visual, interactive",
             "inherited": false,
             "animatable": {
@@ -4442,7 +4442,7 @@
             "order": "uniqueOrder"
         },
         "padding": {
-            "syntax": "[ <length> | <percentage> ]{1,4}",
+            "syntax": "[ &lt;length&gt; | &lt;percentage&gt; ]{1,4}",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4471,7 +4471,7 @@
             ]
         },
         "padding-block-end": {
-            "syntax": "<'padding-left'>",
+            "syntax": "&lt;'padding-left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4485,7 +4485,7 @@
             "order": "uniqueOrder"
         },
         "padding-block-start": {
-            "syntax": "<'padding-left'>",
+            "syntax": "&lt;'padding-left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4499,7 +4499,7 @@
             "order": "uniqueOrder"
         },
         "padding-bottom": {
-            "syntax": "<length> | <percentage>",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4518,7 +4518,7 @@
             ]
         },
         "padding-inline-end": {
-            "syntax": "<'padding-left'>",
+            "syntax": "&lt;'padding-left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4532,7 +4532,7 @@
             "order": "uniqueOrder"
         },
         "padding-inline-start": {
-            "syntax": "<'padding-left'>",
+            "syntax": "&lt;'padding-left'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -4546,7 +4546,7 @@
             "order": "uniqueOrder"
         },
         "padding-left": {
-            "syntax": "<length> | <percentage>",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4565,7 +4565,7 @@
             ]
         },
         "padding-right": {
-            "syntax": "<length> | <percentage>",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4584,7 +4584,7 @@
             ]
         },
         "padding-top": {
-            "syntax": "<length> | <percentage>",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4645,7 +4645,7 @@
             "order": "uniqueOrder"
         },
         "perspective": {
-            "syntax": "none | <length>",
+            "syntax": "none | &lt;length&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4662,7 +4662,7 @@
             "stacking": true
         },
         "perspective-origin": {
-            "syntax": "[ <percentage> | <length> | left | center | right | top | bottom] | [ [ <percentage> | <length> | left | center | right ] &amp;&amp; [ <percentage> | <length> | top | center | bottom ] ]",
+            "syntax": "[ &lt;percentage&gt; | &lt;length&gt; | left | center | right | top | bottom] | [ [ &lt;percentage&gt; | &lt;length&gt; | left | center | right ] &amp;&amp; [ &lt;percentage&gt; | &lt;length&gt; | top | center | bottom ] ]",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4707,7 +4707,7 @@
             "stacking": true
         },
         "quotes": {
-            "syntax": "[<string> <string>]+ | none",
+            "syntax": "[&lt;string&gt; &lt;string&gt;]+ | none",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -4735,7 +4735,7 @@
             "order": "uniqueOrder"
         },
         "right": {
-            "syntax": "<length> | <percentage> | auto",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4807,7 +4807,7 @@
             "order": "uniqueOrder"
         },
         "scroll-snap-coordinate": {
-            "syntax": "none | <position>#",
+            "syntax": "none | &lt;position&gt;#",
             "media": "interactive",
             "inherited": false,
             "animatable": {
@@ -4823,7 +4823,7 @@
             "order": "uniqueOrder"
         },
         "scroll-snap-destination": {
-            "syntax": "<position>",
+            "syntax": "&lt;position&gt;",
             "media": "interactive",
             "inherited": false,
             "animatable": {
@@ -4839,7 +4839,7 @@
             "order": "uniqueOrder"
         },
         "scroll-snap-points-x": {
-            "syntax": "none | repeat(<length>)",
+            "syntax": "none | repeat(&lt;length&gt;)",
             "media": "interactive",
             "inherited": false,
             "animatable": "no",
@@ -4853,7 +4853,7 @@
             "order": "uniqueOrder"
         },
         "scroll-snap-points-y": {
-            "syntax": "none | repeat(<length>)",
+            "syntax": "none | repeat(&lt;length&gt;)",
             "media": "interactive",
             "inherited": false,
             "animatable": "no",
@@ -4909,7 +4909,7 @@
             "order": "uniqueOrder"
         },
         "shape-image-threshold": {
-            "syntax": "<number>",
+            "syntax": "&lt;number&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4925,7 +4925,7 @@
             "order": "uniqueOrder"
         },
         "shape-margin": {
-            "syntax": "<length> | <percentage>",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4941,7 +4941,7 @@
             "order": "uniqueOrder"
         },
         "shape-outside": {
-            "syntax": "none | <shape-box> || <basic-shape> | <image>",
+            "syntax": "none | &lt;shape-box&gt; || &lt;basic-shape&gt; | &lt;image&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -4957,7 +4957,7 @@
             "order": "uniqueOrder"
         },
         "tab-size": {
-            "syntax": "<integer> | <length>",
+            "syntax": "&lt;integer&gt; | &lt;length&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -5016,7 +5016,7 @@
             "order": "uniqueOrder"
         },
         "text-combine-upright": {
-            "syntax": "none | all | [ digits <integer>? ]",
+            "syntax": "none | all | [ digits &lt;integer&gt;? ]",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -5030,7 +5030,7 @@
             "order": "uniqueOrder"
         },
         "text-decoration": {
-            "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'>",
+            "syntax": "&lt;'text-decoration-line'&gt; || &lt;'text-decoration-style'&gt; || &lt;'text-decoration-color'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": [
@@ -5061,7 +5061,7 @@
             ]
         },
         "text-decoration-color": {
-            "syntax": "<color>",
+            "syntax": "&lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -5134,7 +5134,7 @@
             ]
         },
         "text-emphasis": {
-            "syntax": "<'text-emphasis-style'> || <'text-emphasis-color'>",
+            "syntax": "&lt;'text-emphasis-style'&gt; || &lt;'text-emphasis-color'&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": ["text-emphasis-color", "text-emphasis-style"],
@@ -5146,7 +5146,7 @@
             "order": "orderOfAppearance"
         },
         "text-emphasis-color": {
-            "syntax": "<color>",
+            "syntax": "&lt;color&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -5174,7 +5174,7 @@
             "order": "uniqueOrder"
         },
         "text-emphasis-style": {
-            "syntax": "none | [[filled | open ] || [dot | circle | double-circle | triangle | sesame ]] | <string'&gt",
+            "syntax": "none | [[filled | open ] || [dot | circle | double-circle | triangle | sesame ]] | &lt;string'&gt",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -5186,7 +5186,7 @@
             "order": "uniqueOrder"
         },
         "text-indent": {
-            "syntax": "<length> | <percentage> &amp;&amp; [ hanging || each-line ]",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; &amp;&amp; [ hanging || each-line ]",
             "media": "visual",
             "inherited": true,
             "animatable": {
@@ -5216,7 +5216,7 @@
             "order": "uniqueOrder"
         },
         "text-overflow": {
-            "syntax": "[ clip | ellipsis | <string> ]{1,2}",
+            "syntax": "[ clip | ellipsis | &lt;string&gt; ]{1,2}",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -5247,7 +5247,7 @@
             "order": "uniqueOrder"
         },
         "text-shadow": {
-            "syntax": "none | <shadow-t>#",
+            "syntax": "none | &lt;shadow-t&gt;#",
             "media": "visual",
             "inherited": true,
             "animatable": {
@@ -5268,7 +5268,7 @@
             ]
         },
         "text-size-adjust": {
-            "syntax": "none | auto | <percentage> ",
+            "syntax": "none | auto | &lt;percentage&gt; ",
             "media": "visual",
             "inherited": true,
             "animatable": "no",
@@ -5315,7 +5315,7 @@
             "order": "orderOfAppearance"
         },
         "top": {
-            "syntax": "<length> | <percentage> | auto",
+            "syntax": "&lt;length&gt; | &lt;percentage&gt; | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -5345,7 +5345,7 @@
             "order": "uniqueOrder"
         },
         "transform": {
-            "syntax": "none | <transform-list>",
+            "syntax": "none | &lt;transform-list&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -5376,7 +5376,7 @@
             "order": "uniqueOrder"
         },
         "transform-origin": {
-            "syntax": "[ <percentage> | <length> | left | center | right | top | bottom] | [ [ <percentage> | <length> | left | center | right ] &amp;&amp; [ <percentage> | <length> | top | center | bottom ] ] <length>?",
+            "syntax": "[ &lt;percentage&gt; | &lt;length&gt; | left | center | right | top | bottom] | [ [ &lt;percentage&gt; | &lt;length&gt; | left | center | right ] &amp;&amp; [ &lt;percentage&gt; | &lt;length&gt; | top | center | bottom ] ] &lt;length&gt;?",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -5407,7 +5407,7 @@
             "stacking": true
         },
         "transition": {
-            "syntax": "<single-transition>#",
+            "syntax": "&lt;single-transition&gt;#",
             "media": "interactive",
             "inherited": false,
             "animatable": "no",
@@ -5431,7 +5431,7 @@
             "order": "orderOfAppearance"
         },
         "transition-delay": {
-            "syntax": "<time>#",
+            "syntax": "&lt;time&gt;#",
             "media": "interactive",
             "inherited": false,
             "animatable": "no",
@@ -5445,7 +5445,7 @@
             "order": "uniqueOrder"
         },
         "transition-duration": {
-            "syntax": "<time>#",
+            "syntax": "&lt;time&gt;#",
             "media": "interactive",
             "inherited": false,
             "animatable": "no",
@@ -5459,7 +5459,7 @@
             "order": "uniqueOrder"
         },
         "transition-property": {
-            "syntax": "none | <single-transition-property># [ ‘,’ <single-transition-property># ]*",
+            "syntax": "none | &lt;single-transition-property&gt;# [ ‘,’ &lt;single-transition-property&gt;# ]*",
             "media": "visual",
             "inherited": false,
             "animatable": "no",
@@ -5473,7 +5473,7 @@
             "order": "uniqueOrder"
         },
         "transition-timing-function": {
-            "syntax": "<timing-function>#",
+            "syntax": "&lt;timing-function&gt;#",
             "media": "interactive",
             "inherited": false,
             "animatable": "no",
@@ -5501,7 +5501,7 @@
             "order": "uniqueOrder"
         },
         "vertical-align": {
-            "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
+            "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | &lt;percentage&gt; | &lt;length&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -5552,7 +5552,7 @@
             "order": "uniqueOrder"
         },
         "widows": {
-            "syntax": "<integer>",
+            "syntax": "&lt;integer&gt;",
             "media": "visual, paged",
             "inherited": true,
             "animatable": "no",
@@ -5566,7 +5566,7 @@
             "order": "uniqueOrder"
         },
         "width": {
-            "syntax": "[<length> | <percentage>] &amp;&amp; [border-box | content-box]? | available | min-content | max-content | fit-content | auto",
+            "syntax": "[&lt;length&gt; | &lt;percentage&gt;] &amp;&amp; [border-box | content-box]? | available | min-content | max-content | fit-content | auto",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -5582,7 +5582,7 @@
             "order": "lengthOrPercentageBeforeKeywordIfBothPresent"
         },
         "will-change": {
-            "syntax": "auto | <animateable-feature>#",
+            "syntax": "auto | &lt;animateable-feature&gt;#",
             "media": "all",
             "inherited": false,
             "animatable": "no",
@@ -5610,7 +5610,7 @@
             "order": "uniqueOrder"
         },
         "word-spacing": {
-            "syntax": "normal | <length> | <percentage>",
+            "syntax": "normal | &lt;length&gt; | &lt;percentage&gt;",
             "media": "visual",
             "inherited": true,
             "animatable": {
@@ -5659,7 +5659,7 @@
             "order": "uniqueOrder"
         },
         "z-index": {
-            "syntax": "auto | <integer>",
+            "syntax": "auto | &lt;integer&gt;",
             "media": "visual",
             "inherited": false,
             "animatable": {
@@ -5786,119 +5786,119 @@
     },
     "syntaxes": {
         "absolute-size": "xx-small | s-small | small | medium | large | x-large | xx-large",
-        "alpha-value": "<number>",
-        "animateable-feature": "scroll-position | contents | <custom-ident>",
+        "alpha-value": "&lt;number&gt;",
+        "animateable-feature": "scroll-position | contents | &lt;custom-ident&gt;",
         "attachment": "scroll | fixed | local",
-        "auto-track-list": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]+ <auto-repeat> [ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]+ <line-names>?",
-        "bg-image": "none | <image>",
-        "bg-layer": "<bg-image> || <position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box>{1,2}",
-        "bg-size": "[ <length> | <percentage> | auto ]{1,2} | cover | contain",
-        "blur()": "blur( <length> )",
+        "auto-track-list": "[ &lt;line-names&gt;? [ &lt;fixed-size&gt; | &lt;fixed-repeat&gt; ] ]+ &lt;auto-repeat&gt; [ &lt;line-names&gt;? [ &lt;fixed-size&gt; | &lt;fixed-repeat&gt; ] ]+ &lt;line-names&gt;?",
+        "bg-image": "none | &lt;image&gt;",
+        "bg-layer": "&lt;bg-image&gt; || &lt;position&gt; [ / &lt;bg-size&gt; ]? || &lt;repeat-style&gt; || &lt;attachment&gt; || &lt;box&gt;{1,2}",
+        "bg-size": "[ &lt;length&gt; | &lt;percentage&gt; | auto ]{1,2} | cover | contain",
+        "blur()": "blur( &lt;length&gt; )",
         "box": "border-box | padding-box | content-box",
         "br-style": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset",
-        "br-width": "<length> | thin | medium | thick",
-        "brightness()": "brightness( [ <number> | <percentage> ] )",
-        "clip-source": "<url>",
-        "color": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>",
+        "br-width": "&lt;length&gt; | thin | medium | thick",
+        "brightness()": "brightness( [ &lt;number&gt; | &lt;percentage&gt; ] )",
+        "clip-source": "&lt;url&gt;",
+        "color": "&lt;rgb()&gt; | &lt;rgba()&gt; | &lt;hsl()&gt; | &lt;hsla()&gt; | &lt;hex-color&gt; | &lt;named-color&gt; | currentcolor | &lt;deprecated-system-color&gt;",
         "common-lig-values": "[ common-ligatures | no-common-ligatures ]",
         "compositing-operator": "add | subtract | intersect | exclude",
         "contextual-alt-values": "[ contextual | no-contextual ]",
-        "contrast()": "contrast( [ <number> | <percentage> ] )",
-        "counter-style": "<counter-style-name> | symbols()",
-        "counter-style-name": "<custom-ident>",
+        "contrast()": "contrast( [ &lt;number&gt; | &lt;percentage&gt; ] )",
+        "counter-style": "&lt;counter-style-name&gt; | symbols()",
+        "counter-style-name": "&lt;custom-ident&gt;",
         "deprecated-system-color": "ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonFace | ButtonHighlight | ButtonShadow | ButtonText | CaptionText | GrayText | Highlight | HighlightText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText",
         "discretionary-lig-values": "[ discretionary-ligatures | no-discretionary-ligatures ]",
-        "drop-shadow()": "drop-shadow( <length>{2,3} <color>? )",
+        "drop-shadow()": "drop-shadow( &lt;length&gt;{2,3} &lt;color&gt;? )",
         "east-asian-variant-values": "[ jis78 | jis83 | jis90 | jis04 | simplified | traditional ]",
         "east-asian-width-values": "[ full-width | proportional-width ]",
-        "family-name": "<string> | <IDENT>+",
-        "feature-tag-value": "<string> [ <integer> | on | off ]?",
+        "family-name": "&lt;string&gt; | &lt;IDENT&gt;+",
+        "feature-tag-value": "&lt;string&gt; [ &lt;integer&gt; | on | off ]?",
         "feature-value-name": "IDENT",
-        "filter-function": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <sepia()> | <saturate()>",
-        "filter-function-list": "[ <filter-function> | <url> ]+",
-        "final-bg-layer": "<bg-image> || <position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box> || <'background-color'>",
-        "fixed-breadth": "<length> | <percentage>",
-        "fixed-size": "<fixed-breadth> | minmax( <fixed-breadth> , <track-breadth> )",
+        "filter-function": "&lt;blur()&gt; | &lt;brightness()&gt; | &lt;contrast()&gt; | &lt;drop-shadow()&gt; | &lt;grayscale()&gt; | &lt;hue-rotate()&gt; | &lt;invert()&gt; | &lt;opacity()&gt; | &lt;sepia()&gt; | &lt;saturate()&gt;",
+        "filter-function-list": "[ &lt;filter-function&gt; | &lt;url&gt; ]+",
+        "final-bg-layer": "&lt;bg-image&gt; || &lt;position&gt; [ / &lt;bg-size&gt; ]? || &lt;repeat-style&gt; || &lt;attachment&gt; || &lt;box&gt; || &lt;box&gt; || &lt;'background-color'&gt;",
+        "fixed-breadth": "&lt;length&gt; | &lt;percentage&gt;",
+        "fixed-size": "&lt;fixed-breadth&gt; | minmax( &lt;fixed-breadth&gt; , &lt;track-breadth&gt; )",
         "font-variant-css21": "[normal | small-caps]",
         "generic-family": "serif | sans-serif | cursive | fantasy | monospace",
         "generic-name": "serif | sans-serif | cursive | fantasy | monospace",
-        "geometry-box": "<shape-box> | fill-box | stroke-box | view-box",
-        "grayscale()": "grayscale( [ <number> | <percentage> ] )",
+        "geometry-box": "&lt;shape-box&gt; | fill-box | stroke-box | view-box",
+        "grayscale()": "grayscale( [ &lt;number&gt; | &lt;percentage&gt; ] )",
         "historical-lig-values": "[ historical-ligatures | no-historical-ligatures ]",
-        "hsl()": "hsl( <hue>, <percentage>, <percentage> )",
-        "hsla()": "hsla( <hue>, <percentage>, <percentage>, <alpha-value> )",
-        "hue": "<number>",
-        "hue-rotate()": "hue-rotate( <angle> )",
-        "invert()": "invert( [ <number> | <percentage> ] )",
-        "line-names": "'[' <custom-ident>* ']'",
-        "line-name-list": "[ <line-names> | <name-repeat> ]+",
-        "mask-layer": "<mask-reference> <masking-mode>? || <position> [ / <bg-size> ]? || <repeat-style> || <geometry-box> || [ <geometry-box> | no-clip ] || <compositing-operator>",
-        "mask-position": "[ <percentage> | <length> | left | center | right ] [ <percentage> | <length> | top  | center | bottom ]?",
-        "mask-reference": "none | <image> | <mask-source>",
-        "mask-source": "<url>",
+        "hsl()": "hsl( &lt;hue&gt;, &lt;percentage&gt;, &lt;percentage&gt; )",
+        "hsla()": "hsla( &lt;hue&gt;, &lt;percentage&gt;, &lt;percentage&gt;, &lt;alpha-value&gt; )",
+        "hue": "&lt;number&gt;",
+        "hue-rotate()": "hue-rotate( &lt;angle&gt; )",
+        "invert()": "invert( [ &lt;number&gt; | &lt;percentage&gt; ] )",
+        "line-names": "'[' &lt;custom-ident&gt;* ']'",
+        "line-name-list": "[ &lt;line-names&gt; | &lt;name-repeat&gt; ]+",
+        "mask-layer": "&lt;mask-reference&gt; &lt;masking-mode&gt;? || &lt;position&gt; [ / &lt;bg-size&gt; ]? || &lt;repeat-style&gt; || &lt;geometry-box&gt; || [ &lt;geometry-box&gt; | no-clip ] || &lt;compositing-operator&gt;",
+        "mask-position": "[ &lt;percentage&gt; | &lt;length&gt; | left | center | right ] [ &lt;percentage&gt; | &lt;length&gt; | top  | center | bottom ]?",
+        "mask-reference": "none | &lt;image&gt; | &lt;mask-source&gt;",
+        "mask-source": "&lt;url&gt;",
         "masking-mode": "alpha | luminance | auto",
-        "matrix()": "matrix( <number> [, <number> ]{5,5} )",
-        "matrix3d()": "matrix3d( <number> [, <number> ]{15,15} )",
-        "named-color": "<ident>",
+        "matrix()": "matrix( &lt;number&gt; [, &lt;number&gt; ]{5,5} )",
+        "matrix3d()": "matrix3d( &lt;number&gt; [, &lt;number&gt; ]{15,15} )",
+        "named-color": "&lt;ident&gt;",
         "namespace-prefix": "IDENT",
         "numeric-figure-values": "[ lining-nums | oldstyle-nums ]",
         "numeric-fraction-values": "[ diagonal-fractions | stacked-fractions ]",
         "numeric-spacing-values": "[ proportional-nums | tabular-nums ]",
-        "opacity()": "opacity( [ <number> | <percentage> ] )",
-        "perspective()": "perspective( <length> )",
+        "opacity()": "opacity( [ &lt;number&gt; | &lt;percentage&gt; ] )",
+        "perspective()": "perspective( &lt;length&gt; )",
         "relative-size": "larger | smaller",
         "repeat-style": "repeat-x | repeat-y | [repeat | space | round | no-repeat]{1,2}",
-        "rgb()": "rgb( <rgb-component>#{3} )",
-        "rgb-component": "<integer> | <percentage>",
-        "rgba()": "rgba( <rgb-component>#{3} , <alpha-value> )",
-        "rotate()": "rotate( <angle> )",
-        "rotate3d()": "rotate3d( <number> , <number> , <number> , <angle> )",
-        "rotateX()": "rotateX( <angle> )",
-        "rotateY()": "rotateY( <angle> )",
-        "rotateZ()": "rotateZ( <angle> )",
-        "saturate()": "saturate( [ <number> | <percentage> ] )",
-        "scale()": "scale( <number> [, <number> ]? )",
-        "scale3d()": "scale3d( <number> , <number>, <number> )",
-        "scaleX()": "scaleX( <number> )",
-        "scaleY()": "scaleY( <number> )",
-        "scaleZ()": "scaleZ( <number> )",
-        "skew()": "skew( <angle> [, <angle> ]? )",
-        "skewX()": "skewX( <angle> )",
-        "skewY()": "skewY( <angle> )",
-        "sepia()": "sepia( [ <number> | <percentage> ] )",
-        "shadow": "inset? &amp;&amp; <length>{2,4} &amp;&amp; <color>?",
-        "shadow-t": "[ <length>{2,3} &amp;&amp; <color>? ]",
-        "shape": "rect(<top>, <right>, <bottom>, <left>)",
-        "shape-box": "<box> | margin-box",
+        "rgb()": "rgb( &lt;rgb-component&gt;#{3} )",
+        "rgb-component": "&lt;integer&gt; | &lt;percentage&gt;",
+        "rgba()": "rgba( &lt;rgb-component&gt;#{3} , &lt;alpha-value&gt; )",
+        "rotate()": "rotate( &lt;angle&gt; )",
+        "rotate3d()": "rotate3d( &lt;number&gt; , &lt;number&gt; , &lt;number&gt; , &lt;angle&gt; )",
+        "rotateX()": "rotateX( &lt;angle&gt; )",
+        "rotateY()": "rotateY( &lt;angle&gt; )",
+        "rotateZ()": "rotateZ( &lt;angle&gt; )",
+        "saturate()": "saturate( [ &lt;number&gt; | &lt;percentage&gt; ] )",
+        "scale()": "scale( &lt;number&gt; [, &lt;number&gt; ]? )",
+        "scale3d()": "scale3d( &lt;number&gt; , &lt;number&gt;, &lt;number&gt; )",
+        "scaleX()": "scaleX( &lt;number&gt; )",
+        "scaleY()": "scaleY( &lt;number&gt; )",
+        "scaleZ()": "scaleZ( &lt;number&gt; )",
+        "skew()": "skew( &lt;angle&gt; [, &lt;angle&gt; ]? )",
+        "skewX()": "skewX( &lt;angle&gt; )",
+        "skewY()": "skewY( &lt;angle&gt; )",
+        "sepia()": "sepia( [ &lt;number&gt; | &lt;percentage&gt; ] )",
+        "shadow": "inset? &amp;&amp; &lt;length&gt;{2,4} &amp;&amp; &lt;color&gt;?",
+        "shadow-t": "[ &lt;length&gt;{2,3} &amp;&amp; &lt;color&gt;? ]",
+        "shape": "rect(&lt;top&gt;, &lt;right&gt;, &lt;bottom&gt;, &lt;left&gt;)",
+        "shape-box": "&lt;box&gt; | margin-box",
         "single-animation-direction": "normal | reverse | alternate | alternate-reverse",
         "single-animation-fill-mode": "none | forwards | backwards | both",
-        "single-animation-iteration-count": "infinite | <number>",
+        "single-animation-iteration-count": "infinite | &lt;number&gt;",
         "single-animation-name": "none | IDENT",
         "single-animation-play-state": "running | paused",
-        "single-transition": "[ none | <single-transition-property> ] || <time> || <single-transition-timing-function> || <time>",
+        "single-transition": "[ none | &lt;single-transition-property&gt; ] || &lt;time&gt; || &lt;single-transition-timing-function&gt; || &lt;time&gt;",
         "single-transition-property": "all | IDENT",
-        "symbol": "<string> | <image> | <ident>",
-        "track-breadth": "<length> | <percentage> | <flex> | min-content | max-content | auto",
-        "track-list": "[ <line-names>? [ <track-size> | <track-repeat> ] ]+ <line-names>?",
-        "track-size": "<track-breadth> | minmax( <track-breadth> , <track-breadth> )",
-        "transform-function": "[<matrix()> || <translate()> || <translateX()> || <translateY()> || <scale()> || <scaleX()> || <scaleY()> || <rotate()> || <skew()> || <skewX()> || <skewY()> || <matrix3d()> || <translate3d()> || <translateZ()> || <scale3d()> || <scaleZ()> || <rotate3d()> || <rotateX()> || <rotateY()> || <rotateZ()> || <perspective()>]+",
-        "transform-list": "<transform-function>+",
-        "translate()": "translate( <length> | <percentage> [, <length> | <percentage> ]? )",
-        "translate3d()": "translate3d( <length> | <percentage> , <length> | <percentage> , <length> )",
-        "translateX()": "translateX( <length> | <percentage> )",
-        "translateY()": "translateY( <length> | <percentage> )",
-        "translateZ()": "translateZ( <length> )",
-        "viewport-length": "auto | <length> | <percentage>"
+        "symbol": "&lt;string&gt; | &lt;image&gt; | &lt;ident&gt;",
+        "track-breadth": "&lt;length&gt; | &lt;percentage&gt; | &lt;flex&gt; | min-content | max-content | auto",
+        "track-list": "[ &lt;line-names&gt;? [ &lt;track-size&gt; | &lt;track-repeat&gt; ] ]+ &lt;line-names&gt;?",
+        "track-size": "&lt;track-breadth&gt; | minmax( &lt;track-breadth&gt; , &lt;track-breadth&gt; )",
+        "transform-function": "[&lt;matrix()&gt; || &lt;translate()&gt; || &lt;translateX()&gt; || &lt;translateY()&gt; || &lt;scale()&gt; || &lt;scaleX()&gt; || &lt;scaleY()&gt; || &lt;rotate()&gt; || &lt;skew()&gt; || &lt;skewX()&gt; || &lt;skewY()&gt; || &lt;matrix3d()&gt; || &lt;translate3d()&gt; || &lt;translateZ()&gt; || &lt;scale3d()&gt; || &lt;scaleZ()&gt; || &lt;rotate3d()&gt; || &lt;rotateX()&gt; || &lt;rotateY()&gt; || &lt;rotateZ()&gt; || &lt;perspective()&gt;]+",
+        "transform-list": "&lt;transform-function&gt;+",
+        "translate()": "translate( &lt;length&gt; | &lt;percentage&gt; [, &lt;length&gt; | &lt;percentage&gt; ]? )",
+        "translate3d()": "translate3d( &lt;length&gt; | &lt;percentage&gt; , &lt;length&gt; | &lt;percentage&gt; , &lt;length&gt; )",
+        "translateX()": "translateX( &lt;length&gt; | &lt;percentage&gt; )",
+        "translateY()": "translateY( &lt;length&gt; | &lt;percentage&gt; )",
+        "translateZ()": "translateZ( &lt;length&gt; )",
+        "viewport-length": "auto | &lt;length&gt; | &lt;percentage&gt;"
     },
     "atRules": {
         "@charset": {
-            "syntax": "@charset \"<charset>\";",
+            "syntax": "@charset \"&lt;charset&gt;\";",
             "groups": [
                 "CSS Charsets"
             ]
         },
         "@counter-style": {
-            "syntax": "@counter-style <counter-style-name> {\n  [ system: <counter-system>; ] ||\n  [ symbols: <counter-symbols>; ] ||\n  [ additive-symbols: <additive-symbols>; ] ||\n  [ negative: <negative-symbol>; ] ||\n  [ prefix: <prefix>; ] ||\n  [ suffix: <suffix>; ] ||\n  [ range: <range>; ] ||\n  [ pad: <padding>; ] ||\n  [ speak-as: <speak-as>; ] ||\n  [ fallback: <counter-style-name>; ]\n}",
+            "syntax": "@counter-style &lt;counter-style-name&gt; {\n  [ system: &lt;counter-system&gt;; ] ||\n  [ symbols: &lt;counter-symbols&gt;; ] ||\n  [ additive-symbols: &lt;additive-symbols&gt;; ] ||\n  [ negative: &lt;negative-symbol&gt;; ] ||\n  [ prefix: &lt;prefix&gt;; ] ||\n  [ suffix: &lt;suffix&gt;; ] ||\n  [ range: &lt;range&gt;; ] ||\n  [ pad: &lt;padding&gt;; ] ||\n  [ speak-as: &lt;speak-as&gt;; ] ||\n  [ fallback: &lt;counter-style-name&gt;; ]\n}",
             "interfaces": [
                 "CSSCounterStyleRule"
             ],
@@ -5907,7 +5907,7 @@
             ],
             "descriptors": {
                 "additive-symbols": {
-                    "syntax": "[ <integer> &amp;&amp; <symbol> ]#",
+                    "syntax": "[ &lt;integer&gt; &amp;&amp; &lt;symbol&gt; ]#",
                     "media": "all",
                     "initial": "N/A",
                     "percentages": "no",
@@ -5915,7 +5915,7 @@
                     "order": "orderOfAppearance"
                 },
                 "fallback": {
-                    "syntax": "<counter-style-name>",
+                    "syntax": "&lt;counter-style-name&gt;",
                     "media": "all",
                     "initial": "<code>decimal</code>",
                     "percentages": "no",
@@ -5923,7 +5923,7 @@
                     "order": "uniqueOrder"
                 },
                 "negative": {
-                    "syntax": "<symbol> <symbol>?",
+                    "syntax": "&lt;symbol&gt; &lt;symbol&gt;?",
                     "media": "all",
                     "initial": "\"-\" hyphen-minus",
                     "percentages": "no",
@@ -5931,7 +5931,7 @@
                     "order": "orderOfAppearance"
                 },
                 "pad": {
-                    "syntax": "<integer> &amp;&amp; <symbol>",
+                    "syntax": "&lt;integer&gt; &amp;&amp; &lt;symbol&gt;",
                     "media": "all",
                     "initial": "<code>0 \"\"</code>",
                     "percentages": "no",
@@ -5939,7 +5939,7 @@
                     "order": "uniqueOrder"
                 },
                 "prefix": {
-                    "syntax": "<symbol>",
+                    "syntax": "&lt;symbol&gt;",
                     "media": "all",
                     "initial": "the empty string",
                     "percentages": "no",
@@ -5947,7 +5947,7 @@
                     "order": "uniqueOrder"
                 },
                 "range": {
-                    "syntax": "[ [ <integer> | infinite ]{2} ]# | auto",
+                    "syntax": "[ [ &lt;integer&gt; | infinite ]{2} ]# | auto",
                     "media": "all",
                     "initial": "<code>auto</code>",
                     "percentages": "no",
@@ -5955,7 +5955,7 @@
                     "order": "orderOfAppearance"
                 },
                 "speak-as": {
-                    "syntax": "auto | bullets | numbers | words | spell-out | <counter-style-name>",
+                    "syntax": "auto | bullets | numbers | words | spell-out | &lt;counter-style-name&gt;",
                     "media": "all",
                     "initial": "<code>auto</code>",
                     "percentages": "no",
@@ -5963,7 +5963,7 @@
                     "order": "uniqueOrder"
                 },
                 "suffix": {
-                    "syntax": "<symbol>",
+                    "syntax": "&lt;symbol&gt;",
                     "media": "all",
                     "initial": "\".\" full stop followed by a space",
                     "percentages": "no",
@@ -5971,7 +5971,7 @@
                     "order": "uniqueOrder"
                 },
                 "symbols": {
-                    "syntax": "<symbol>+",
+                    "syntax": "&lt;symbol&gt;+",
                     "media": "all",
                     "initial": "N/A",
                     "percentages": "no",
@@ -5979,7 +5979,7 @@
                     "order": "orderOfAppearance"
                 },
                 "system": {
-                    "syntax": "cyclic | numeric | alphabetic | symbolic | additive | [fixed <integer>?] | [ extends <counter-style-name> ]",
+                    "syntax": "cyclic | numeric | alphabetic | symbolic | additive | [fixed &lt;integer&gt;?] | [ extends &lt;counter-style-name&gt; ]",
                     "media": "all",
                     "initial": "<code>symbolic</code>",
                     "percentages": "no",
@@ -5989,7 +5989,7 @@
             }
         },
         "@document": {
-            "syntax": "@document [ <url> | url-prefix(<string>) | domain(<string>) | regexp(<string>) ]# {\n  <group-rule-body>\n}",
+            "syntax": "@document [ &lt;url&gt; | url-prefix(&lt;string&gt;) | domain(&lt;string&gt;) | regexp(&lt;string&gt;) ]# {\n  &lt;group-rule-body&gt;\n}",
             "interfaces": [
                 "CSSGroupingRule",
                 "CSSConditionRule"
@@ -5999,7 +5999,7 @@
             ]
         },
         "@font-face": {
-            "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: [ <uri> [format(<string>#)]? | <font-face-name> ]#; ] ||\n  [ unicode-range: <urange>#; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: normal | <feature-tag-value>#; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <weight>; ] ||\n  [ font-style: <style>; ]\n}",
+            "syntax": "@font-face {\n  [ font-family: &lt;family-name&gt;; ] ||\n  [ src: [ &lt;uri&gt; [format(&lt;string&gt;#)]? | &lt;font-face-name&gt; ]#; ] ||\n  [ unicode-range: &lt;urange&gt;#; ] ||\n  [ font-variant: &lt;font-variant&gt;; ] ||\n  [ font-feature-settings: normal | &lt;feature-tag-value&gt;#; ] ||\n  [ font-stretch: &lt;font-stretch&gt;; ] ||\n  [ font-weight: &lt;weight&gt;; ] ||\n  [ font-style: &lt;style&gt;; ]\n}",
             "interfaces": [
                 "CSSFontFaceRule"
             ],
@@ -6008,7 +6008,7 @@
             ],
             "descriptors": {
                 "font-family": {
-                    "syntax": "<family-name>",
+                    "syntax": "&lt;family-name&gt;",
                     "media": "all",
                     "initial": "n/a (required)",
                     "percentages": "no",
@@ -6016,7 +6016,7 @@
                     "order": "uniqueOrder"
                 },
                 "font-feature-settings": {
-                    "syntax": "normal | <feature-tag-value>#",
+                    "syntax": "normal | &lt;feature-tag-value&gt;#",
                     "media": "all",
                     "initial": "<code>normal</code>",
                     "percentages": "no",
@@ -6048,7 +6048,7 @@
                     "order": "uniqueOrder"
                 },
                 "font-variant": {
-                    "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name>#) || character-variant(<feature-value-name>#) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
+                    "syntax": "normal | none | [ &lt;common-lig-values&gt; || &lt;discretionary-lig-values&gt; || &lt;historical-lig-values&gt; || &lt;contextual-alt-values&gt; || stylistic(&lt;feature-value-name&gt;) || historical-forms || styleset(&lt;feature-value-name&gt;#) || character-variant(&lt;feature-value-name&gt;#) || swash(&lt;feature-value-name&gt;) || ornaments(&lt;feature-value-name&gt;) || annotation(&lt;feature-value-name&gt;) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || &lt;numeric-figure-values&gt; || &lt;numeric-spacing-values&gt; || &lt;numeric-fraction-values&gt; || ordinal || slashed-zero || &lt;east-asian-variant-values&gt; || &lt;east-asian-width-values&gt; || ruby ]",
                     "media": "all",
                     "initial": "<code>normal</code>",
                     "percentages": "no",
@@ -6056,7 +6056,7 @@
                     "order": "orderOfAppearance"
                 },
                 "src": {
-                    "syntax": "[ <url> format(<string>#)? | local(<family-name>) ]#",
+                    "syntax": "[ &lt;url&gt; format(&lt;string&gt;#)? | local(&lt;family-name&gt;) ]#",
                     "media": "all",
                     "initial": "n/a (required)",
                     "percentages": "no",
@@ -6064,7 +6064,7 @@
                     "order": "orderOfAppearance"
                 },
                 "unicode-range": {
-                    "syntax": "<unicode-range>#",
+                    "syntax": "&lt;unicode-range&gt;#",
                     "media": "all",
                     "initial": "<code>U+0-10FFFF</code>",
                     "percentages": "no",
@@ -6074,7 +6074,7 @@
             }
         },
         "@font-feature-values": {
-            "syntax": "@font-feature-values <font-family> {\n  [ @swash | @ornaments | @annotation | @stylistic | @styleset | @character-variant\n    {\n      [ <IDENT>: <integer>+ ]?\n    }\n  ]?\n}",
+            "syntax": "@font-feature-values &lt;font-family&gt; {\n  [ @swash | @ornaments | @annotation | @stylistic | @styleset | @character-variant\n    {\n      [ &lt;IDENT&gt;: &lt;integer&gt;+ ]?\n    }\n  ]?\n}",
             "interfaces": [
                 "CSSFontFeatureValuesRule"
             ],
@@ -6083,13 +6083,13 @@
             ]
         },
         "@import": {
-            "syntax": "@import [ <string> | <url> ] [<media-query-list>]?;",
+            "syntax": "@import [ &lt;string&gt; | &lt;url&gt; ] [&lt;media-query-list&gt;]?;",
             "groups": [
                 "Media Queries"
             ]
         },
         "@keyframes": {
-            "syntax": "@keyframes <identifier> {\n  [ [ from | to | <percentage> ] [, from | to | <percentage> ]* block ]*\n}",
+            "syntax": "@keyframes &lt;identifier&gt; {\n  [ [ from | to | &lt;percentage&gt; ] [, from | to | &lt;percentage&gt; ]* block ]*\n}",
             "interfaces": [
                 "CSSKeyframeRule",
                 "CSSKeyframesRule"
@@ -6099,7 +6099,7 @@
             ]
         },
         "@media": {
-            "syntax": "@media <media-query-list> {\n  <group-rule-body>\n}",
+            "syntax": "@media &lt;media-query-list&gt; {\n  &lt;group-rule-body&gt;\n}",
             "interfaces": [
                 "CSSGroupingRule",
                 "CSSConditionRule",
@@ -6112,13 +6112,13 @@
             ]
         },
         "@namespace": {
-            "syntax": "@namespace <namespace-prefix>? [ <string> | <uri> ];",
+            "syntax": "@namespace &lt;namespace-prefix&gt;? [ &lt;string&gt; | &lt;uri&gt; ];",
             "groups": [
                 "CSS Namespaces"
             ]
         },
         "@page": {
-            "syntax": "@page <page-selector-list> {\n  <group-rule-body>\n}",
+            "syntax": "@page &lt;page-selector-list&gt; {\n  &lt;group-rule-body&gt;\n}",
             "interfaces": [
                 "CSSPageRule"
             ],
@@ -6127,7 +6127,7 @@
             ],
             "descriptors": {
                 "bleed": {
-                    "syntax": "auto | <length>",
+                    "syntax": "auto | &lt;length&gt;",
                     "media": "visual, paged",
                     "initial": "<code>auto</code>",
                     "percentages": "no",
@@ -6145,7 +6145,7 @@
             }
         },
         "@supports": {
-            "syntax": "@supports <supports-condition> {\n  <group-rule-body>\n}",
+            "syntax": "@supports &lt;supports-condition&gt; {\n  &lt;group-rule-body&gt;\n}",
             "interfaces": [
                 "CSSGroupingRule",
                 "CSSConditionRule",
@@ -6156,7 +6156,7 @@
             ]
         },
         "@viewport": {
-            "syntax": "@viewport {\n  <group-rule-body>\n}",
+            "syntax": "@viewport {\n  &lt;group-rule-body&gt;\n}",
             "interfaces": [
                 "CSSViewportRule"
             ],
@@ -6165,7 +6165,7 @@
             ],
             "descriptors": {
                 "height": {
-                    "syntax": "<viewport-length>{1,2}",
+                    "syntax": "&lt;viewport-length&gt;{1,2}",
                     "media": "visual, continuous",
                     "initial": [
                         "min-height",
@@ -6182,7 +6182,7 @@
                     "order": "orderOfAppearance"
                 },
                 "max-height": {
-                    "syntax": "<viewport-length>",
+                    "syntax": "&lt;viewport-length&gt;",
                     "media": "visual, continuous",
                     "initial": "<code>auto</code>",
                     "percentages": "referToHeightOfInitialViewport",
@@ -6190,7 +6190,7 @@
                     "order": "uniqueOrder"
                 },
                 "max-width": {
-                    "syntax": "<viewport-length>",
+                    "syntax": "&lt;viewport-length&gt;",
                     "media": "visual, continuous",
                     "initial": "<code>auto</code>",
                     "percentages": "referToWidthOfInitialViewport",
@@ -6198,7 +6198,7 @@
                     "order": "uniqueOrder"
                 },
                 "max-zoom": {
-                    "syntax": "auto | <number> | <percentage>",
+                    "syntax": "auto | &lt;number&gt; | &lt;percentage&gt;",
                     "media": "visual, continuous",
                     "initial": "<code>auto</code>",
                     "percentages": "the zoom factor itself",
@@ -6206,7 +6206,7 @@
                     "order": "uniqueOrder"
                 },
                 "min-height": {
-                    "syntax": "<viewport-length>",
+                    "syntax": "&lt;viewport-length&gt;",
                     "media": "visual, continuous",
                     "initial": "<code>auto</code>",
                     "percentages": "referToHeightOfInitialViewport",
@@ -6214,7 +6214,7 @@
                     "order": "uniqueOrder"
                 },
                 "min-width": {
-                    "syntax": "<viewport-length>",
+                    "syntax": "&lt;viewport-length&gt;",
                     "media": "visual, continuous",
                     "initial": "<code>auto</code>",
                     "percentages": "referToWidthOfInitialViewport",
@@ -6222,7 +6222,7 @@
                     "order": "uniqueOrder"
                 },
                 "min-zoom": {
-                    "syntax": "auto | <number> | <percentage>",
+                    "syntax": "auto | &lt;number&gt; | &lt;percentage&gt;",
                     "media": "visual, continuous",
                     "initial": "<code>auto</code>",
                     "percentages": "the zoom factor itself",
@@ -6246,7 +6246,7 @@
                     "order": "uniqueOrder"
                 },
                 "width": {
-                    "syntax": "<viewport-length>{1,2}",
+                    "syntax": "&lt;viewport-length&gt;{1,2}",
                     "media": "visual, continuous",
                     "initial": [
                         "min-width",
@@ -6263,7 +6263,7 @@
                     "order": "orderOfAppearance"
                 },
                 "zoom": {
-                    "syntax": "auto | <number> | <percentage>",
+                    "syntax": "auto | &lt;number&gt; | &lt;percentage&gt;",
                     "media": "visual, continuous",
                     "initial": "<code>auto</code>",
                     "percentages": "the zoom factor itself",
@@ -6317,7 +6317,7 @@
             ]
         },
         "Child selectors": {
-            "syntax": "A > B",
+            "syntax": "A &gt; B",
             "groups": [
                 "Combinators"
             ]
