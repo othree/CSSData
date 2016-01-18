@@ -1,0 +1,30 @@
+{
+  "name": "cssdata",
+  "version": "0.0.1",
+  "description": "CSSData JSON from mdn.com",
+  "main": "cssdata.json",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "dos2unix": "^1.1.2",
+    "superagent": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "fetch": "node fetch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/othree/CSSData.git"
+  },
+  "keywords": [
+    "css",
+    "mdn"
+  ],
+  "author": "Othree",
+  "license": "SEE LICENSE IN https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses",
+  "bugs": {
+    "url": "https://github.com/othree/CSSData/issues"
+  },
+  "homepage": "https://github.com/othree/CSSData#readme"
+}
