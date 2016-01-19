@@ -859,4 +859,4 @@ specList['CSS3 UI'] = specList['CSS3 Basic UI'];
 specList['WebSMS'] = specList['Messaging'];
 specList['CSS3 Template'] = specList['CSS3 Grid'];
 
-console.log(JSON.stringify(specList, null, 4));
+console.log(JSON.stringify(specList, null, 2));
