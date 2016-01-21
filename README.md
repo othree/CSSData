@@ -11,6 +11,6 @@ JSON data about CSS, from <mdn.com>
 License
 -------
 
-Same as [content licenses at mdn.com][2]
+Same as [content licenses at mdn.com][3]
 
-[2]:https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses
+[3]:https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses
