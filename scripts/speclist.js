@@ -1,4 +1,3 @@
-
 var specList = {
     'Alarm API': {
         name : 'Web Alarms API',
@@ -848,7 +847,7 @@ var specList = {
         name : 'XMLHttpRequest',
         url  : 'https://xhr.spec.whatwg.org'
     }
-};
+}
 
 // Some APIs share specifications. Here we attend to that.
 
@@ -858,5 +857,7 @@ specList['CSS3 Break'] = specList['CSS3 Fragmentation'];
 specList['CSS3 UI'] = specList['CSS3 Basic UI'];
 specList['WebSMS'] = specList['Messaging'];
 specList['CSS3 Template'] = specList['CSS3 Grid'];
+
+// Pull out the name and URL (or use "unknown" if not available)
 
 console.log(JSON.stringify(specList, null, 2));
