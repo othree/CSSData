@@ -14,7 +14,7 @@ request.get(rawURL).end((err, res) => {
   const rawJS = $('#wikiArticle>pre').text();
 
   try {
-    fs.writeFileSync('./speclist.js',  rawJS.split('\r\n').slice(40, -30).concat([
+    fs.writeFileSync('./speclist.js',  rawJS.split('\r\n').slice(40, -32).concat([
       'console.log(JSON.stringify(specList, null, 2));'
     ]).join('\n') );
   } catch (e) {

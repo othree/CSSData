@@ -27,6 +27,10 @@ var specList = {
         name : "Clipboard API and events",
         url  : "https://w3c.github.io/clipboard-apis/"
     },
+    'Compat':{
+        name : "Web Compatibility Standard",
+        url  : "https://compat.spec.whatwg.org"
+    },
     'Compositing':{
         name : "Compositing and blending Level 1",
         url  : "https://drafts.fxtf.org/compositing-1/"
@@ -43,6 +47,10 @@ var specList = {
         name : "CORS",
         url  : "http://www.w3.org/TR/cors/"
     },
+    'Credential Management':{
+        name : "Credential Management Level 1",
+        url  : "ttps://w3c.github.io/webappsec-credential-management",
+    }, 
     'CSP 1.0':{
         name : "Content Security Policy 1.0",
         url  : "http://www.w3.org/TR/2012/CR-CSP-20121115/"
@@ -227,6 +235,10 @@ var specList = {
         name : 'CSS Writing Modes Module Level&nbsp;3',
         url  : "https://drafts.csswg.org/css-writing-modes-3/"
     },
+    'CSS4 Basic UI':{
+        name : 'CSS Basic User Interface Module Level&nbsp;4',
+        url  : "https://drafts.csswg.org/css-ui-4/"
+    },
     'CSS4 Cascade':{
         name : 'CSS Cascading and Inheritance Level&nbsp;4',
         url  : "https://drafts.csswg.org/css-cascade/"
@@ -274,6 +286,10 @@ var specList = {
     'CSS Logical Properties':{
         name : 'CSS Logical Properties Level&nbsp;1',
         url  : 'https://drafts.csswg.org/css-logical-props/'
+    },
+    'CSS Round Display':{
+        name : 'CSS Round Display Level&nbsp;1',
+        url  : 'https://drafts.csswg.org/css-round-display/'
     },
     'CSS Scope':{
         name : 'CSS Scoping Module Level&nbsp;1',
@@ -513,7 +529,7 @@ var specList = {
     },
     'InputDeviceCapabilities': {
         name : 'InputDeviceCapabilities',
-        url  : 'http://rbyers.github.io/InputDevice/index.html'
+        url  : 'http://wicg.github.io/InputDeviceCapabilities/'
     },
     'JavaScript': {
         name : 'JavaScript, a.k.a. Web ECMAScript',
@@ -571,6 +587,10 @@ var specList = {
         name : 'OpenGL ES 2.0',
         url  : 'https://www.khronos.org/opengles/sdk/docs/man/xhtml/'
     },
+    'OpenGL ES 3.0':{
+        name : 'OpenGL ES 3.0',
+        url  : 'https://www.khronos.org/opengles/sdk/docs/man3/html/'
+    },
     'Page Visibility API':{
         name : 'Page Visibility (Second Edition)',
         url  : 'http://www.w3.org/TR/page-visibility/'
@@ -602,6 +622,10 @@ var specList = {
     'Preload':{
         name : 'Preload',
         url  : 'http://www.w3.org/TR/preload/'
+    },
+    'Presentation':{
+        name : 'Presentation API',
+        url  : 'http://w3c.github.io/presentation-api/'
     },
     'Progress Events':{ /* Merged in XHR, we need to remove these entries */
         name : 'Progress Events',
@@ -653,7 +677,7 @@ var specList = {
     },
     'Service Workers':{
         name : 'Service Workers',
-        url  : 'https://slightlyoff.github.io/ServiceWorker/spec/service_worker/'
+        url  : 'https://www.w3.org/TR/service-workers/'
     },
     'Selectors API Level 1':{
         name : 'Selectors API Level 1',
@@ -666,6 +690,10 @@ var specList = {
     'Shadow DOM':{
         name : 'Shadow DOM',
         url  : 'https://w3c.github.io/webcomponents/spec/shadow/'
+    },
+    'Shared Memory':{
+        name : 'ECMAScript Shared Memory and Atomics',
+        url  : 'http://tc39.github.io/ecmascript_sharedmem/shmem.html' 
     },
     'SIMD': {
         name : 'SIMD',
@@ -787,6 +815,50 @@ var specList = {
         name : 'EXT_disjoint_timer_query',
         url  : 'https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/'
     },
+    'EXT_texture_filter_anisotropic':{
+        name : 'EXT_texture_filter_anisotropic',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/EXT_texture_filter_anisotropic/'
+    },
+    'OES_texture_float':{
+        name : 'OES_texture_float',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/OES_texture_float/'
+    },
+    'OES_texture_float_linear':{
+        name : 'OES_texture_float_linear',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/OES_texture_float_linear/'
+    },
+    'OES_texture_half_float':{
+        name : 'OES_texture_half_float',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/OES_texture_half_float/'
+    },
+    'OES_texture_half_float_linear':{
+        name : 'OES_texture_half_float_linear',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/OES_texture_half_float_linear/'
+    },
+    'WEBGL_compressed_texture_s3tc':{
+        name : 'WEBGL_compressed_texture_s3tc',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_s3tc/'
+    },
+    'WEBGL_compressed_texture_es3':{
+        name : 'WEBGL_compressed_texture_es3',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_es3/'
+    },
+    'WEBGL_compressed_texture_pvrtc':{
+        name : 'WEBGL_compressed_texture_pvrtc',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_pvrtc/'
+    },
+    'WEBGL_compressed_texture_etc1':{
+        name : 'WEBGL_compressed_texture_etc1',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc1/'
+    },
+    'WEBGL_compressed_texture_atc':{
+        name : 'WEBGL_compressed_texture_atc',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_atc/'
+    },
+    'WEBGL_depth_texture':{
+        name : 'WEBGL_depth_texture',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_depth_texture/'
+    },
     'WebIDL':{
         name : 'Web IDL (Second Edition)',
         url  : 'https://heycam.github.io/webidl/'
@@ -855,6 +927,7 @@ specList['Blending'] = specList['Compositing'];
 specList['CSS3 2D Transforms'] = specList['CSS3 3D Transforms'] = specList['CSS3 Transforms'];
 specList['CSS3 Break'] = specList['CSS3 Fragmentation'];
 specList['CSS3 UI'] = specList['CSS3 Basic UI'];
+specList['CSS4 UI'] = specList['CSS4 Basic UI'];
 specList['WebSMS'] = specList['Messaging'];
 specList['CSS3 Template'] = specList['CSS3 Grid'];
 
