@@ -13,7 +13,8 @@
       "initial": "noneButOverriddenInUserAgentCSS",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-binding": {
       "syntax": "<uri> | none",
@@ -27,7 +28,8 @@
       "initial": "none",
       "appliesto": "allElementsExceptGeneratedContentOrPseudoElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-border-bottom-colors": {
       "syntax": "[<color>]* <color> | none",
@@ -41,7 +43,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-border-left-colors": {
       "syntax": "[<color>]* <color> | none",
@@ -55,7 +58,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-border-right-colors": {
       "syntax": "[<color>]* <color> | none",
@@ -69,7 +73,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-border-top-colors": {
       "syntax": "[<color>]* <color> | none",
@@ -83,7 +88,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-box-flex": {
       "syntax": "<number>",
@@ -98,7 +104,8 @@
       "initial": "0",
       "appliesto": "directChildrenOfElementsWithDisplayMozBoxMozInlineBox",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-box-pack": {
       "syntax": "start | center | end | justify",
@@ -113,7 +120,8 @@
       "initial": "start",
       "appliesto": "elementsWithDisplayMozBoxMozInlineBox",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-float-edge": {
       "syntax": "border-box | content-box | margin-box | padding-box",
@@ -127,7 +135,8 @@
       "initial": "content-box",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-force-broken-image-icon": {
       "syntax": "<integer>",
@@ -141,7 +150,8 @@
       "initial": "0",
       "appliesto": "images",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-image-region": {
       "syntax": "<shape>",
@@ -155,7 +165,8 @@
       "initial": "auto",
       "appliesto": "xulImageElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-orient": {
       "syntax": "inline | block | horizontal | vertical",
@@ -169,7 +180,8 @@
       "initial": "inline",
       "appliesto": "anyElementEffectOnProgressAndMeter",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-outline-radius": {
       "syntax": "<outline-radius>{1,4} [ / <outline-radius>{1,4}]?",
@@ -203,7 +215,8 @@
         "-moz-outline-radius-bottomright",
         "-moz-outline-radius-bottomleft"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-outline-radius-bottomleft": {
       "syntax": "<outline-radius>",
@@ -217,7 +230,8 @@
       "initial": "0",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-outline-radius-bottomright": {
       "syntax": "<outline-radius>",
@@ -231,7 +245,8 @@
       "initial": "0",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-outline-radius-topleft": {
       "syntax": "<outline-radius>",
@@ -245,7 +260,8 @@
       "initial": "0",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-outline-radius-topright": {
       "syntax": "<outline-radius>",
@@ -259,7 +275,8 @@
       "initial": "0",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-stack-sizing": {
       "syntax": "ignore | stretch-to-fit",
@@ -273,7 +290,8 @@
       "initial": "stretch-to-fit",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-text-blink": {
       "syntax": "none | blink",
@@ -287,7 +305,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-user-focus": {
       "syntax": "ignore | normal | select-after | select-before | select-menu | select-same | select-all | none",
@@ -301,7 +320,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-user-input": {
       "syntax": "none | enabled | disabled",
@@ -315,7 +335,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-user-modify": {
       "syntax": "read-only | read-write | write-only",
@@ -329,7 +350,8 @@
       "initial": "read-only",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-moz-window-shadow": {
       "syntax": "default | menu | tooltip | sheet | none",
@@ -343,7 +365,8 @@
       "initial": "default",
       "appliesto": "allElementsCreatingNativeWindows",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-webkit-border-before": {
       "syntax": "<'border-width'> || <'border-style'> || <'color'>",
@@ -367,7 +390,8 @@
         "border-style",
         "color"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-webkit-border-before-color": {
       "syntax": "<'color'>",
@@ -381,7 +405,8 @@
       "initial": "currentcolor",
       "appliesto": "allElements",
       "computed": "computedColor",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-webkit-border-before-style": {
       "syntax": "<'border-style'>",
@@ -395,7 +420,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-webkit-border-before-width": {
       "syntax": "<'border-width'>",
@@ -409,7 +435,8 @@
       "initial": "medium",
       "appliesto": "allElements",
       "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-webkit-box-reflect": {
       "syntax": "[ above | below | right | left ]? <length>? <image>?",
@@ -423,7 +450,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-webkit-mask": {
       "syntax": "<mask-image> [<mask-repeat> || <mask-attachment> || <mask-position> || <mask-origin> || <mask-clip>]*",
@@ -451,7 +479,8 @@
         "-webkit-mask-origin",
         "-webkit-mask-clip"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-webkit-mask-attachment": {
       "syntax": "<attachment>[, <attachment>]*",
@@ -465,7 +494,8 @@
       "initial": "scroll",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "nonstandard"
     },
     "-webkit-mask-clip": {
       "syntax": "<clip-style>[, <clip-style>]*",
@@ -479,7 +509,8 @@
       "initial": "border",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "nonstandard"
     },
     "-webkit-mask-image": {
       "syntax": "<mask-image>[, <mask-image>]*",
@@ -493,7 +524,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "absoluteURIOrNone",
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "nonstandard"
     },
     "-webkit-mask-origin": {
       "syntax": "[ padding | border | content ][, [ border | padding | content ]]*",
@@ -507,7 +539,8 @@
       "initial": "padding",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "nonstandard"
     },
     "-webkit-mask-position": {
       "syntax": "<mask-position>[, <mask-position>]*",
@@ -521,7 +554,8 @@
       "initial": "0% 0%",
       "appliesto": "allElements",
       "computed": "absoluteLengthOrPercentage",
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "nonstandard"
     },
     "-webkit-mask-repeat": {
       "syntax": "<repeat-style>[, <repeat-style>]*",
@@ -535,7 +569,23 @@
       "initial": "repeat",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "nonstandard"
+    },
+    "-webkit-tap-highlight-color": {
+      "syntax": "<color>[, <",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "WebKit Extensions"
+      ],
+      "initial": "black",
+      "appliesto": "allElements",
+      "computed": "asSpecified",
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-webkit-text-stroke": {
       "syntax": "<length> <color>",
@@ -554,7 +604,8 @@
       ],
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-webkit-text-stroke-color": {
       "syntax": "<color>",
@@ -570,7 +621,8 @@
       "initial": "rgb(0, 0, 0)",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-webkit-text-stroke-width": {
       "syntax": "<length>",
@@ -584,13 +636,15 @@
       "initial": "0",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "-webkit-touch-callout": {
       "syntax": "default | none",
       "groups": [
         "WebKit Extensions"
-      ]
+      ],
+      "status": "nonstandard"
     },
     "align-content": {
       "syntax": "flex-start | flex-end | center | space-between | space-around | stretch",
@@ -604,7 +658,8 @@
       "initial": "stretch",
       "appliesto": "multilineFlexContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "align-items": {
       "syntax": "flex-start | flex-end | center | baseline | stretch",
@@ -618,7 +673,8 @@
       "initial": "stretch",
       "appliesto": "flexContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "align-self": {
       "syntax": "auto | flex-start | flex-end | center | baseline | stretch",
@@ -632,7 +688,8 @@
       "initial": "auto",
       "appliesto": "flexItemsAndInFlowPseudos",
       "computed": "autoOnAbsolutelyPositionedElementsValueOfAlignItemsOnParent",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "all": {
       "syntax": "initial | inherit | unset",
@@ -646,10 +703,11 @@
       "initial": "noPracticalInitialValue",
       "appliesto": "allElements",
       "computed": "asSpecifiedAppliesToEachProperty",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "animation": {
-      "syntax": "<single-animation-name> || <time> || <timing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state>",
+      "syntax": "<single-animation>#",
       "media": "visual",
       "inherited": false,
       "animatable": "no",
@@ -678,7 +736,8 @@
         "animation-fill-mode",
         "animation-play-state"
       ],
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "standard"
     },
     "animation-delay": {
       "syntax": "<time>#",
@@ -692,7 +751,8 @@
       "initial": "0s",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "animation-direction": {
       "syntax": "<single-animation-direction>#",
@@ -706,7 +766,8 @@
       "initial": "normal",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "animation-duration": {
       "syntax": "<time>#",
@@ -720,7 +781,8 @@
       "initial": "0s",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "animation-fill-mode": {
       "syntax": "<single-animation-fill-mode>#",
@@ -734,7 +796,8 @@
       "initial": "none",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "animation-iteration-count": {
       "syntax": "<single-animation-iteration-count>#",
@@ -748,7 +811,8 @@
       "initial": "1",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "animation-name": {
       "syntax": "<single-animation-name>#",
@@ -762,7 +826,8 @@
       "initial": "none",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "animation-play-state": {
       "syntax": "<single-animation-play-state>#",
@@ -776,7 +841,8 @@
       "initial": "running",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "animation-timing-function": {
       "syntax": "<timing-function>#",
@@ -790,7 +856,8 @@
       "initial": "ease",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "azimuth": {
       "syntax": "<angle> | [[ left-side | far-left | left | center-left | center | center-right | right | far-right | right-side ] || behind ] | leftwards | rightwards",
@@ -804,7 +871,8 @@
       "initial": "center",
       "appliesto": "allElements",
       "computed": "normalizedAngle",
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "obsolete"
     },
     "backdrop-filter": {
       "syntax": "none | <filter-function-list>",
@@ -818,7 +886,8 @@
       "initial": "none",
       "appliesto": "allElementsSVGContainerElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "backface-visibility": {
       "syntax": "visible | hidden",
@@ -832,7 +901,8 @@
       "initial": "visible",
       "appliesto": "transformableElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "background": {
       "syntax": "[ <bg-layer> , ]* <final-bg-layer>",
@@ -880,7 +950,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "background-attachment": {
       "syntax": "<attachment>#",
@@ -899,7 +970,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "background-blend-mode": {
       "syntax": "<blend-mode>#",
@@ -918,7 +990,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "background-clip": {
       "syntax": "<box>#",
@@ -937,7 +1010,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "background-color": {
       "syntax": "<color>",
@@ -958,7 +1032,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "background-image": {
       "syntax": "<bg-image>#",
@@ -977,7 +1052,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "background-origin": {
       "syntax": "<box>#",
@@ -996,7 +1072,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "background-position": {
       "syntax": "<position>#",
@@ -1017,7 +1094,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "background-repeat": {
       "syntax": "<repeat-style>#",
@@ -1036,7 +1114,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "background-size": {
       "syntax": "<bg-size>#",
@@ -1058,7 +1137,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "block-size": {
       "syntax": "<'width'>",
@@ -1072,7 +1152,8 @@
       "initial": "auto",
       "appliesto": "sameAsWidthAndHeight",
       "computed": "sameAsWidthAndHeight",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border": {
       "syntax": "<br-width> || <br-style> || <color>",
@@ -1101,7 +1182,8 @@
       "order": "orderOfAppearance",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-block-end": {
       "syntax": "<'border-width'> || <'border-style'> || <'color'>",
@@ -1123,7 +1205,8 @@
         "border-style",
         "color"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-block-end-color": {
       "syntax": "<'color'>",
@@ -1137,7 +1220,8 @@
       "initial": "currentcolor",
       "appliesto": "allElements",
       "computed": "computedColor",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-block-end-style": {
       "syntax": "<'border-style'>",
@@ -1151,7 +1235,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-block-end-width": {
       "syntax": "<'border-width'>",
@@ -1165,7 +1250,8 @@
       "initial": "medium",
       "appliesto": "allElements",
       "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-block-start": {
       "syntax": "<'border-width'> || <'border-style'> || <'color'>",
@@ -1187,7 +1273,8 @@
         "border-style",
         "color"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-block-start-color": {
       "syntax": "<'color'>",
@@ -1201,7 +1288,8 @@
       "initial": "currentcolor",
       "appliesto": "allElements",
       "computed": "computedColor",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-block-start-style": {
       "syntax": "<'border-style'>",
@@ -1215,7 +1303,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-block-start-width": {
       "syntax": "<'border-width'>",
@@ -1229,7 +1318,8 @@
       "initial": "medium",
       "appliesto": "allElements",
       "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-bottom": {
       "syntax": "<br-width> || <br-style> || <color>",
@@ -1258,7 +1348,8 @@
       "order": "orderOfAppearance",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-bottom-color": {
       "syntax": "<color>",
@@ -1277,7 +1368,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-bottom-left-radius": {
       "syntax": "[ <length> | <percentage> ]{1,2}",
@@ -1296,7 +1388,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-bottom-right-radius": {
       "syntax": "[ <length> | <percentage> ]{1,2}",
@@ -1315,7 +1408,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-bottom-style": {
       "syntax": "<br-style>",
@@ -1332,7 +1426,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-bottom-width": {
       "syntax": "<br-width>",
@@ -1351,7 +1446,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-collapse": {
       "syntax": "collapse | separate",
@@ -1365,7 +1461,8 @@
       "initial": "separate",
       "appliesto": "tableElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-color": {
       "syntax": "<color>{1,4}",
@@ -1397,7 +1494,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-image": {
       "syntax": "<'border-image-source'> || <'border-image-slice'> [ / <'border-image-width'> | / <'border-image-width'>? / <'border-image-outset'> ]? || <'border-image-repeat'>",
@@ -1435,7 +1533,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-image-outset": {
       "syntax": "[ <length> | <number> ]{1,4}",
@@ -1452,7 +1551,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-image-repeat": {
       "syntax": "[ stretch | repeat | round | space ]{1,2}",
@@ -1469,7 +1569,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-image-slice": {
       "syntax": "[<number> | <percentage>]{1,4} &amp;&amp; fill?",
@@ -1486,7 +1587,8 @@
       "order": "percentagesOrLengthsFollowedByFill",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-image-source": {
       "syntax": "none | <image>",
@@ -1503,7 +1605,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-image-width": {
       "syntax": "[ <length> | <percentage> | <number> | auto ]{1,4}",
@@ -1520,7 +1623,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-inline-end": {
       "syntax": "<'border-width'> || <'border-style'> || <'color'>",
@@ -1542,7 +1646,8 @@
         "border-style",
         "color"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-inline-end-color": {
       "syntax": "<'color'>",
@@ -1556,7 +1661,8 @@
       "initial": "currentcolor",
       "appliesto": "allElements",
       "computed": "computedColor",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-inline-end-style": {
       "syntax": "<'border-style'>",
@@ -1570,7 +1676,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-inline-end-width": {
       "syntax": "<'border-width'>",
@@ -1584,7 +1691,8 @@
       "initial": "medium",
       "appliesto": "allElements",
       "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-inline-start": {
       "syntax": "<'border-width'> || <'border-style'> || <'color'>",
@@ -1606,7 +1714,8 @@
         "border-style",
         "color"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-inline-start-color": {
       "syntax": "<'color'>",
@@ -1620,7 +1729,8 @@
       "initial": "currentcolor",
       "appliesto": "allElements",
       "computed": "computedColor",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-inline-start-style": {
       "syntax": "<'border-style'>",
@@ -1634,7 +1744,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-inline-start-width": {
       "syntax": "<'border-width'>",
@@ -1648,7 +1759,8 @@
       "initial": "medium",
       "appliesto": "allElements",
       "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-left": {
       "syntax": "<br-width> || <br-style> || <color>",
@@ -1677,7 +1789,8 @@
       "order": "orderOfAppearance",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-left-color": {
       "syntax": "<color>",
@@ -1696,7 +1809,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-left-style": {
       "syntax": "<br-style>",
@@ -1713,7 +1827,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-left-width": {
       "syntax": "<br-width>",
@@ -1732,7 +1847,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-radius": {
       "syntax": "[ <length> | <percentage> ]{1,4} [ / [ <length> | <percentage> ]{1,4} ]?",
@@ -1764,7 +1880,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-right": {
       "syntax": "<br-width> || <br-style> || <color>",
@@ -1793,7 +1910,8 @@
       "order": "orderOfAppearance",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-right-color": {
       "syntax": "<color>",
@@ -1812,7 +1930,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-right-style": {
       "syntax": "<br-style>",
@@ -1829,7 +1948,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-right-width": {
       "syntax": "<br-width>",
@@ -1848,7 +1968,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-spacing": {
       "syntax": "<length> <length>?",
@@ -1862,7 +1983,8 @@
       "initial": "0",
       "appliesto": "tableElements",
       "computed": "twoAbsoluteLengths",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "border-style": {
       "syntax": "<br-style>{1,4}",
@@ -1889,7 +2011,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-top": {
       "syntax": "<br-width> || <br-style> || <color>",
@@ -1918,7 +2041,8 @@
       "order": "orderOfAppearance",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-top-color": {
       "syntax": "<color>",
@@ -1937,7 +2061,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-top-left-radius": {
       "syntax": "[ <length> | <percentage> ]{1,2}",
@@ -1956,7 +2081,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-top-right-radius": {
       "syntax": "[ <length> | <percentage> ]{1,2}",
@@ -1975,7 +2101,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-top-style": {
       "syntax": "<br-style>",
@@ -1992,7 +2119,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-top-width": {
       "syntax": "<br-width>",
@@ -2011,7 +2139,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "border-width": {
       "syntax": "<br-width>{1,4}",
@@ -2043,7 +2172,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "bottom": {
       "syntax": "<length> | <percentage> | auto",
@@ -2059,7 +2189,8 @@
       "initial": "auto",
       "appliesto": "positionedElements",
       "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "box-align": {
       "syntax": "start | center | end | baseline | stretch",
@@ -2074,7 +2205,8 @@
       "initial": "stretch",
       "appliesto": "elementsWithDisplayBoxOrInlineBox",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "box-decoration-break": {
       "syntax": "slice | clone",
@@ -2088,7 +2220,8 @@
       "initial": "slice",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "box-direction": {
       "syntax": "normal | reverse | inherit",
@@ -2103,7 +2236,8 @@
       "initial": "normal",
       "appliesto": "elementsWithDisplayBoxOrInlineBox",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "box-orient": {
       "syntax": "horizontal | vertical | inline-axis | block-axis | inherit",
@@ -2118,7 +2252,8 @@
       "initial": "inlineAxisHorizontalInXUL",
       "appliesto": "elementsWithDisplayBoxOrInlineBox",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "box-shadow": {
       "syntax": "none | <shadow>#",
@@ -2137,7 +2272,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "box-sizing": {
       "syntax": "content-box | border-box",
@@ -2151,7 +2287,8 @@
       "initial": "content-box",
       "appliesto": "allElementsAcceptingWidthOrHeight",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "box-suppress": {
       "syntax": "show | discard | hide",
@@ -2165,7 +2302,8 @@
       "initial": "show",
       "appliesto": "allElements",
       "computed": "seeProse",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "break-after": {
       "syntax": "auto | avoid | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
@@ -2179,7 +2317,8 @@
       "initial": "auto",
       "appliesto": "blockLevelElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "break-before": {
       "syntax": "auto | avoid | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
@@ -2193,7 +2332,8 @@
       "initial": "auto",
       "appliesto": "blockLevelElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "break-inside": {
       "syntax": "auto | avoid | avoid-page | avoid-column | avoid-region",
@@ -2207,7 +2347,8 @@
       "initial": "auto",
       "appliesto": "blockLevelElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "caption-side": {
       "syntax": "top | bottom | block-start | block-end | inline-start | inline-end",
@@ -2221,7 +2362,8 @@
       "initial": "top",
       "appliesto": "tableCaptionElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "clear": {
       "syntax": "none | left | right | both | inline-start | inline-end",
@@ -2235,7 +2377,8 @@
       "initial": "none",
       "appliesto": "blockLevelElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "clip": {
       "syntax": "<shape> | auto",
@@ -2251,7 +2394,8 @@
       "initial": "auto",
       "appliesto": "absolutelyPositionedElements",
       "computed": "autoOrRectangle",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "clip-path": {
       "syntax": "<clip-source> | [ <basic-shape> || <geometry-box> ] | none",
@@ -2265,7 +2409,8 @@
       "initial": "none",
       "appliesto": "allElementsSVGContainerElements",
       "computed": "asSpecifiedURLsAbsolute",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "color": {
       "syntax": "<color>",
@@ -2286,7 +2431,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "column-count": {
       "syntax": "<number> | auto",
@@ -2302,7 +2448,8 @@
       "initial": "auto",
       "appliesto": "nonReplacedBlockElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "column-fill": {
       "syntax": "auto | balance",
@@ -2316,7 +2463,8 @@
       "initial": "balance",
       "appliesto": "multicolElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "column-gap": {
       "syntax": "<length> | normal",
@@ -2332,7 +2480,8 @@
       "initial": "normal",
       "appliesto": "multicolElements",
       "computed": "absoluteLengthOrNormal",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "column-rule": {
       "syntax": "<'column-rule-width'> || <'column-rule-style'> || <'column-rule-color'>",
@@ -2358,7 +2507,8 @@
         "column-rule-style",
         "column-rule-width"
       ],
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "standard"
     },
     "column-rule-color": {
       "syntax": "<color>",
@@ -2374,7 +2524,8 @@
       "initial": "currentColor",
       "appliesto": "multicolElements",
       "computed": "'color'",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "column-rule-style": {
       "syntax": "<br-style>",
@@ -2388,7 +2539,8 @@
       "initial": "none",
       "appliesto": "multicolElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "column-rule-width": {
       "syntax": "<br-width>",
@@ -2404,7 +2556,8 @@
       "initial": "medium",
       "appliesto": "multicolElements",
       "computed": "absoluteLength0IfColumnRuleStyleNoneOrHidden",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "column-span": {
       "syntax": "none | all",
@@ -2418,7 +2571,8 @@
       "initial": "none",
       "appliesto": "inFlowBlockLevelElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "column-width": {
       "syntax": "<length> | auto",
@@ -2434,7 +2588,8 @@
       "initial": "auto",
       "appliesto": "nonReplacedBlockElements",
       "computed": "absoluteLengthZeroOrLarger",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "columns": {
       "syntax": "<'column-width'> || <'column-count'>",
@@ -2457,7 +2612,8 @@
         "column-width",
         "column-count"
       ],
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "standard"
     },
     "content": {
       "syntax": "normal | none | [ <string> | <uri> | <counter> | attr() | open-quote | close-quote | no-open-quote | no-close-quote ]+",
@@ -2471,10 +2627,11 @@
       "initial": "normal",
       "appliesto": "beforeAndAfterPseudos",
       "computed": "normalOnElementsForPseudosNoneAbsoluteURIStringOrAsSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "counter-increment": {
-      "syntax": "[<user-ident> <integer>?]+ | none",
+      "syntax": "[<custom-ident> <integer>?]+ | none",
       "media": "all",
       "inherited": false,
       "animatable": "no",
@@ -2485,10 +2642,11 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "counter-reset": {
-      "syntax": "[<user-ident> <integer>?]+ | none",
+      "syntax": "[<custom-ident> <integer>?]+ | none",
       "media": "all",
       "inherited": false,
       "animatable": "no",
@@ -2499,7 +2657,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "cursor": {
       "syntax": "[ [ <uri> [<x> <y>]?,]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ]",
@@ -2513,7 +2672,8 @@
       "initial": "auto",
       "appliesto": "allElements",
       "computed": "asSpecifiedURIsAbsolute",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "direction": {
       "syntax": "ltr | rtl",
@@ -2527,7 +2687,8 @@
       "initial": "ltr",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "display": {
       "syntax": "none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents",
@@ -2541,7 +2702,8 @@
       "initial": "inline",
       "appliesto": "allElements",
       "computed": "asSpecifiedExceptPositionedFloatingAndRootElementsKeywordMaybeDifferent",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "display-inside": {
       "syntax": "auto | block | table | flex | grid | ruby",
@@ -2555,7 +2717,8 @@
       "initial": "auto",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "display-list": {
       "syntax": "none | list-item",
@@ -2569,7 +2732,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "display-outside": {
       "syntax": "block-level | inline-level | run-in | contents | none | table-row-group | table-header-group | table-footer-group | table-row | table-cell | table-column-group | table-column | table-caption | ruby-base | ruby-text | ruby-base-container | ruby-text-container",
@@ -2583,7 +2747,8 @@
       "initial": "inline-level",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "empty-cells": {
       "syntax": "show | hide",
@@ -2597,7 +2762,8 @@
       "initial": "show",
       "appliesto": "tableCellElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "filter": {
       "syntax": "none | <filter-function-list>",
@@ -2611,7 +2777,8 @@
       "initial": "none",
       "appliesto": "allElementsSVGContainerElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "flex": {
       "syntax": "none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]",
@@ -2637,7 +2804,8 @@
         "flex-shrink",
         "flex-basis"
       ],
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "standard"
     },
     "flex-basis": {
       "syntax": "content | <'width'>",
@@ -2653,7 +2821,8 @@
       "initial": "auto",
       "appliesto": "flexItemsAndInFlowPseudos",
       "computed": "asSpecifiedRelativeToAbsoluteLengths",
-      "order": "lengthOrPercentageBeforeKeywordIfBothPresent"
+      "order": "lengthOrPercentageBeforeKeywordIfBothPresent",
+      "status": "standard"
     },
     "flex-direction": {
       "syntax": "row | row-reverse | column | column-reverse",
@@ -2667,7 +2836,8 @@
       "initial": "row",
       "appliesto": "flexContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "flex-flow": {
       "syntax": "<'flex-direction'> || <'flex-wrap'>",
@@ -2687,7 +2857,8 @@
         "flex-direction",
         "flex-wrap"
       ],
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "standard"
     },
     "flex-grow": {
       "syntax": "<number>",
@@ -2703,7 +2874,8 @@
       "initial": "0",
       "appliesto": "flexItemsAndInFlowPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "flex-shrink": {
       "syntax": "<number>",
@@ -2719,7 +2891,8 @@
       "initial": "1",
       "appliesto": "flexItemsAndInFlowPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "flex-wrap": {
       "syntax": "nowrap | wrap | wrap-reverse",
@@ -2733,7 +2906,8 @@
       "initial": "nowrap",
       "appliesto": "flexContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "float": {
       "syntax": "left | right | none | inline-start | inline-end",
@@ -2747,7 +2921,8 @@
       "initial": "none",
       "appliesto": "allElementsNoEffectIfDisplayNone",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "font": {
       "syntax": "[ [ <‘font-style’> || <font-variant-css21> || <‘font-weight’> || <‘font-stretch’> ]? <‘font-size’> [ / <‘line-height’> ]? <‘font-family’> ] | caption | icon | menu | message-box | small-caption | status-bar",
@@ -2793,7 +2968,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-family": {
       "syntax": "[ <family-name> | <generic-family> ]#",
@@ -2812,7 +2988,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-feature-settings": {
       "syntax": "normal | <feature-tag-value>#",
@@ -2831,7 +3008,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-kerning": {
       "syntax": "auto | normal | none",
@@ -2850,7 +3028,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-language-override": {
       "syntax": "normal | <string>",
@@ -2869,7 +3048,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-size": {
       "syntax": "<absolute-size> | <relative-size> | <length> | <percentage>",
@@ -2890,7 +3070,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-size-adjust": {
       "syntax": "none | <number>",
@@ -2911,7 +3092,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-stretch": {
       "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
@@ -2932,7 +3114,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-style": {
       "syntax": "normal | italic | oblique",
@@ -2951,7 +3134,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-synthesis": {
       "syntax": "none | [ weight || style ]",
@@ -2970,7 +3154,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-variant": {
       "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name> #) || character-variant(<feature-value-name> #) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ] ",
@@ -2989,7 +3174,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-variant-alternates": {
       "syntax": "normal | [ stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name> #) || character-variant(<feature-value-name> #) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) ] ",
@@ -3008,7 +3194,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-variant-caps": {
       "syntax": "normal | small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps",
@@ -3027,7 +3214,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-variant-east-asian": {
       "syntax": "normal | [ <east-asian-variant-values> || <east-asian-width-values> || ruby ] ",
@@ -3046,7 +3234,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-variant-ligatures": {
       "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ]",
@@ -3065,7 +3254,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-variant-numeric": {
       "syntax": "normal | [ <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero ]",
@@ -3084,7 +3274,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-variant-position": {
       "syntax": "normal | sub | super",
@@ -3103,7 +3294,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "font-weight": {
       "syntax": "normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
@@ -3124,7 +3316,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "grid": {
       "syntax": "<'grid-template'> | [ <'grid-auto-flow'> [ <'grid-auto-rows'> [ / <'grid-auto-columns'> ]? ]? ]",
@@ -3161,7 +3354,8 @@
         "grid-column-gap",
         "grid-row-gap"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-area": {
       "syntax": "<grid-line> [ / <grid-line> ]{0,3}",
@@ -3185,7 +3379,8 @@
         "grid-row-end",
         "grid-column-end"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-auto-columns": {
       "syntax": "<track-size>",
@@ -3199,7 +3394,8 @@
       "initial": "auto",
       "appliesto": "gridContainers",
       "computed": "seeGridTemplateRowsColumns",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-auto-flow": {
       "syntax": "[ row | column ] || dense",
@@ -3213,7 +3409,8 @@
       "initial": "row",
       "appliesto": "gridContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-auto-rows": {
       "syntax": "<track-size>",
@@ -3227,7 +3424,8 @@
       "initial": "auto",
       "appliesto": "gridContainers",
       "computed": "seeGridTemplateRowsColumns",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-column": {
       "syntax": "<grid-line> [ / <grid-line> ]?",
@@ -3247,7 +3445,8 @@
         "grid-column-start",
         "grid-column-end"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-column-end": {
       "syntax": "<grid-line>",
@@ -3261,7 +3460,8 @@
       "initial": "auto",
       "appliesto": "gridItemsAndBoxesWithinGridContainer",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-column-gap": {
       "syntax": "<length>",
@@ -3277,7 +3477,8 @@
       "initial": "0",
       "appliesto": "gridContainers",
       "computed": "absoluteLength",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-column-start": {
       "syntax": "<grid-line>",
@@ -3291,7 +3492,8 @@
       "initial": "auto",
       "appliesto": "gridItemsAndBoxesWithinGridContainer",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-gap": {
       "syntax": "<'grid-row-gap'> <'grid-column-gap'>?",
@@ -3314,7 +3516,8 @@
         "grid-row-gap",
         "grid-column-gap"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-row": {
       "syntax": "<grid-line> [ / <grid-line> ]?",
@@ -3334,7 +3537,8 @@
         "grid-row-start",
         "grid-row-end"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-row-end": {
       "syntax": "<grid-line>",
@@ -3348,7 +3552,8 @@
       "initial": "auto",
       "appliesto": "gridItemsAndBoxesWithinGridContainer",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-row-gap": {
       "syntax": "<length>",
@@ -3364,7 +3569,8 @@
       "initial": "0",
       "appliesto": "gridContainers",
       "computed": "absoluteLength",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-row-start": {
       "syntax": "<grid-line>",
@@ -3378,7 +3584,8 @@
       "initial": "auto",
       "appliesto": "gridItemsAndBoxesWithinGridContainer",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-template": {
       "syntax": "none | subgrid | [ <'grid-template-rows'> / <'grid-template-columns'> ] | [ <line-names>? <string> <track-size>? <line-names>? ]+ [ / <track-list> ]?",
@@ -3403,7 +3610,8 @@
         "grid-template-rows",
         "grid-template-areas"
       ],
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-template-areas": {
       "syntax": "none | <string>+",
@@ -3417,7 +3625,8 @@
       "initial": "none",
       "appliesto": "gridContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-template-columns": {
       "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
@@ -3431,7 +3640,8 @@
       "initial": "none",
       "appliesto": "gridContainers",
       "computed": "asSpecifiedRelativeToAbsoluteLengths",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "grid-template-rows": {
       "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
@@ -3445,7 +3655,8 @@
       "initial": "none",
       "appliesto": "gridContainers",
       "computed": "asSpecifiedRelativeToAbsoluteLengths",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "height": {
       "syntax": "[<length> | <percentage>] &amp;&amp; [border-box | content-box]? | available | min-content | max-content | fit-content | auto",
@@ -3461,7 +3672,8 @@
       "initial": "auto",
       "appliesto": "allElementsButNonReplacedAndTableColumns",
       "computed": "percentageAutoOrAbsoluteLength",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "hyphens": {
       "syntax": "none | manual | auto",
@@ -3475,7 +3687,8 @@
       "initial": "manual",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "image-orientation": {
       "syntax": "from-image | <angle> | [<angle>? flip]",
@@ -3489,7 +3702,8 @@
       "initial": "0deg",
       "appliesto": "allElements",
       "computed": "angleRoundedToNextQuarter",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "image-rendering": {
       "syntax": "auto | crisp-edges | pixelated",
@@ -3503,7 +3717,23 @@
       "initial": "auto",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
+    },
+    "image-resolution": {
+      "syntax": "[ from-image || <resolution> ] && snap?",
+      "media": "visual",
+      "inherited": true,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "CSS Images"
+      ],
+      "initial": "1dppx",
+      "appliesto": "allElements",
+      "computed": "asSpecifiedWithExceptionOfResolution",
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "ime-mode": {
       "syntax": "auto | normal | active | inactive | disabled",
@@ -3517,7 +3747,8 @@
       "initial": "auto",
       "appliesto": "textFields",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "initial-letter": {
       "syntax": "normal | [<number> <integer>?]",
@@ -3531,7 +3762,8 @@
       "initial": "normal",
       "appliesto": "firstLetterPseudoElementsAndInlineLevelFirstChildren",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "initial-letter-align": {
       "syntax": "[ auto | alphabetic | hanging | ideographic ]",
@@ -3545,7 +3777,8 @@
       "initial": "auto",
       "appliesto": "firstLetterPseudoElementsAndInlineLevelFirstChildren",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "inline-size": {
       "syntax": "<'width'>",
@@ -3559,7 +3792,8 @@
       "initial": "auto",
       "appliesto": "sameAsWidthAndHeight",
       "computed": "sameAsWidthAndHeight",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "isolation": {
       "syntax": "auto | isolate",
@@ -3573,7 +3807,8 @@
       "initial": "auto",
       "appliesto": "allElementsSVGContainerGraphicsAndGraphicsReferencingElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "justify-content": {
       "syntax": "flex-start | flex-end | center | space-between | space-around",
@@ -3587,7 +3822,8 @@
       "initial": "flex-start",
       "appliesto": "flexContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "left": {
       "syntax": "<length> | <percentage> | auto",
@@ -3603,7 +3839,8 @@
       "initial": "auto",
       "appliesto": "positionedElements",
       "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "letter-spacing": {
       "syntax": "normal | <length>",
@@ -3623,7 +3860,8 @@
       "alsoAppliesTo": [
         "::first-letter",
         "::first-line"
-      ]
+      ],
+      "status": "standard"
     },
     "line-break": {
       "syntax": "auto | loose | normal | strict",
@@ -3637,7 +3875,8 @@
       "initial": "auto",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "line-height": {
       "syntax": "normal | <number> | <length> | <percentage>",
@@ -3658,7 +3897,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "list-style": {
       "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
@@ -3680,7 +3920,8 @@
         "list-style-position",
         "list-style-type"
       ],
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "standard"
     },
     "list-style-image": {
       "syntax": "<uri> | none",
@@ -3694,7 +3935,8 @@
       "initial": "none",
       "appliesto": "listItems",
       "computed": "noneOrImageWithAbsoluteURI",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "list-style-position": {
       "syntax": "inside | outside",
@@ -3708,7 +3950,8 @@
       "initial": "outside",
       "appliesto": "listItems",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "list-style-type": {
       "syntax": "<counter-style> | <string> | none",
@@ -3722,7 +3965,8 @@
       "initial": "disc",
       "appliesto": "listItems",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "margin": {
       "syntax": "[ <length> | <percentage> | auto ]{1,4}",
@@ -3751,7 +3995,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "margin-block-end": {
       "syntax": "<'margin-left'>",
@@ -3765,7 +4010,8 @@
       "initial": "0",
       "appliesto": "sameAsMargin",
       "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "margin-block-start": {
       "syntax": "<'margin-left'>",
@@ -3779,7 +4025,8 @@
       "initial": "0",
       "appliesto": "sameAsMargin",
       "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "margin-bottom": {
       "syntax": "<length> | <percentage> | auto",
@@ -3798,7 +4045,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "margin-inline-end": {
       "syntax": "<'margin-left'>",
@@ -3812,7 +4060,8 @@
       "initial": "0",
       "appliesto": "sameAsMargin",
       "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "margin-inline-start": {
       "syntax": "<'margin-left'>",
@@ -3826,7 +4075,8 @@
       "initial": "0",
       "appliesto": "sameAsMargin",
       "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "margin-left": {
       "syntax": "<length> | <percentage> | auto",
@@ -3845,7 +4095,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "margin-right": {
       "syntax": "<length> | <percentage> | auto",
@@ -3864,7 +4115,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "margin-top": {
       "syntax": "<length> | <percentage> | auto",
@@ -3883,7 +4135,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "marker-offset": {
       "syntax": "<length> | auto",
@@ -3897,7 +4150,8 @@
       "initial": "auto",
       "appliesto": "elementsWithDisplayMarker",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "mask": {
       "syntax": "<mask-layer>#",
@@ -3925,7 +4179,132 @@
         "mask-border"
       ],
       "order": "uniqueOrder",
-      "stacking": true
+      "stacking": true,
+      "status": "standard"
+    },
+    "mask-clip": {
+      "syntax": "[ <geometry-box> | no-clip ]#",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "CSS Masks"
+      ],
+      "initial": "border-box",
+      "appliesto": "allElementsSVGContainerElements",
+      "computed": "asSpecified",
+      "order": "uniqueOrder",
+      "status": "standard"
+    },
+    "mask-composite": {
+      "syntax": "<compositing-operator>#",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "CSS Masks"
+      ],
+      "initial": "add",
+      "appliesto": "allElementsSVGContainerElements",
+      "computed": "asSpecified",
+      "order": "uniqueOrder",
+      "status": "standard"
+    },
+    "mask-image": {
+      "syntax": "<mask-reference>#",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "CSS Masks"
+      ],
+      "initial": "none",
+      "appliesto": "allElementsSVGContainerElements",
+      "computed": "asSpecifiedURIsAbsolute",
+      "order": "uniqueOrder",
+      "status": "standard"
+    },
+    "mask-mode": {
+      "syntax": "<masking-mode>#",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "CSS Masks"
+      ],
+      "initial": "auto",
+      "appliesto": "allElementsSVGContainerElements",
+      "computed": "asSpecified",
+      "order": "uniqueOrder",
+      "status": "standard"
+    },
+    "mask-origin": {
+      "syntax": "<geometry-box>#",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "CSS Masks"
+      ],
+      "initial": "border-box",
+      "appliesto": "allElementsSVGContainerElements",
+      "computed": "asSpecified",
+      "order": "uniqueOrder",
+      "status": "standard"
+    },
+    "mask-position": {
+      "syntax": "<position>#",
+      "media": "visual",
+      "inherited": false,
+      "animatable": {
+        "as": "repeatableList simpleList lpc"
+      },
+      "percentages": "referToSizeOfMaskPaintingArea",
+      "groups": [
+        "CSS Masks"
+      ],
+      "initial": "center",
+      "appliesto": "allElementsSVGContainerElements",
+      "computed": "consistsOfTwoKeywordsForOriginAndOffsets",
+      "order": "uniqueOrder",
+      "status": "standard"
+    },
+    "mask-repeat": {
+      "syntax": "<repeat-style>#",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "CSS Masks"
+      ],
+      "initial": "no-repeat",
+      "appliesto": "allElementsSVGContainerElements",
+      "computed": "consistsOfTwoDimensionKeywords",
+      "order": "uniqueOrder",
+      "status": "standard"
+    },
+    "mask-size": {
+      "syntax": "<bg-size>#",
+      "media": "visual",
+      "inherited": false,
+      "animatable": {
+        "as": "repeatableList simpleList lpc"
+      },
+      "percentages": "no",
+      "groups": [
+        "CSS Masks"
+      ],
+      "initial": "auto",
+      "appliesto": "allElementsSVGContainerElements",
+      "computed": "asSpecifiedRelativeToAbsoluteLengths",
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "mask-type": {
       "syntax": "luminance | alpha",
@@ -3939,7 +4318,8 @@
       "initial": "luminance",
       "appliesto": "maskElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "max-block-size": {
       "syntax": "<'max-width'>",
@@ -3953,7 +4333,8 @@
       "initial": "0",
       "appliesto": "sameAsWidthAndHeight",
       "computed": "sameAsMaxWidthAndMaxHeight",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "max-height": {
       "syntax": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available",
@@ -3969,7 +4350,8 @@
       "initial": "none",
       "appliesto": "allElementsButNonReplacedAndTableColumns",
       "computed": "percentageAsSpecifiedAbsoluteLengthOrNone",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "max-inline-size": {
       "syntax": "<'max-width'>",
@@ -3983,7 +4365,8 @@
       "initial": "0",
       "appliesto": "sameAsWidthAndHeight",
       "computed": "sameAsMaxWidthAndMaxHeight",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "max-width": {
       "syntax": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available",
@@ -3999,7 +4382,8 @@
       "initial": "none",
       "appliesto": "allElementsButNonReplacedAndTableRows",
       "computed": "percentageAsSpecifiedAbsoluteLengthOrNone",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "min-block-size": {
       "syntax": "<'min-width'>",
@@ -4013,7 +4397,8 @@
       "initial": "0",
       "appliesto": "sameAsWidthAndHeight",
       "computed": "sameAsMinWidthAndMinHeight",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "min-height": {
       "syntax": "<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available",
@@ -4029,7 +4414,8 @@
       "initial": "0",
       "appliesto": "allElementsButNonReplacedAndTableColumns",
       "computed": "percentageAsSpecifiedOrAbsoluteLength",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "min-inline-size": {
       "syntax": "<'min-width'>",
@@ -4043,7 +4429,8 @@
       "initial": "0",
       "appliesto": "sameAsWidthAndHeight",
       "computed": "sameAsMinWidthAndMinHeight",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "min-width": {
       "syntax": "<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available",
@@ -4059,7 +4446,8 @@
       "initial": "0",
       "appliesto": "allElementsButNonReplacedAndTableRows",
       "computed": "percentageAsSpecifiedOrAbsoluteLength",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "mix-blend-mode": {
       "syntax": "<blend-mode>",
@@ -4074,7 +4462,8 @@
       "appliesto": "allHTMLElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "stacking": true
+      "stacking": true,
+      "status": "standard"
     },
     "motion": {
       "syntax": "<'motion-path'> &amp;&amp; <'motion-offset'> &amp;&amp; <'motion-rotation'>",
@@ -4099,7 +4488,8 @@
         "motion-rotation"
       ],
       "order": "orderOfAppearance",
-      "stacking": true
+      "stacking": true,
+      "status": "standard"
     },
     "motion-offset": {
       "syntax": "<length> | <percentage>",
@@ -4115,7 +4505,8 @@
       "initial": "0",
       "appliesto": "allElementsSVGContainerElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "motion-path": {
       "syntax": "<url> | [ <basic-shape> | <path()> ] || <geometry-box> | none",
@@ -4130,7 +4521,8 @@
       "appliesto": "allElementsSVGContainerElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "stacking": true
+      "stacking": true,
+      "status": "standard"
     },
     "motion-rotation": {
       "syntax": "[ auto | reverse ] &amp;&amp; <angle>",
@@ -4146,7 +4538,8 @@
       "initial": "auto",
       "appliesto": "allElementsSVGContainerElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "object-fit": {
       "syntax": "fill | contain | cover | none | scale-down",
@@ -4160,7 +4553,8 @@
       "initial": "fill",
       "appliesto": "replacedElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "object-position": {
       "syntax": "<position>",
@@ -4176,7 +4570,8 @@
       "initial": "50% 50%",
       "appliesto": "replacedElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "offset-block-end": {
       "syntax": "<'left'>",
@@ -4190,7 +4585,8 @@
       "initial": "auto",
       "appliesto": "positionedElements",
       "computed": "sameAsBoxOffsets",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "offset-block-start": {
       "syntax": "<'left'>",
@@ -4204,7 +4600,8 @@
       "initial": "auto",
       "appliesto": "positionedElements",
       "computed": "sameAsBoxOffsets",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "offset-inline-end": {
       "syntax": "<'left'>",
@@ -4218,7 +4615,8 @@
       "initial": "auto",
       "appliesto": "positionedElements",
       "computed": "sameAsBoxOffsets",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "offset-inline-start": {
       "syntax": "<'left'>",
@@ -4232,7 +4630,8 @@
       "initial": "auto",
       "appliesto": "positionedElements",
       "computed": "sameAsBoxOffsets",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "opacity": {
       "syntax": "<number>",
@@ -4251,7 +4650,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "order": {
       "syntax": "<integer>",
@@ -4267,7 +4667,8 @@
       "initial": "0",
       "appliesto": "flexItemsAndAbsolutelyPositionedFlexContainerChildren",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "orphans": {
       "syntax": "<integer>",
@@ -4281,7 +4682,8 @@
       "initial": "2</code>",
       "appliesto": "blockContainerElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "outline": {
       "syntax": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ]",
@@ -4307,7 +4709,8 @@
         "outline-width",
         "outline-style"
       ],
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "standard"
     },
     "outline-color": {
       "syntax": "<color> | invert",
@@ -4323,7 +4726,8 @@
       "initial": "invertOrCurrentColor",
       "appliesto": "allElements",
       "computed": "invertForTranslucentColorRGBAOtherwiseRGB",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "outline-offset": {
       "syntax": "<length>",
@@ -4339,7 +4743,8 @@
       "initial": "0",
       "appliesto": "allElements",
       "computed": "asSpecifiedRelativeToAbsoluteLengths",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "outline-style": {
       "syntax": "auto | <br-style>",
@@ -4353,7 +4758,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "outline-width": {
       "syntax": "<br-width>",
@@ -4369,7 +4775,8 @@
       "initial": "medium",
       "appliesto": "allElements",
       "computed": "absoluteLength0ForNone",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "overflow": {
       "syntax": "visible | hidden | scroll | auto",
@@ -4383,7 +4790,8 @@
       "initial": "visible",
       "appliesto": "nonReplacedBlockAndInlineBlockElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "overflow-clip-box": {
       "syntax": "padding-box | content-box",
@@ -4397,7 +4805,8 @@
       "initial": "padding-box",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "overflow-wrap": {
       "syntax": "normal | break-word",
@@ -4411,7 +4820,8 @@
       "initial": "normal",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "overflow-x": {
       "syntax": "visible | hidden | scroll | auto",
@@ -4425,7 +4835,8 @@
       "initial": "visible",
       "appliesto": "nonReplacedBlockAndInlineBlockElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "overflow-y": {
       "syntax": "visible | hidden | scroll | auto",
@@ -4439,7 +4850,8 @@
       "initial": "visible",
       "appliesto": "nonReplacedBlockAndInlineBlockElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "padding": {
       "syntax": "[ <length> | <percentage> ]{1,4}",
@@ -4468,7 +4880,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "padding-block-end": {
       "syntax": "<'padding-left'>",
@@ -4482,7 +4895,8 @@
       "initial": "0",
       "appliesto": "allElements",
       "computed": "asLength",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "padding-block-start": {
       "syntax": "<'padding-left'>",
@@ -4496,7 +4910,8 @@
       "initial": "0",
       "appliesto": "allElements",
       "computed": "asLength",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "padding-bottom": {
       "syntax": "<length> | <percentage>",
@@ -4515,7 +4930,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "padding-inline-end": {
       "syntax": "<'padding-left'>",
@@ -4529,7 +4945,8 @@
       "initial": "0",
       "appliesto": "allElements",
       "computed": "asLength",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "padding-inline-start": {
       "syntax": "<'padding-left'>",
@@ -4543,7 +4960,8 @@
       "initial": "0",
       "appliesto": "allElements",
       "computed": "asLength",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "padding-left": {
       "syntax": "<length> | <percentage>",
@@ -4562,7 +4980,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "padding-right": {
       "syntax": "<length> | <percentage>",
@@ -4581,7 +5000,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "padding-top": {
       "syntax": "<length> | <percentage>",
@@ -4600,7 +5020,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::first-letter"
-      ]
+      ],
+      "status": "standard"
     },
     "page-break-after": {
       "syntax": "auto | always | avoid | left | right",
@@ -4614,7 +5035,8 @@
       "initial": "auto",
       "appliesto": "blockElementsInNormalFlow",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "page-break-before": {
       "syntax": "auto | always | avoid | left | right",
@@ -4628,7 +5050,8 @@
       "initial": "auto",
       "appliesto": "blockElementsInNormalFlow",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "page-break-inside": {
       "syntax": "auto | avoid",
@@ -4642,7 +5065,8 @@
       "initial": "auto",
       "appliesto": "blockElementsInNormalFlow",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "perspective": {
       "syntax": "none | <length>",
@@ -4659,7 +5083,8 @@
       "appliesto": "transformableElements",
       "computed": "absoluteLengthOrNone",
       "order": "uniqueOrder",
-      "stacking": true
+      "stacking": true,
+      "status": "standard"
     },
     "perspective-origin": {
       "syntax": "[ <percentage> | <length> | left | center | right | top | bottom] | [ [ <percentage> | <length> | left | center | right ] &amp;&amp; [ <percentage> | <length> | top | center | bottom ] ]",
@@ -4675,7 +5100,8 @@
       "initial": "50% 50%",
       "appliesto": "transformableElements",
       "computed": "forLengthAbsoluteValueOtherwisePercentage",
-      "order": "oneOrTwoValuesLengthAbsoluteKeywordsPercentages"
+      "order": "oneOrTwoValuesLengthAbsoluteKeywordsPercentages",
+      "status": "standard"
     },
     "pointer-events": {
       "syntax": "auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit",
@@ -4689,7 +5115,8 @@
       "initial": "auto",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "position": {
       "syntax": "static | relative | absolute | sticky | fixed",
@@ -4704,7 +5131,8 @@
       "appliesto": "allElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "stacking": true
+      "stacking": true,
+      "status": "standard"
     },
     "quotes": {
       "syntax": "[<string> <string>]+ | none",
@@ -4718,7 +5146,8 @@
       "initial": "dependsOnUserAgent",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "resize": {
       "syntax": "none | both | horizontal | vertical",
@@ -4732,7 +5161,8 @@
       "initial": "none",
       "appliesto": "elementsWithOverflowNotVisibleAndReplacedElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "right": {
       "syntax": "<length> | <percentage> | auto",
@@ -4748,7 +5178,8 @@
       "initial": "auto",
       "appliesto": "positionedElements",
       "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "ruby-align": {
       "syntax": "start | center | space-between | space-around",
@@ -4762,7 +5193,8 @@
       "initial": "space-around",
       "appliesto": "rubyBasesAnnotationsBaseAnnotationContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "ruby-merge": {
       "syntax": "separate | collapse | auto",
@@ -4776,7 +5208,8 @@
       "initial": "separate",
       "appliesto": "rubyAnnotationsContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "ruby-position": {
       "syntax": "over | under | inter-character",
@@ -4790,7 +5223,8 @@
       "initial": "over",
       "appliesto": "rubyAnnotationsContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "scroll-behavior": {
       "syntax": "auto | smooth",
@@ -4804,7 +5238,8 @@
       "initial": "auto",
       "appliesto": "scrollingBoxes",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "scroll-snap-coordinate": {
       "syntax": "none | <position>#",
@@ -4820,7 +5255,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecifiedRelativeToAbsoluteLengths",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "scroll-snap-destination": {
       "syntax": "<position>",
@@ -4836,7 +5272,8 @@
       "initial": "0px 0px",
       "appliesto": "scrollContainers",
       "computed": "asSpecifiedRelativeToAbsoluteLengths",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "scroll-snap-points-x": {
       "syntax": "none | repeat(<length>)",
@@ -4850,7 +5287,8 @@
       "initial": "none",
       "appliesto": "scrollContainers",
       "computed": "asSpecifiedRelativeToAbsoluteLengths",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "obsolete"
     },
     "scroll-snap-points-y": {
       "syntax": "none | repeat(<length>)",
@@ -4864,7 +5302,8 @@
       "initial": "none",
       "appliesto": "scrollContainers",
       "computed": "asSpecifiedRelativeToAbsoluteLengths",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "obsolete"
     },
     "scroll-snap-type": {
       "syntax": "none | mandatory | proximity",
@@ -4878,7 +5317,8 @@
       "initial": "none",
       "appliesto": "scrollContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "scroll-snap-type-x": {
       "syntax": "none | mandatory | proximity",
@@ -4892,7 +5332,8 @@
       "initial": "none",
       "appliesto": "scrollContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "scroll-snap-type-y": {
       "syntax": "none | mandatory | proximity",
@@ -4906,7 +5347,8 @@
       "initial": "none",
       "appliesto": "scrollContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "nonstandard"
     },
     "shape-image-threshold": {
       "syntax": "<number>",
@@ -4922,7 +5364,8 @@
       "initial": "0.0",
       "appliesto": "floats",
       "computed": "specifiedValueNumberClipped0To1",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "shape-margin": {
       "syntax": "<length> | <percentage>",
@@ -4938,7 +5381,8 @@
       "initial": "0",
       "appliesto": "floats",
       "computed": "asSpecifiedRelativeToAbsoluteLengths",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "shape-outside": {
       "syntax": "none | <shape-box> || <basic-shape> | <image>",
@@ -4954,7 +5398,8 @@
       "initial": "none",
       "appliesto": "floats",
       "computed": "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "tab-size": {
       "syntax": "<integer> | <length>",
@@ -4968,7 +5413,8 @@
       "initial": "8",
       "appliesto": "blockContainers",
       "computed": "specifiedIntegerOrAbsoluteLength",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "table-layout": {
       "syntax": "auto | fixed",
@@ -4982,7 +5428,8 @@
       "initial": "auto",
       "appliesto": "tableElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "text-align": {
       "syntax": "start | end | left | right | center | justify | match-parent",
@@ -4999,7 +5446,8 @@
       "order": "orderOfAppearance",
       "alsoAppliesTo": [
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "text-align-last": {
       "syntax": "auto | start | end | left | right | center | justify",
@@ -5013,7 +5461,8 @@
       "initial": "auto",
       "appliesto": "blockContainers",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "text-combine-upright": {
       "syntax": "none | all | [ digits <integer>? ]",
@@ -5027,7 +5476,8 @@
       "initial": "none",
       "appliesto": "nonReplacedInlineElements",
       "computed": "keywordPlusIntegerIfDigits",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "text-decoration": {
       "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'>",
@@ -5058,7 +5508,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "text-decoration-color": {
       "syntax": "<color>",
@@ -5079,7 +5530,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "text-decoration-line": {
       "syntax": "none | [ underline || overline || line-through || blink ]",
@@ -5098,7 +5550,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "text-decoration-skip": {
       "syntax": "none | [ objects || spaces || ink || edges || box-decoration ]",
@@ -5112,7 +5565,8 @@
       "initial": "objects",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "standard"
     },
     "text-decoration-style": {
       "syntax": "solid | double | dotted | dashed | wavy",
@@ -5131,7 +5585,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "text-emphasis": {
       "syntax": "<'text-emphasis-style'> || <'text-emphasis-color'>",
@@ -5154,7 +5609,8 @@
         "text-emphasis-style",
         "text-emphasis-color"
       ],
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "standard"
     },
     "text-emphasis-color": {
       "syntax": "<color>",
@@ -5170,7 +5626,8 @@
       "initial": "currentColor",
       "appliesto": "allElements",
       "computed": "'color'",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "text-emphasis-position": {
       "syntax": "[ over | under ] && [ right | left ]",
@@ -5184,7 +5641,8 @@
       "initial": "over right",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "text-emphasis-style": {
       "syntax": "none | [[filled | open ] || [dot | circle | double-circle | triangle | sesame ]] | <string'&gt",
@@ -5198,7 +5656,8 @@
       "initial": "none",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "text-indent": {
       "syntax": "<length> | <percentage> &amp;&amp; [ hanging || each-line ]",
@@ -5214,7 +5673,8 @@
       "initial": "0",
       "appliesto": "blockContainers",
       "computed": "percentageOrAbsoluteLengthPlusKeywords",
-      "order": "lengthOrPercentageBeforeKeywords"
+      "order": "lengthOrPercentageBeforeKeywords",
+      "status": "standard"
     },
     "text-orientation": {
       "syntax": "mixed | upright | sideways",
@@ -5228,7 +5688,8 @@
       "initial": "mixed",
       "appliesto": "allElementsExceptTableRowGroupsRowsColumnGroupsAndColumns",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "text-overflow": {
       "syntax": "[ clip | ellipsis | <string> ]{1,2}",
@@ -5245,7 +5706,8 @@
       "order": "uniqueOrder",
       "alsoAppliesTo": [
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "text-rendering": {
       "syntax": "auto | optimizeSpeed | optimizeLegibility | geometricPrecision",
@@ -5259,7 +5721,8 @@
       "initial": "auto",
       "appliesto": "textElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "text-shadow": {
       "syntax": "none | <shadow-t>#",
@@ -5280,7 +5743,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "text-size-adjust": {
       "syntax": "none | auto | <percentage> ",
@@ -5294,7 +5758,8 @@
       "initial": "autoForSmartphoneBrowsersSupportingInflation",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "text-transform": {
       "syntax": "none | capitalize | uppercase | lowercase | full-width",
@@ -5313,7 +5778,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "text-underline-position": {
       "syntax": "auto | [ under || [ left | right ] ]",
@@ -5327,7 +5793,8 @@
       "initial": "auto",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "standard"
     },
     "top": {
       "syntax": "<length> | <percentage> | auto",
@@ -5343,7 +5810,8 @@
       "initial": "auto",
       "appliesto": "positionedElements",
       "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "touch-action": {
       "syntax": "auto | none | [[ pan-x | pan-left | pan-right ] || [ pan-y | pan-up | pan-down ]] | manipulation",
@@ -5357,7 +5825,8 @@
       "initial": "auto",
       "appliesto": "allElementsExceptNonReplacedInlineElementsTableRowsColumnsRowColumnGroups",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "transform": {
       "syntax": "none | <transform-list>",
@@ -5374,7 +5843,8 @@
       "appliesto": "transformableElements",
       "computed": "asSpecifiedRelativeToAbsoluteLengths",
       "order": "uniqueOrder",
-      "stacking": true
+      "stacking": true,
+      "status": "standard"
     },
     "transform-box": {
       "syntax": "border-box | fill-box | view-box",
@@ -5388,7 +5858,8 @@
       "initial": "border-box ",
       "appliesto": "transformableElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "transform-origin": {
       "syntax": "[ <percentage> | <length> | left | center | right | top | bottom] | [ [ <percentage> | <length> | left | center | right ] &amp;&amp; [ <percentage> | <length> | top | center | bottom ] ] <length>?",
@@ -5404,7 +5875,8 @@
       "initial": "50% 50% 0",
       "appliesto": "transformableElements",
       "computed": "forLengthAbsoluteValueOtherwisePercentage",
-      "order": "oneOrTwoValuesLengthAbsoluteKeywordsPercentages"
+      "order": "oneOrTwoValuesLengthAbsoluteKeywordsPercentages",
+      "status": "standard"
     },
     "transform-style": {
       "syntax": "flat | preserve-3d",
@@ -5419,7 +5891,8 @@
       "appliesto": "transformableElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "stacking": true
+      "stacking": true,
+      "status": "standard"
     },
     "transition": {
       "syntax": "<single-transition>#",
@@ -5443,7 +5916,8 @@
         "transition-property",
         "transition-timing-function"
       ],
-      "order": "orderOfAppearance"
+      "order": "orderOfAppearance",
+      "status": "standard"
     },
     "transition-delay": {
       "syntax": "<time>#",
@@ -5457,7 +5931,8 @@
       "initial": "0s",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "transition-duration": {
       "syntax": "<time>#",
@@ -5471,7 +5946,8 @@
       "initial": "0s",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "transition-property": {
       "syntax": "none | <single-transition-property># [ ‘,’ <single-transition-property># ]*",
@@ -5485,10 +5961,11 @@
       "initial": "all",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "transition-timing-function": {
-      "syntax": "<timing-function>#",
+      "syntax": " <single-transition-timing-function>#",
       "media": "interactive",
       "inherited": false,
       "animatable": "no",
@@ -5499,7 +5976,8 @@
       "initial": "ease",
       "appliesto": "allElementsAndPseudos",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "unicode-bidi": {
       "syntax": "normal | embed | isolate | bidi-override | isolate-override | plaintext",
@@ -5513,7 +5991,8 @@
       "initial": "normal",
       "appliesto": "allElementsSomeValuesNoEffectOnNonInlineElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "vertical-align": {
       "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
@@ -5534,7 +6013,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "visibility": {
       "syntax": "visible | hidden | collapse",
@@ -5550,7 +6030,8 @@
       "initial": "visible",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "white-space": {
       "syntax": "normal | pre | nowrap | pre-wrap | pre-line",
@@ -5564,7 +6045,8 @@
       "initial": "normal",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "widows": {
       "syntax": "<integer>",
@@ -5578,7 +6060,8 @@
       "initial": "2</code>",
       "appliesto": "blockContainerElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "width": {
       "syntax": "[<length> | <percentage>] &amp;&amp; [border-box | content-box]? | available | min-content | max-content | fit-content | auto",
@@ -5594,7 +6077,8 @@
       "initial": "auto",
       "appliesto": "allElementsButNonReplacedAndTableRows",
       "computed": "percentageAutoOrAbsoluteLength",
-      "order": "lengthOrPercentageBeforeKeywordIfBothPresent"
+      "order": "lengthOrPercentageBeforeKeywordIfBothPresent",
+      "status": "standard"
     },
     "will-change": {
       "syntax": "auto | <animateable-feature>#",
@@ -5608,7 +6092,8 @@
       "initial": "auto",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "word-break": {
       "syntax": "normal | break-all | keep-all",
@@ -5622,7 +6107,8 @@
       "initial": "normal",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "word-spacing": {
       "syntax": "normal | <length> | <percentage>",
@@ -5643,7 +6129,8 @@
         "::first-letter",
         "::first-line",
         "::placeholder"
-      ]
+      ],
+      "status": "standard"
     },
     "word-wrap": {
       "syntax": "normal | break-word",
@@ -5657,7 +6144,8 @@
       "initial": "normal",
       "appliesto": "allElements",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "writing-mode": {
       "syntax": "horizontal-tb | vertical-rl | vertical-lr | sideways-rl | sideways-lr",
@@ -5671,7 +6159,8 @@
       "initial": "horizontal-tb",
       "appliesto": "allElementsExceptTableRowColumnGroupsTableRowsColumns",
       "computed": "asSpecified",
-      "order": "uniqueOrder"
+      "order": "uniqueOrder",
+      "status": "standard"
     },
     "z-index": {
       "syntax": "auto | <integer>",
@@ -5688,115 +6177,143 @@
       "appliesto": "positionedElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "stacking": true
+      "stacking": true,
+      "status": "standard"
     }
   },
   "types": {
     "<angle>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<basic-shape>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<blend-mode>": {
       "groups": [
         "CSS Colors",
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<color>": {
       "groups": [
         "CSS Colors",
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<frequency>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<gradient>": {
       "groups": [
         "CSS Images",
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<image>": {
       "groups": [
         "CSS Images",
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<integer>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<length>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<number>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<percentage>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<position>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<ratio>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<resolution>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<shape>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<string>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<time>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<timing-function>": {
       "groups": [
         "CSS Animations",
         "CSS Transitions",
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
+    },
+    "<transform-function>": {
+      "groups": [
+        "CSS Transforms",
+        "CSS Types"
+      ],
+      "status": "standard"
     },
     "<url>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     },
     "<user-ident>": {
       "groups": [
         "CSS Types"
-      ]
+      ],
+      "status": "standard"
     }
   },
   "syntaxes": {
@@ -5804,7 +6321,9 @@
     "alpha-value": "<number>",
     "animateable-feature": "scroll-position | contents | <custom-ident>",
     "attachment": "scroll | fixed | local",
+    "attr()": "attr( <attr-name> <type-or-unit>? [, <attr-fallback> ]? )",
     "auto-track-list": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]+ <auto-repeat> [ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]+ <line-names>?",
+    "basic-shape": "<inset()> | <circle()> | <ellipse()> | <polygon()>",
     "bg-image": "none | <image>",
     "bg-layer": "<bg-image> || <position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box>{1,2}",
     "bg-size": "[ <length> | <percentage> | auto ]{1,2} | cover | contain",
@@ -5813,22 +6332,36 @@
     "br-style": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset",
     "br-width": "<length> | thin | medium | thick",
     "brightness()": "brightness( [ <number> | <percentage> ] )",
+    "calc()": "calc( <calc-sum> )",
+    "calc-sum": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*",
+    "calc-product": "<calc-value> [ '*' <calc-value> | '/' <number> ]*",
+    "calc-value": "<number> | <dimension> | <percentage> | ( <calc-sum> )",
+    "cf-final-image": "<image> | <color>",
+    "cf-mixing-image": "<percentage>? && <image>",
+    "circle()": "circle( [<shape-radius>]? [at <position>]? )",
     "clip-source": "<url>",
     "color": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>",
+    "color-stop": "<color> [ <percentage> | <length> ]?",
+    "color-stop-list": "<color-stop>{2,}",
     "common-lig-values": "[ common-ligatures | no-common-ligatures ]",
     "compositing-operator": "add | subtract | intersect | exclude",
     "contextual-alt-values": "[ contextual | no-contextual ]",
     "contrast()": "contrast( [ <number> | <percentage> ] )",
     "counter-style": "<counter-style-name> | symbols()",
     "counter-style-name": "<custom-ident>",
+    "cross-fade()": "cross-fade( <cf-mixing-image> , <cf-final-image>? )",
     "deprecated-system-color": "ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonFace | ButtonHighlight | ButtonShadow | ButtonText | CaptionText | GrayText | Highlight | HighlightText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText",
     "discretionary-lig-values": "[ discretionary-ligatures | no-discretionary-ligatures ]",
     "drop-shadow()": "drop-shadow( <length>{2,3} <color>? )",
     "east-asian-variant-values": "[ jis78 | jis83 | jis90 | jis04 | simplified | traditional ]",
     "east-asian-width-values": "[ full-width | proportional-width ]",
+    "element()": "element( <id-selector> )",
+    "ellipse()": "ellipse( [<shape-radius>{2}]? [at <position>]? )",
+    "ending-shape": "circle | ellipse",
     "family-name": "<string> | <IDENT>+",
     "feature-tag-value": "<string> [ <integer> | on | off ]?",
     "feature-value-name": "IDENT",
+    "fill-rule": "nonzero | evenodd",
     "filter-function": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <sepia()> | <saturate()>",
     "filter-function-list": "[ <filter-function> | <url> ]+",
     "final-bg-layer": "<bg-image> || <position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box> || <'background-color'>",
@@ -5838,15 +6371,23 @@
     "generic-family": "serif | sans-serif | cursive | fantasy | monospace",
     "generic-name": "serif | sans-serif | cursive | fantasy | monospace",
     "geometry-box": "<shape-box> | fill-box | stroke-box | view-box",
+    "gradient": "<linear-gradient()> | <repeating-linear-gradient()> | <radial-gradient()> | <repeating-radial-gradient()>",
     "grayscale()": "grayscale( [ <number> | <percentage> ] )",
+    "grid-line": "auto | <custom-ident> | [ <integer> && <custom-ident>? ] | [ span && [ <integer> || <custom-ident> ] ]",
     "historical-lig-values": "[ historical-ligatures | no-historical-ligatures ]",
     "hsl()": "hsl( <hue>, <percentage>, <percentage> )",
     "hsla()": "hsla( <hue>, <percentage>, <percentage>, <alpha-value> )",
     "hue": "<number>",
     "hue-rotate()": "hue-rotate( <angle> )",
+    "image": "<url> | <image()> | <image-set()> | <element()> | <cross-fade()> | <gradient>",
+    "image()": "image( [ [ <image> | <string> ]? , <color>? ]! )",
+    "image-set()": "image-set( <image-set-option># )",
+    "image-set-option": "[ <image> | <string> ] <resolution>",
+    "inset()": "inset( <shape-arg>{1,4} [round <border-radius>]? )",
     "invert()": "invert( [ <number> | <percentage> ] )",
     "line-names": "'[' <custom-ident>* ']'",
     "line-name-list": "[ <line-names> | <name-repeat> ]+",
+    "linear-gradient()": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
     "mask-layer": "<mask-reference> <masking-mode>? || <position> [ / <bg-size> ]? || <repeat-style> || <geometry-box> || [ <geometry-box> | no-clip ] || <compositing-operator>",
     "mask-position": "[ <percentage> | <length> | left | center | right ] [ <percentage> | <length> | top  | center | bottom ]?",
     "mask-reference": "none | <image> | <mask-source>",
@@ -5861,8 +6402,12 @@
     "numeric-spacing-values": "[ proportional-nums | tabular-nums ]",
     "opacity()": "opacity( [ <number> | <percentage> ] )",
     "perspective()": "perspective( <length> )",
+    "polygon()": "polygon( [<fill-rule>,]? [<shape-arg> <shape-arg>]# )",
+    "radial-gradient()": "radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )",
     "relative-size": "larger | smaller",
     "repeat-style": "repeat-x | repeat-y | [repeat | space | round | no-repeat]{1,2}",
+    "repeating-linear-gradient()": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
+    "repeating-radial-gradient()": "repeating-radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )",
     "rgb()": "rgb( <rgb-component>#{3} )",
     "rgb-component": "<integer> | <percentage>",
     "rgba()": "rgba( <rgb-component>#{3} , <alpha-value> )",
@@ -5877,6 +6422,8 @@
     "scaleX()": "scaleX( <number> )",
     "scaleY()": "scaleY( <number> )",
     "scaleZ()": "scaleZ( <number> )",
+    "shape-arg": "<length> | <percentage>",
+    "shape-radius": "<length> | <percentage> | closest-side | farthest-side",
     "skew()": "skew( <angle> [, <angle> ]? )",
     "skewX()": "skewX( <angle> )",
     "skewY()": "skewY( <angle> )",
@@ -5885,24 +6432,30 @@
     "shadow-t": "[ <length>{2,3} &amp;&amp; <color>? ]",
     "shape": "rect(<top>, <right>, <bottom>, <left>)",
     "shape-box": "<box> | margin-box",
+    "side-or-corner": "[ left | right ] || [ top | bottom ]",
+    "single-animation": "<time> || <single-timing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || <single-animation-name>",
     "single-animation-direction": "normal | reverse | alternate | alternate-reverse",
     "single-animation-fill-mode": "none | forwards | backwards | both",
     "single-animation-iteration-count": "infinite | <number>",
     "single-animation-name": "none | IDENT",
     "single-animation-play-state": "running | paused",
+    "single-timing-function": "<single-transition-timing-function>",
     "single-transition": "[ none | <single-transition-property> ] || <time> || <single-transition-timing-function> || <time>",
+    "single-transition-timing-function": "ease | linear | ease-in | ease-out | ease-in-out | step-start | step-end | steps(<integer>[, [ start | end ] ]?) | cubic-bezier(<number>, <number>, <number>, <number>)",
     "single-transition-property": "all | IDENT",
+    "size": "closest-side | farthest-side | closest-corner | farthest-corner | <length> | [ <length> | <percentage> ]{2}",
     "symbol": "<string> | <image> | <ident>",
     "track-breadth": "<length> | <percentage> | <flex> | min-content | max-content | auto",
     "track-list": "[ <line-names>? [ <track-size> | <track-repeat> ] ]+ <line-names>?",
     "track-size": "<track-breadth> | minmax( <track-breadth> , <track-breadth> )",
-    "transform-function": "[<matrix()> || <translate()> || <translateX()> || <translateY()> || <scale()> || <scaleX()> || <scaleY()> || <rotate()> || <skew()> || <skewX()> || <skewY()> || <matrix3d()> || <translate3d()> || <translateZ()> || <scale3d()> || <scaleZ()> || <rotate3d()> || <rotateX()> || <rotateY()> || <rotateZ()> || <perspective()>]+",
+    "transform-function": "[ <matrix()> || <translate()> || <translateX()> || <translateY()> || <scale()> || <scaleX()> || <scaleY()> || <rotate()> || <skew()> || <skewX()> || <skewY()> || <matrix3d()> || <translate3d()> || <translateZ()> || <scale3d()> || <scaleZ()> || <rotate3d()> || <rotateX()> || <rotateY()> || <rotateZ()> || <perspective()> ]+",
     "transform-list": "<transform-function>+",
     "translate()": "translate( <length> | <percentage> [, <length> | <percentage> ]? )",
     "translate3d()": "translate3d( <length> | <percentage> , <length> | <percentage> , <length> )",
     "translateX()": "translateX( <length> | <percentage> )",
     "translateY()": "translateY( <length> | <percentage> )",
     "translateZ()": "translateZ( <length> )",
+    "type-or-unit": "string | integer | color | url | integer | number | length | angle | time | frequency | em | ex | px | rem | vw | vh | vmin | vmax | mm | cm | in | pt | pc | deg | grad | rad | ms | s | Hz | kHz | %",
     "viewport-length": "auto | <length> | <percentage>"
   },
   "atRules": {
@@ -5910,7 +6463,8 @@
       "syntax": "@charset \"<charset>\";",
       "groups": [
         "CSS Charsets"
-      ]
+      ],
+      "status": "standard"
     },
     "@counter-style": {
       "syntax": "@counter-style <counter-style-name> {\n  [ system: <counter-system>; ] ||\n  [ symbols: <counter-symbols>; ] ||\n  [ additive-symbols: <additive-symbols>; ] ||\n  [ negative: <negative-symbol>; ] ||\n  [ prefix: <prefix>; ] ||\n  [ suffix: <suffix>; ] ||\n  [ range: <range>; ] ||\n  [ pad: <padding>; ] ||\n  [ speak-as: <speak-as>; ] ||\n  [ fallback: <counter-style-name>; ]\n}",
@@ -5927,7 +6481,8 @@
           "initial": "N/A",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "orderOfAppearance"
+          "order": "orderOfAppearance",
+          "status": "standard"
         },
         "fallback": {
           "syntax": "<counter-style-name>",
@@ -5935,7 +6490,8 @@
           "initial": "decimal",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "negative": {
           "syntax": "<symbol> <symbol>?",
@@ -5943,7 +6499,8 @@
           "initial": "\"-\" hyphen-minus",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "orderOfAppearance"
+          "order": "orderOfAppearance",
+          "status": "standard"
         },
         "pad": {
           "syntax": "<integer> &amp;&amp; <symbol>",
@@ -5951,7 +6508,8 @@
           "initial": "0 \"\"",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "prefix": {
           "syntax": "<symbol>",
@@ -5959,7 +6517,8 @@
           "initial": "the empty string",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "range": {
           "syntax": "[ [ <integer> | infinite ]{2} ]# | auto",
@@ -5967,7 +6526,8 @@
           "initial": "auto",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "orderOfAppearance"
+          "order": "orderOfAppearance",
+          "status": "standard"
         },
         "speak-as": {
           "syntax": "auto | bullets | numbers | words | spell-out | <counter-style-name>",
@@ -5975,7 +6535,8 @@
           "initial": "auto",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "suffix": {
           "syntax": "<symbol>",
@@ -5983,7 +6544,8 @@
           "initial": "\".\" full stop followed by a space",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "symbols": {
           "syntax": "<symbol>+",
@@ -5991,7 +6553,8 @@
           "initial": "N/A",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "orderOfAppearance"
+          "order": "orderOfAppearance",
+          "status": "standard"
         },
         "system": {
           "syntax": "cyclic | numeric | alphabetic | symbolic | additive | [fixed <integer>?] | [ extends <counter-style-name> ]",
@@ -5999,9 +6562,11 @@
           "initial": "symbolic",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         }
-      }
+      },
+      "status": "standard"
     },
     "@document": {
       "syntax": "@document [ <url> | url-prefix(<string>) | domain(<string>) | regexp(<string>) ]# {\n  <group-rule-body>\n}",
@@ -6011,7 +6576,8 @@
       ],
       "groups": [
         "CSS Conditional Rules"
-      ]
+      ],
+      "status": "nonstandard"
     },
     "@font-face": {
       "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: [ <uri> [format(<string>#)]? | <font-face-name> ]#; ] ||\n  [ unicode-range: <urange>#; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: normal | <feature-tag-value>#; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <weight>; ] ||\n  [ font-style: <style>; ]\n}",
@@ -6028,7 +6594,8 @@
           "initial": "n/a (required)",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "font-feature-settings": {
           "syntax": "normal | <feature-tag-value>#",
@@ -6036,7 +6603,8 @@
           "initial": "normal",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "orderOfAppearance"
+          "order": "orderOfAppearance",
+          "status": "standard"
         },
         "font-stretch": {
           "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
@@ -6044,7 +6612,8 @@
           "initial": "normal",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "font-style": {
           "syntax": "normal | italic | oblique",
@@ -6052,7 +6621,8 @@
           "initial": "normal",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "font-weight": {
           "syntax": "normal | bold | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
@@ -6060,7 +6630,8 @@
           "initial": "normal",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "font-variant": {
           "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name>#) || character-variant(<feature-value-name>#) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
@@ -6068,7 +6639,8 @@
           "initial": "normal",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "orderOfAppearance"
+          "order": "orderOfAppearance",
+          "status": "standard"
         },
         "src": {
           "syntax": "[ <url> format(<string>#)? | local(<family-name>) ]#",
@@ -6076,7 +6648,8 @@
           "initial": "n/a (required)",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "orderOfAppearance"
+          "order": "orderOfAppearance",
+          "status": "standard"
         },
         "unicode-range": {
           "syntax": "<unicode-range>#",
@@ -6084,9 +6657,11 @@
           "initial": "U+0-10FFFF",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "orderOfAppearance"
+          "order": "orderOfAppearance",
+          "status": "standard"
         }
-      }
+      },
+      "status": "standard"
     },
     "@font-feature-values": {
       "syntax": "@font-feature-values <font-family> {\n  [ @swash | @ornaments | @annotation | @stylistic | @styleset | @character-variant\n    {\n      [ <IDENT>: <integer>+ ]?\n    }\n  ]?\n}",
@@ -6095,13 +6670,15 @@
       ],
       "groups": [
         "CSS Fonts"
-      ]
+      ],
+      "status": "standard"
     },
     "@import": {
       "syntax": "@import [ <string> | <url> ] [<media-query-list>]?;",
       "groups": [
         "Media Queries"
-      ]
+      ],
+      "status": "standard"
     },
     "@keyframes": {
       "syntax": "@keyframes <identifier> {\n  [ [ from | to | <percentage> ] [, from | to | <percentage> ]* block ]*\n}",
@@ -6111,7 +6688,8 @@
       ],
       "groups": [
         "CSS Animations"
-      ]
+      ],
+      "status": "standard"
     },
     "@media": {
       "syntax": "@media <media-query-list> {\n  <group-rule-body>\n}",
@@ -6124,13 +6702,15 @@
       "groups": [
         "CSS Conditional Rules",
         "Media Queries"
-      ]
+      ],
+      "status": "standard"
     },
     "@namespace": {
       "syntax": "@namespace <namespace-prefix>? [ <string> | <uri> ];",
       "groups": [
         "CSS Namespaces"
-      ]
+      ],
+      "status": "standard"
     },
     "@page": {
       "syntax": "@page <page-selector-list> {\n  <group-rule-body>\n}",
@@ -6147,7 +6727,8 @@
           "initial": "auto",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "marks": {
           "syntax": "none | [ crop || cross ]",
@@ -6155,9 +6736,11 @@
           "initial": "none",
           "percentages": "no",
           "computed": "asSpecified",
-          "order": "orderOfAppearance"
+          "order": "orderOfAppearance",
+          "status": "standard"
         }
-      }
+      },
+      "status": "standard"
     },
     "@supports": {
       "syntax": "@supports <supports-condition> {\n  <group-rule-body>\n}",
@@ -6168,7 +6751,8 @@
       ],
       "groups": [
         "CSS Conditional Rules"
-      ]
+      ],
+      "status": "standard"
     },
     "@viewport": {
       "syntax": "@viewport {\n  <group-rule-body>\n}",
@@ -6194,7 +6778,8 @@
             "min-height",
             "max-height"
           ],
-          "order": "orderOfAppearance"
+          "order": "orderOfAppearance",
+          "status": "standard"
         },
         "max-height": {
           "syntax": "<viewport-length>",
@@ -6202,7 +6787,8 @@
           "initial": "auto",
           "percentages": "referToHeightOfInitialViewport",
           "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "max-width": {
           "syntax": "<viewport-length>",
@@ -6210,7 +6796,8 @@
           "initial": "auto",
           "percentages": "referToWidthOfInitialViewport",
           "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "max-zoom": {
           "syntax": "auto | <number> | <percentage>",
@@ -6218,7 +6805,8 @@
           "initial": "auto",
           "percentages": "the zoom factor itself",
           "computed": "autoNonNegativeOrPercentage",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "min-height": {
           "syntax": "<viewport-length>",
@@ -6226,7 +6814,8 @@
           "initial": "auto",
           "percentages": "referToHeightOfInitialViewport",
           "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "min-width": {
           "syntax": "<viewport-length>",
@@ -6234,7 +6823,8 @@
           "initial": "auto",
           "percentages": "referToWidthOfInitialViewport",
           "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "min-zoom": {
           "syntax": "auto | <number> | <percentage>",
@@ -6242,7 +6832,8 @@
           "initial": "auto",
           "percentages": "the zoom factor itself",
           "computed": "autoNonNegativeOrPercentage",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "orientation": {
           "syntax": "auto | portrait | landscape",
@@ -6250,7 +6841,8 @@
           "initial": "auto",
           "percentages": "referToSizeOfBoundingBox",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "user-zoom": {
           "syntax": "zoom | fixed",
@@ -6258,7 +6850,8 @@
           "initial": "zoom",
           "percentages": "referToSizeOfBoundingBox",
           "computed": "asSpecified",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         },
         "width": {
           "syntax": "<viewport-length>{1,2}",
@@ -6275,7 +6868,8 @@
             "min-width",
             "max-width"
           ],
-          "order": "orderOfAppearance"
+          "order": "orderOfAppearance",
+          "status": "standard"
         },
         "zoom": {
           "syntax": "auto | <number> | <percentage>",
@@ -6283,9 +6877,11 @@
           "initial": "auto",
           "percentages": "the zoom factor itself",
           "computed": "autoNonNegativeOrPercentage",
-          "order": "uniqueOrder"
+          "order": "uniqueOrder",
+          "status": "standard"
         }
-      }
+      },
+      "status": "standard"
     }
   },
   "selectors": {
@@ -6293,418 +6889,685 @@
       "syntax": "element",
       "groups": [
         "Basic Selectors"
-      ]
+      ],
+      "status": "standard"
     },
     "Class selectors": {
       "syntax": ".class",
       "groups": [
         "Basic Selectors"
-      ]
+      ],
+      "status": "standard"
     },
     "ID selectors": {
       "syntax": "#id",
       "groups": [
         "Basic Selectors"
-      ]
+      ],
+      "status": "standard"
     },
     "Universal selectors": {
       "syntax": "*",
       "groups": [
         "Basic Selectors"
-      ]
+      ],
+      "status": "standard"
     },
     "Attribute selectors": {
       "syntax": "[attr=value]",
       "groups": [
         "Basic Selectors"
-      ]
+      ],
+      "status": "standard"
     },
     "Adjacent sibling selectors": {
       "syntax": "A + B",
       "groups": [
         "Combinators"
-      ]
+      ],
+      "status": "standard"
     },
     "General sibling selectors": {
       "syntax": "A ~ B",
       "groups": [
         "Combinators"
-      ]
+      ],
+      "status": "standard"
     },
     "Child selectors": {
       "syntax": "A > B",
       "groups": [
         "Combinators"
-      ]
+      ],
+      "status": "standard"
     },
     "Descendant selectors": {
       "syntax": "A B",
       "groups": [
         "Combinators"
-      ]
+      ],
+      "status": "standard"
     },
     ":active": {
       "syntax": ":active",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":any": {
       "syntax": ":any",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":checked": {
       "syntax": ":checked",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":default": {
       "syntax": ":default",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":dir": {
       "syntax": ":dir()",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":disabled": {
       "syntax": ":disabled",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":empty": {
       "syntax": ":empty",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":enabled": {
       "syntax": ":enabled",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":first": {
       "syntax": ":first",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":first-child": {
       "syntax": ":first-child",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":first-of-type": {
       "syntax": ":first-of-type",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":fullscreen": {
       "syntax": ":fullscreen",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":focus": {
       "syntax": ":focus",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":hover": {
       "syntax": ":hover",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":indeterminate": {
       "syntax": ":indeterminate",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":in-range": {
       "syntax": ":in-range",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":invalid": {
       "syntax": ":invalid",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":lang": {
       "syntax": ":lang()",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":last-child": {
       "syntax": ":last-child",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":last-of-type": {
       "syntax": ":last-of-type",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":left": {
       "syntax": ":left",
       "groups": [
         "Pseudo-classes",
         "CSS Pages"
-      ]
+      ],
+      "status": "standard"
     },
     ":link": {
       "syntax": ":link",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":not": {
       "syntax": ":not()",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":nth-child": {
       "syntax": ":nth-child()",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":nth-last-child": {
       "syntax": ":nth-last-child()",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":nth-last-of-type": {
       "syntax": ":nth-last-of-type()",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":nth-of-type": {
       "syntax": ":nth-of-type()",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":only-child": {
       "syntax": ":only-child",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":only-of-type": {
       "syntax": ":only-of-type",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":optional": {
       "syntax": ":optional",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":out-of-range": {
       "syntax": ":out-of-range",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":read-only": {
-      "syntax": ":active",
+      "syntax": ":read-only",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":read-write": {
       "syntax": ":read-write",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":required": {
       "syntax": ":required",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":right": {
       "syntax": ":right",
       "groups": [
         "Pseudo-classes",
         "CSS Pages"
-      ]
+      ],
+      "status": "standard"
     },
     ":root": {
       "syntax": ":root",
       "groups": [
         "Pseudo-classes",
         "CSS Pages"
-      ]
+      ],
+      "status": "standard"
     },
     ":scope": {
       "syntax": ":scope",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":target": {
       "syntax": ":target",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
+    },
+    ":unresolved": {
+      "syntax": ":unresolved",
+      "groups": [
+        "Pseudo-classes"
+      ],
+      "status": "standard"
     },
     ":valid": {
       "syntax": ":valid",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     ":visited": {
       "syntax": ":visited",
       "groups": [
         "Pseudo-classes"
-      ]
+      ],
+      "status": "standard"
     },
     "::after": {
       "syntax": "::after",
       "groups": [
         "Pseudo-elements"
-      ]
+      ],
+      "status": "standard"
     },
     "::-ms-fill": {
       "syntax": "::-ms-fill",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "Microsoft Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-ms-fill-lower": {
       "syntax": "::-ms-fill-lower",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "Microsoft Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-ms-fill-upper": {
       "syntax": "::-ms-fill-upper",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "Microsoft Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-ms-thumb": {
       "syntax": "::-ms-thumb",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "Microsoft Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-ms-track": {
       "syntax": "::-ms-track",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "Microsoft Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-moz-progress-bar": {
       "syntax": "::-moz-progress-bar",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "Mozilla Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-moz-range-progress": {
       "syntax": "::-moz-range-progress",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "Mozilla Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-moz-range-thumb": {
       "syntax": "::-moz-range-thumb",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "Mozilla Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-moz-range-track": {
       "syntax": "::-moz-range-track",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "Mozilla Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-webkit-progress-bar": {
       "syntax": "::--webkit-progress-bar",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "WebKit Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-webkit-progress-inner-value": {
       "syntax": "::--webkit-progress-inner-value",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "WebKit Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-webkit-progress-value": {
       "syntax": "::--webkit-progress-value",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "WebKit Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-webkit-slider-runnable-track": {
       "syntax": "::--webkit-slider-runnable-track",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "WebKit Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::-webkit-slider-thumb": {
       "syntax": "::-webkit-slider-thumb",
       "groups": [
-        "Pseudo-elements"
-      ]
+        "Pseudo-elements",
+        "WebKit Extensions"
+      ],
+      "status": "nonstandard"
     },
     "::before": {
       "syntax": "::before",
       "groups": [
         "Pseudo-elements"
-      ]
+      ],
+      "status": "standard"
     },
     "::first-letter": {
       "syntax": "::first-letter",
       "groups": [
         "Pseudo-elements"
-      ]
+      ],
+      "status": "standard"
     },
     "::first-line": {
       "syntax": "::first-line",
       "groups": [
         "Pseudo-elements"
-      ]
+      ],
+      "status": "standard"
     },
     "::selection": {
       "syntax": "::selection",
       "groups": [
         "Pseudo-elements"
-      ]
+      ],
+      "status": "standard"
     },
     "::backdrop": {
       "syntax": "::backdrop",
       "groups": [
         "Pseudo-elements"
-      ]
+      ],
+      "status": "standard"
+    }
+  },
+  "units": {
+    "ch": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "cm": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "deg": {
+      "groups": [
+        "CSS Units",
+        "CSS Angles"
+      ],
+      "status": "standard"
+    },
+    "dpcm": {
+      "groups": [
+        "CSS Units",
+        "CSS Resolutions"
+      ],
+      "status": "standard"
+    },
+    "dpi": {
+      "groups": [
+        "CSS Units",
+        "CSS Resolutions"
+      ],
+      "status": "standard"
+    },
+    "dppx": {
+      "groups": [
+        "CSS Units",
+        "CSS Resolutions"
+      ],
+      "status": "standard"
+    },
+    "em": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "ex": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "grad": {
+      "groups": [
+        "CSS Units",
+        "CSS Angles"
+      ],
+      "status": "standard"
+    },
+    "hz": {
+      "groups": [
+        "CSS Units",
+        "CSS Frequencies"
+      ],
+      "status": "standard"
+    },
+    "in": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "khz": {
+      "groups": [
+        "CSS Units",
+        "CSS Frequencies"
+      ],
+      "status": "standard"
+    },
+    "mm": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "ms": {
+      "groups": [
+        "CSS Units",
+        "CSS Times"
+      ],
+      "status": "standard"
+    },
+    "pc": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "pt": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "px": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "rad": {
+      "groups": [
+        "CSS Units",
+        "CSS Angles"
+      ],
+      "status": "standard"
+    },
+    "rem": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "s": {
+      "groups": [
+        "CSS Units",
+        "CSS Times"
+      ],
+      "status": "standard"
+    },
+    "turn": {
+      "groups": [
+        "CSS Units",
+        "CSS Angles"
+      ],
+      "status": "standard"
+    },
+    "vh": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "vmax": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "vmin": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
+    },
+    "vw": {
+      "groups": [
+        "CSS Units",
+        "CSS Lengths"
+      ],
+      "status": "standard"
     }
   }
 }
