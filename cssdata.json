@@ -1,5 +1,20 @@
 {
   "properties": {
+    "-ms-overflow-style": {
+      "syntax": "auto | none | scrollbar | -ms-autohiding-scrollbar",
+      "media": "interactive",
+      "inherited": true,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "Microsoft Extensions"
+      ],
+      "initial": "auto",
+      "appliesto": "nonReplacedBlockAndInlineBlockElements",
+      "computed": "asSpecified",
+      "order": "uniqueOrder",
+      "status": "nonstandard"
+    },
     "-moz-appearance": {
       "syntax": "none | button | button-arrow-down | button-arrow-next | button-arrow-previous | button-arrow-up | button-bevel | button-focus | caret | checkbox | checkbox-container | checkbox-label | checkmenuitem | dualbutton | groupbox | listbox | listitem | menuarrow | menubar | menucheckbox | menuimage | menuitem | menuitemtext | menulist | menulist-button | menulist-text | menulist-textfield | menupopup | menuradio | menuseparator | meterbar | meterchunk | progressbar | progressbar-vertical | progresschunk | progresschunk-vertical | radio | radio-container | radio-label | radiomenuitem | range | range-thumb | resizer | resizerpanel | scale-horizontal | scalethumbend | scalethumb-horizontal | scalethumbstart | scalethumbtick | scalethumb-vertical | scale-vertical | scrollbarbutton-down | scrollbarbutton-left | scrollbarbutton-right | scrollbarbutton-up | scrollbarthumb-horizontal | scrollbarthumb-vertical | scrollbartrack-horizontal | scrollbartrack-vertical | searchfield | separator | sheet | spinner | spinner-downbutton | spinner-textfield | spinner-upbutton | splitter | statusbar | statusbarpanel | tab | tabpanel | tabpanels | tab-scroll-arrow-back | tab-scroll-arrow-forward | textfield | textfield-multiline | toolbar | toolbarbutton | toolbarbutton-dropdown | toolbargripper | toolbox | tooltip | treeheader | treeheadercell | treeheadersortarrow | treeitem | treeline | treetwisty | treetwistyopen | treeview | -moz-mac-unified-toolbar | -moz-win-borderless-glass | -moz-win-browsertabbar-toolbox | -moz-win-communicationstext | -moz-win-communications-toolbox | -moz-win-exclude-glass | -moz-win-glass | -moz-win-mediatext | -moz-win-media-toolbox | -moz-window-button-box | -moz-window-button-box-maximized | -moz-window-button-close | -moz-window-button-maximize | -moz-window-button-minimize | -moz-window-button-restore | -moz-window-frame-bottom | -moz-window-frame-left | -moz-window-frame-right | -moz-window-titlebar | -moz-window-titlebar-maximized",
       "media": "visual",
@@ -87,38 +102,6 @@
       ],
       "initial": "none",
       "appliesto": "allElements",
-      "computed": "asSpecified",
-      "order": "uniqueOrder",
-      "status": "nonstandard"
-    },
-    "-moz-box-flex": {
-      "syntax": "<number>",
-      "media": "visual",
-      "inherited": false,
-      "animatable": "no",
-      "percentages": "no",
-      "groups": [
-        "Mozilla Extensions",
-        "WebKit Extensions"
-      ],
-      "initial": "0",
-      "appliesto": "directChildrenOfElementsWithDisplayMozBoxMozInlineBox",
-      "computed": "asSpecified",
-      "order": "uniqueOrder",
-      "status": "nonstandard"
-    },
-    "-moz-box-pack": {
-      "syntax": "start | center | end | justify",
-      "media": "visual",
-      "inherited": false,
-      "animatable": "no",
-      "percentages": "no",
-      "groups": [
-        "Mozilla Extensions",
-        "WebKit Extensions"
-      ],
-      "initial": "start",
-      "appliesto": "elementsWithDisplayMozBoxMozInlineBox",
       "computed": "asSpecified",
       "order": "uniqueOrder",
       "status": "nonstandard"
@@ -512,6 +495,21 @@
       "order": "orderOfAppearance",
       "status": "nonstandard"
     },
+    "-webkit-mask-composite": {
+      "syntax": "<composite-style>[, <composite-style>]*",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "WebKit Extensions"
+      ],
+      "initial": "source-over",
+      "appliesto": "allElements",
+      "computed": "asSpecified",
+      "order": "orderOfAppearance",
+      "status": "nonstandard"
+    },
     "-webkit-mask-image": {
       "syntax": "<mask-image>[, <mask-image>]*",
       "media": "visual",
@@ -887,7 +885,7 @@
       "appliesto": "allElementsSVGContainerElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "status": "standard"
+      "status": "experimental"
     },
     "backface-visibility": {
       "syntax": "visible | hidden",
@@ -2239,6 +2237,70 @@
       "order": "uniqueOrder",
       "status": "nonstandard"
     },
+    "box-flex": {
+      "syntax": "<number>",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "Mozilla Extensions",
+        "WebKit Extensions"
+      ],
+      "initial": "0",
+      "appliesto": "directChildrenOfElementsWithDisplayMozBoxMozInlineBox",
+      "computed": "asSpecified",
+      "order": "uniqueOrder",
+      "status": "nonstandard"
+    },
+    "box-flex-group": {
+      "syntax": "<integer>",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "Mozilla Extensions",
+        "WebKit Extensions"
+      ],
+      "initial": "1",
+      "appliesto": "inFlowChildrenOfBoxElements",
+      "computed": "asSpecified",
+      "order": "uniqueOrder",
+      "status": "nonstandard"
+    },
+    "box-lines": {
+      "syntax": "single | multiple",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "Mozilla Extensions",
+        "WebKit Extensions"
+      ],
+      "initial": "single",
+      "appliesto": "boxElements",
+      "computed": "asSpecified",
+      "order": "uniqueOrder",
+      "status": "nonstandard"
+    },
+    "box-ordinal-group": {
+      "syntax": "<integer>",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "Mozilla Extensions",
+        "WebKit Extensions"
+      ],
+      "initial": "1",
+      "appliesto": "childrenOfBoxElements",
+      "computed": "asSpecified",
+      "order": "uniqueOrder",
+      "status": "nonstandard"
+    },
     "box-orient": {
       "syntax": "horizontal | vertical | inline-axis | block-axis | inherit",
       "media": "visual",
@@ -2251,6 +2313,22 @@
       ],
       "initial": "inlineAxisHorizontalInXUL",
       "appliesto": "elementsWithDisplayBoxOrInlineBox",
+      "computed": "asSpecified",
+      "order": "uniqueOrder",
+      "status": "nonstandard"
+    },
+    "box-pack": {
+      "syntax": "start | center | end | justify",
+      "media": "visual",
+      "inherited": false,
+      "animatable": "no",
+      "percentages": "no",
+      "groups": [
+        "Mozilla Extensions",
+        "WebKit Extensions"
+      ],
+      "initial": "start",
+      "appliesto": "elementsWithDisplayMozBoxMozInlineBox",
       "computed": "asSpecified",
       "order": "uniqueOrder",
       "status": "nonstandard"
@@ -2303,7 +2381,7 @@
       "appliesto": "allElements",
       "computed": "seeProse",
       "order": "uniqueOrder",
-      "status": "standard"
+      "status": "experimental"
     },
     "break-after": {
       "syntax": "auto | avoid | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
@@ -2718,7 +2796,7 @@
       "appliesto": "allElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "status": "standard"
+      "status": "experimental"
     },
     "display-list": {
       "syntax": "none | list-item",
@@ -2733,7 +2811,7 @@
       "appliesto": "allElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "status": "standard"
+      "status": "experimental"
     },
     "display-outside": {
       "syntax": "block-level | inline-level | run-in | contents | none | table-row-group | table-header-group | table-footer-group | table-row | table-cell | table-column-group | table-column | table-caption | ruby-base | ruby-text | ruby-base-container | ruby-text-container",
@@ -2748,7 +2826,7 @@
       "appliesto": "allElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "status": "standard"
+      "status": "experimental"
     },
     "empty-cells": {
       "syntax": "show | hide",
@@ -3763,7 +3841,7 @@
       "appliesto": "firstLetterPseudoElementsAndInlineLevelFirstChildren",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "status": "standard"
+      "status": "experimental"
     },
     "initial-letter-align": {
       "syntax": "[ auto | alphabetic | hanging | ideographic ]",
@@ -3778,7 +3856,7 @@
       "appliesto": "firstLetterPseudoElementsAndInlineLevelFirstChildren",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "status": "standard"
+      "status": "experimental"
     },
     "inline-size": {
       "syntax": "<'width'>",
@@ -4236,7 +4314,7 @@
       "groups": [
         "CSS Masks"
       ],
-      "initial": "auto",
+      "initial": "match-source",
       "appliesto": "allElementsSVGContainerElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
@@ -4489,7 +4567,7 @@
       ],
       "order": "orderOfAppearance",
       "stacking": true,
-      "status": "standard"
+      "status": "experimental"
     },
     "motion-offset": {
       "syntax": "<length> | <percentage>",
@@ -4506,7 +4584,7 @@
       "appliesto": "allElementsSVGContainerElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "status": "standard"
+      "status": "experimental"
     },
     "motion-path": {
       "syntax": "<url> | [ <basic-shape> | <path()> ] || <geometry-box> | none",
@@ -4522,7 +4600,7 @@
       "computed": "asSpecified",
       "order": "uniqueOrder",
       "stacking": true,
-      "status": "standard"
+      "status": "experimental"
     },
     "motion-rotation": {
       "syntax": "[ auto | reverse ] &amp;&amp; <angle>",
@@ -4539,7 +4617,7 @@
       "appliesto": "allElementsSVGContainerElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "status": "standard"
+      "status": "experimental"
     },
     "object-fit": {
       "syntax": "fill | contain | cover | none | scale-down",
@@ -5566,7 +5644,7 @@
       "appliesto": "allElements",
       "computed": "asSpecified",
       "order": "orderOfAppearance",
-      "status": "standard"
+      "status": "experimental"
     },
     "text-decoration-style": {
       "syntax": "solid | double | dotted | dashed | wavy",
@@ -5645,7 +5723,7 @@
       "status": "standard"
     },
     "text-emphasis-style": {
-      "syntax": "none | [[filled | open ] || [dot | circle | double-circle | triangle | sesame ]] | <string'&gt",
+      "syntax": "none | [[filled | open ] || [dot | circle | double-circle | triangle | sesame ]] | <string&gt",
       "media": "visual",
       "inherited": false,
       "animatable": "no",
@@ -5759,7 +5837,7 @@
       "appliesto": "allElements",
       "computed": "asSpecified",
       "order": "uniqueOrder",
-      "status": "standard"
+      "status": "experimental"
     },
     "text-transform": {
       "syntax": "none | capitalize | uppercase | lowercase | full-width",
@@ -6344,6 +6422,7 @@
     "color-stop": "<color> [ <percentage> | <length> ]?",
     "color-stop-list": "<color-stop>{2,}",
     "common-lig-values": "[ common-ligatures | no-common-ligatures ]",
+    "composite-style": "clear | copy | source-over | source-in | source-out | source-atop | destination-over | destination-in | destination-out | destination-atop | xor",
     "compositing-operator": "add | subtract | intersect | exclude",
     "contextual-alt-values": "[ contextual | no-contextual ]",
     "contrast()": "contrast( [ <number> | <percentage> ] )",
@@ -6392,7 +6471,7 @@
     "mask-position": "[ <percentage> | <length> | left | center | right ] [ <percentage> | <length> | top  | center | bottom ]?",
     "mask-reference": "none | <image> | <mask-source>",
     "mask-source": "<url>",
-    "masking-mode": "alpha | luminance | auto",
+    "masking-mode": "alpha | luminance | match-source",
     "matrix()": "matrix( <number> [, <number> ]{5,5} )",
     "matrix3d()": "matrix3d( <number> [, <number> ]{15,15} )",
     "named-color": "<ident>",
@@ -6728,7 +6807,7 @@
           "percentages": "no",
           "computed": "asSpecified",
           "order": "uniqueOrder",
-          "status": "standard"
+          "status": "experimental"
         },
         "marks": {
           "syntax": "none | [ crop || cross ]",
@@ -6737,7 +6816,7 @@
           "percentages": "no",
           "computed": "asSpecified",
           "order": "orderOfAppearance",
-          "status": "standard"
+          "status": "experimental"
         }
       },
       "status": "standard"
@@ -6960,7 +7039,7 @@
       "groups": [
         "Pseudo-classes"
       ],
-      "status": "standard"
+      "status": "experimental"
     },
     ":checked": {
       "syntax": ":checked",

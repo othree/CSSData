@@ -43,13 +43,17 @@ var specList = {
         name : "Contacts Manager API",
         url  : "https://www.w3.org/2012/sysapps/contacts-manager-api/"
     },
+    'Cookie Prefixes':{
+        name : "Cookie Prefixes",
+        url  : "https://tools.ietf.org/html/draft-west-cookie-prefixes-05"
+    },
     'CORS':{
         name : "CORS",
         url  : "http://www.w3.org/TR/cors/"
     },
     'Credential Management':{
         name : "Credential Management Level 1",
-        url  : "ttps://w3c.github.io/webappsec-credential-management",
+        url  : "https://w3c.github.io/webappsec-credential-management",
     }, 
     'CSP 1.0':{
         name : "Content Security Policy 1.0",
@@ -115,10 +119,6 @@ var specList = {
         name : 'CSS Display Module Level&nbsp;3',
         url  : "https://drafts.csswg.org/css-display/",
     },
-    'CSS3 Flexbox':{
-        name : 'CSS Flexible Box Layout Module',
-        url  : "https://drafts.csswg.org/css-flexbox-1/",
-    },
     'CSS3 Font Loading':{
         name : 'CSS Font Loading Module Level&nbsp;3',
         url  : 'https://drafts.csswg.org/css-font-loading/',
@@ -134,10 +134,6 @@ var specList = {
     'CSS3 GCPM':{
         name : 'CSS Generated Content for Paged Media Module',
         url  : "https://drafts.csswg.org/css-gcpm-3/"
-    },
-    'CSS3 Grid':{ /* This is 'grid layout' and not 'grid positioning' which has been abandoned */
-        name : 'CSS Grid Layout',
-        url  : "https://drafts.csswg.org/css-grid/"
     },
     'CSS3 Images':{
         name : 'CSS Image Values and Replaced Content Module Level&nbsp;3',
@@ -270,6 +266,14 @@ var specList = {
     'CSS Exclusions':{
         name : 'CSS Exclusions Module Level&nbsp;1',
         url  : "https://drafts.csswg.org/css-exclusions/"
+    },
+    'CSS Flexbox':{
+        name : 'CSS Flexible Box Layout Module',
+        url  : "https://drafts.csswg.org/css-flexbox-1/",
+    },
+    'CSS Grid':{ /* This is 'grid layout' and not 'grid positioning' which has been abandoned */
+        name : 'CSS Grid Layout',
+        url  : "https://drafts.csswg.org/css-grid/"
     },
     'CSS Masks':{
         name : 'CSS Masking Level&nbsp;1',
@@ -411,8 +415,12 @@ var specList = {
         name : 'ECMAScript 2015 (6th Edition, ECMA-262)',
         url  : 'http://www.ecma-international.org/ecma-262/6.0/'
     },
+    'ES7':{
+        name : 'ECMAScript 2016 (ECMA-262)',
+        url  : 'https://tc39.github.io/ecma262/2016/'
+    },
     'ESDraft':{
-        name : 'ECMAScript 2016 Draft (7th Edition, ECMA-262)',
+        name : 'ECMAScript 2017 Draft (ECMA-262)',
         url  : 'https://tc39.github.io/ecma262/'
     },
     'ES Int 1.0':{
@@ -424,7 +432,7 @@ var specList = {
         url  : 'http://www.ecma-international.org/ecma-402/2.0/'
     },
     'ES Int Draft':{
-        name : 'ECMAScript Internationalization API 3.0 (ECMA-402)',
+        name : 'ECMAScript Internationalization API 4.0 (ECMA-402)',
         url  : 'http://tc39.github.io/ecma402/'
     },
     'Fetch':{
@@ -536,7 +544,7 @@ var specList = {
         url  : 'https://javascript.spec.whatwg.org/'
     },
     'Manifest': {
-        name : 'Manifest for web application',
+        name : 'Web App Manifest',
         url : 'http://www.w3.org/TR/appmanifest/'
     },
     'MathML2':{
@@ -743,10 +751,6 @@ var specList = {
         name : 'UndoManager and DOMTransaction',
         url  : 'https://dvcs.w3.org/hg/undomanager/raw-file/tip/undomanager.html'
     },
-    'Unhandled Promise Rejection': {
-        name : 'Unhandled Rejection Tracking Browser Events',
-        url  : 'https://github.com/domenic/unhandled-rejections-browser-spec'
-    },
     'Upgrade Insecure Requests': {
         name : 'Upgrade Insecure Requests',
         url  : 'https://w3c.github.io/webappsec/specs/upgrade/'
@@ -799,25 +803,45 @@ var specList = {
         name : 'WebGL 2.0',
         url  : 'https://www.khronos.org/registry/webgl/specs/latest/2.0/'
     },
-    'WEBGL_debug_renderer_info':{
-        name : 'WEBGL_debug_renderer_info',
-        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_renderer_info/'
+    'EXT_blend_minmax':{
+        name : 'EXT_blend_minmax',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/EXT_blend_minmax/'
     },
-    'WEBGL_debug_shaders':{
-        name : 'WEBGL_debug_shaders',
-        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_shaders/'
+    'ANGLE_instanced_arrays':{
+        name : 'ANGLE_instanced_arrays',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/'
     },
-    'WEBGL_lose_context':{
-        name : 'WEBGL_lose_context',
-        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_lose_context/'
+    'EXT_color_buffer_half_float':{
+        name : 'EXT_color_buffer_half_float',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/EXT_color_buffer_half_float/'
     },
     'EXT_disjoint_timer_query':{
         name : 'EXT_disjoint_timer_query',
         url  : 'https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/'
     },
+    'EXT_frag_depth':{
+        name : 'EXT_frag_depth',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/EXT_frag_depth/'
+    },
+    'EXT_shader_texture_lod':{
+        name : 'EXT_shader_texture_lod',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/EXT_shader_texture_lod/'
+    },
+    'EXT_sRGB':{
+        name : 'EXT_sRGB',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/EXT_sRGB/'
+    },
     'EXT_texture_filter_anisotropic':{
         name : 'EXT_texture_filter_anisotropic',
         url  : 'https://www.khronos.org/registry/webgl/extensions/EXT_texture_filter_anisotropic/'
+    },
+    'OES_element_index_uint':{
+        name : 'OES_element_index_uint',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/OES_element_index_uint/'
+    },
+    'OES_standard_derivatives':{
+        name : 'OES_standard_derivatives',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/OES_standard_derivatives/'
     },
     'OES_texture_float':{
         name : 'OES_texture_float',
@@ -834,6 +858,14 @@ var specList = {
     'OES_texture_half_float_linear':{
         name : 'OES_texture_half_float_linear',
         url  : 'https://www.khronos.org/registry/webgl/extensions/OES_texture_half_float_linear/'
+    },
+    'OES_vertex_array_object':{
+        name : 'OES_vertex_array_object',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/OES_vertex_array_object/'
+    },
+    'WEBGL_color_buffer_float':{
+        name : 'WEBGL_color_buffer_float',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_color_buffer_float/'
     },
     'WEBGL_compressed_texture_s3tc':{
         name : 'WEBGL_compressed_texture_s3tc',
@@ -858,6 +890,22 @@ var specList = {
     'WEBGL_depth_texture':{
         name : 'WEBGL_depth_texture',
         url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_depth_texture/'
+    },
+    'WEBGL_debug_renderer_info':{
+        name : 'WEBGL_debug_renderer_info',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_renderer_info/'
+    },
+    'WEBGL_debug_shaders':{
+        name : 'WEBGL_debug_shaders',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_shaders/'
+    },
+    'WEBGL_draw_buffers':{
+        name : 'WEBGL_draw_buffers',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_draw_buffers/'
+    },
+    'WEBGL_lose_context':{
+        name : 'WEBGL_lose_context',
+        url  : 'https://www.khronos.org/registry/webgl/extensions/WEBGL_lose_context/'
     },
     'WebIDL':{
         name : 'Web IDL (Second Edition)',
@@ -913,7 +961,7 @@ var specList = {
     },
     'WOFF2.0':{
         name : 'WOFF File Format 2.0',
-        url  : 'http://dev.w3.org/webfonts/WOFF2/spec/'
+        url  : 'https://www.w3.org/TR/WOFF2/'
     },
     'XMLHttpRequest':{
         name : 'XMLHttpRequest',
@@ -926,10 +974,11 @@ var specList = {
 specList['Blending'] = specList['Compositing'];
 specList['CSS3 2D Transforms'] = specList['CSS3 3D Transforms'] = specList['CSS3 Transforms'];
 specList['CSS3 Break'] = specList['CSS3 Fragmentation'];
+specList['CSS3 Flexbox'] = specList['CSS Flexbox'];
+specList['CSS3 Template'] = specList['CSS3 Grid'] = specList['CSS Grid'];
 specList['CSS3 UI'] = specList['CSS3 Basic UI'];
 specList['CSS4 UI'] = specList['CSS4 Basic UI'];
 specList['WebSMS'] = specList['Messaging'];
-specList['CSS3 Template'] = specList['CSS3 Grid'];
 
 // Pull out the name and URL (or use "unknown" if not available)
 
